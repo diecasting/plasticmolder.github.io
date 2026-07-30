@@ -1,0 +1,95 @@
+{{- /* schema/article.html — Article JSON-LD
+   Data source: Page front matter, organization.toml
+   Called by: schema/render.html (blog/article pages)
+   Front Matter override: schema.about, schema.mentions, schema.isPartOf */ -}}
+
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{- $author := .Site.Params.Author -}}
+
+{{- with .Params.authors -}}
+  {{- with index . 0 -}}
+    {{- with index hugo.Data.authors (lower .) -}}
+      {{- $author = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "{{ printf "%s#article" .Permalink | safeJS }}",
+  "headline": "{{ .Title | plainify | safeJS }}",
+  "name": "{{ .Title | plainify | safeJS }}",
+  {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ .Permalink | safeJS }}",
+  {{ with .Site.Language.Params.locale }}"inLanguage": "{{ . | safeJS }}",{{ end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink | safeJS }}"
+  },
+  {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 | safeJS }}",{{ end }}
+  {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 | safeJS }}",{{ end }}
+  {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" | safeJS }}",{{ end }}
+  "author": {
+    "@type": "Person",
+    "name": "{{ $author.name | safeJS }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ printf "%s#organization" .Site.BaseURL | safeJS }}"
+  }
+  {{- with .Section -}}
+  ,
+  "articleSection": "{{ . | safeJS }}"
+  {{- end -}}
+  {{- if .Keywords -}}
+  ,
+  "keywords": [
+    {{ range $i, $kw := .Keywords -}}
+    {{- if $i }}, {{ end -}}"{{ $kw | safeJS }}"
+    {{- end -}}
+  ]
+  {{- else -}}
+  {{- with .Params.tags -}}
+  ,
+  "keywords": [
+    {{ range $i, $tag := . -}}
+    {{- if $i }}, {{ end -}}"{{ $tag | safeJS }}"
+    {{- end -}}
+  ]
+  {{- end -}}
+  {{- end -}}
+  {{- with .WordCount -}}
+  ,
+  "wordCount": {{ . }}
+  {{- end -}}
+  {{- with .Params.schema.isPartOf -}}
+  ,
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "url": "{{ . | safeJS }}"
+  }
+  {{- end -}}
+  {{- with .Params.schema.about -}}
+  ,
+  "about": {
+    "@type": "Thing",
+    "url": "{{ . | safeJS }}"
+  }
+  {{- end -}}
+  {{- with .Params.schema.mentions -}}
+  ,
+  "mentions": [
+    {{ range $i, $m := . -}}
+    {{- if $i }}, {{ end -}}
+    {{- if (reflect.IsMap $m) -}}
+      { "@id": "{{ $m.url | safeJS }}" }
+    {{- else -}}
+      "{{ $m | safeJS }}"
+    {{- end -}}
+    {{- end -}}
+  ]
+  {{- end -}}
+}
+</script>

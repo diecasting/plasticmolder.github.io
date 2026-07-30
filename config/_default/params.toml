@@ -1,0 +1,47 @@
+# ==========================================================================
+# params.toml — PlasticMolder Parameters
+# ==========================================================================
+
+# SEO defaults (must be before any [section] header)
+description = "PlasticMolder — professional plastic injection molding manufacturer in China. Custom injection molding, precision mold manufacturing, prototyping and OEM plastic parts production for global industries."
+keywords = ["Plastic Injection Molding Manufacturer China", "Custom Plastic Injection Molding", "Plastic Injection Mold Manufacturer", "OEM Plastic Parts Manufacturer"]
+
+# Main WordPress site (canonical brand site)
+mainSite = "https://plasticmolder.com/"
+
+[Author]
+  name = "PlasticMolder — Dongguan Xinpei Mold Co., Ltd."
+  email = "vincent@plasticmolder.com"
+
+# Contact information (used in footer and schema)
+[contact]
+  email = "vincent@plasticmolder.com"
+  salesEmail = "sales@plasticmolder.com"
+  phone = ""
+  address = "Dongguan Manufacturing Facility, Dongguan, Guangdong 523000, China"
+  formspree = "https://formspree.io/f/xwvgzljg"
+
+# Social media (used in schema sameAs)
+[social]
+  linkedin = ""
+  twitter = ""
+  youtube = ""
+
+# Feature flags
+[features]
+  enableSearch = false
+  enableBlog = true
+  enableRFQ = true
+  enableMultilingual = true
+
+# Homepage configuration
+[homepage]
+  showServices = true
+  showIndustries = true
+  showCertifications = true
+  showProcess = true
+
+# Footer configuration
+[footer]
+  copyright = "PlasticMolder — Dongguan Xinpei Mold Co., Ltd. All rights reserved."
+  showLegalLinks = true

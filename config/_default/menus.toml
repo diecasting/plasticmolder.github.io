@@ -1,0 +1,67 @@
+# ==========================================================================
+# menus.toml — Navigation Menu (PlasticMolder)
+# URLs are language-relative; header template applies langURL prefix.
+# Services dropdown maps to planned landing pages (url_path in services.toml).
+# ==========================================================================
+
+[[main]]
+  name = "Home"
+  url = "/en/"
+  weight = 1
+
+[[main]]
+  name = "Services"
+  url = "/en/plastic-injection-molding/"
+  weight = 2
+  identifier = "services"
+
+[[main]]
+  name = "Plastic Injection Molding"
+  url = "/en/plastic-injection-molding/"
+  parent = "services"
+  weight = 1
+
+[[main]]
+  name = "Injection Mold Manufacturing"
+  url = "/en/plastic-injection-mold-manufacturing/"
+  parent = "services"
+  weight = 2
+
+[[main]]
+  name = "Prototype Manufacturing"
+  url = "/en/prototype-injection-molding/"
+  parent = "services"
+  weight = 3
+
+[[main]]
+  name = "Low Volume Injection Molding"
+  url = "/en/low-volume-injection-molding/"
+  parent = "services"
+  weight = 4
+
+[[main]]
+  name = "OEM Plastic Parts"
+  url = "/en/oem-plastic-parts-manufacturer/"
+  parent = "services"
+  weight = 5
+
+[[main]]
+  name = "Blog"
+  url = "https://plasticmolder.com/blog/"
+  weight = 3
+
+[[main]]
+  name = "Contact"
+  url = "https://plasticmolder.com/contact/"
+  weight = 4
+
+# Footer menu
+[[footer]]
+  name = "Privacy Policy"
+  url = "https://plasticmolder.com/privacy-policy/"
+  weight = 1
+
+[[footer]]
+  name = "Main Website"
+  url = "https://plasticmolder.com/"
+  weight = 2

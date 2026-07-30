@@ -1,0 +1,71 @@
+{{- /* schema/manufacturing.html — ManufacturingBusiness JSON-LD
+   Data source: organization.toml, manufacturing.toml, certifications.toml
+   Called by: schema/render.html (homepage) */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $org := hugo.Data.schema.organization -}}
+{{- $mfg := hugo.Data.schema.manufacturing -}}
+{{- $certs := hugo.Data.schema.certifications -}}
+{{- $localized := index $org $lang -}}
+{{- $mfgLocalized := index $mfg $lang -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ManufacturingBusiness",
+  "@id": "{{ printf "%s#manufacturing-business" .Site.BaseURL | safeJS }}",
+  "name": "{{ $localized.name | safeJS }}",
+  "legalName": "{{ $org.identity.legal_name | safeJS }}",
+  "url": "{{ $org.identity.url | safeJS }}",
+  "logo": "{{ $org.identity.logo | absURL | safeJS }}",
+  {{ with $org.identity.images -}}
+  "image": [
+    {{ range $i, $img := . -}}
+    {{- if $i }}, {{ end -}}"{{ $img | absURL | safeJS }}"
+    {{- end -}}
+  ],
+  {{ end -}}
+  "description": "{{ $localized.description | safeJS }}",
+  {{ with $localized.keywords -}}
+  "keywords": [
+    {{ range $i, $kw := . -}}
+    {{- if $i }}, {{ end -}}"{{ $kw | safeJS }}"
+    {{- end -}}
+  ],
+  {{ end -}}
+  "address": {
+    "@type": "PostalAddress",
+    {{ with $org.identity.address_locality }}"addressLocality": "{{ . | safeJS }}",{{ end }}
+    {{ with $org.identity.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
+    {{ with $org.identity.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}
+  }
+  {{- with $mfgLocalized.knows_about -}}
+  ,
+  "knowsAbout": [
+    {{ range $i, $ka := . -}}
+    {{- if $i }}, {{ end -}}"{{ $ka | safeJS }}"
+    {{- end -}}
+  ]
+  {{- end -}}
+  {{- if $certs.certifications -}}
+  ,
+  "certifications": [
+    {{ range $i, $cert := $certs.certifications -}}
+    {{- if $i }}, {{ end -}}"{{ $cert.code | safeJS }}"
+    {{- end -}}
+  ]
+  {{- end -}}
+  {{- with $mfg.equipment.key_equipment -}}
+  ,
+  "owns": [
+    {{ range $i, $eq := . -}}
+    {{- if $i }}, {{ end -}}
+    {
+      "@type": "Thing",
+      "name": "{{ $eq | safeJS }}"
+    }
+    {{- end -}}
+  ]
+  {{- end -}}
+}
+</script>

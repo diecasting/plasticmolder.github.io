@@ -1,0 +1,45 @@
+# ==========================================================================
+# locations.toml — PlasticMolder Facility Location
+# ==========================================================================
+
+[[locations]]
+id = "dongguan-facility"
+schema_type = "Place"
+address_street = "Dongguan Manufacturing Facility"
+address_locality = "Dongguan"
+address_region = "Guangdong"
+address_postal = "523000"
+address_country = "CN"
+address_country_iso = "CN"
+latitude = 23.0207
+longitude = 113.7518
+timezone = "Asia/Shanghai"
+facility_type = "Plastic Injection Molding Factory"
+url = "https://plasticmolder.com/"
+
+# --- Localized fields ---
+
+[en.dongguan-facility]
+name = "Dongguan Injection Molding Facility"
+description = "PlasticMolder's plastic injection molding factory in Dongguan, Guangdong — mold making workshop, 50T-800T molding machines and CMM quality lab."
+address_display = "Dongguan, Guangdong, China"
+
+[de.dongguan-facility]
+name = "Spritzgusswerk Dongguan"
+description = "PlasticMolders Spritzgussfabrik in Dongguan, Guangdong — Werkzeugbau, 50T-800T Spritzgussmaschinen und CMM-Qualitätslabor."
+address_display = "Dongguan, Guangdong, China"
+
+[ja.dongguan-facility]
+name = "東莞射出成形工場"
+description = "広東省東莞にあるPlasticMolderの射出成形工場 — 金型製作工房、50T～800T成形機、CMM品質検査室。"
+address_display = "中国広東省東莞市"
+
+[fr.dongguan-facility]
+name = "Usine de moulage par injection de Dongguan"
+description = "Usine de moulage par injection de PlasticMolder à Dongguan, Guangdong — atelier de moules, presses 50T-800T et laboratoire qualité MMT."
+address_display = "Dongguan, Guangdong, Chine"
+
+[es.dongguan-facility]
+name = "Planta de moldeo por inyección de Dongguan"
+description = "Fábrica de moldeo por inyección de PlasticMolder en Dongguan, Guangdong — taller de moldes, prensas de 50T-800T y laboratorio de calidad CMM."
+address_display = "Dongguan, Guangdong, China"

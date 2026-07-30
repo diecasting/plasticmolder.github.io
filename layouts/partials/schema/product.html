@@ -1,0 +1,56 @@
+{{- /* schema/product.html — Product JSON-LD
+   Data source: products.toml
+   Called by: schema/render.html (product pages)
+   Front Matter override: schema.about, schema.mentions */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $products := hugo.Data.schema.products -}}
+{{- $matchedID := .Scratch.Get "schema_matched_product" -}}
+
+{{- $productEntry := "" -}}
+{{- range $products.products -}}
+  {{- if eq .id $matchedID -}}
+    {{- $productEntry = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $prodLocalized := index $products $lang -}}
+{{- $prodText := index $prodLocalized $matchedID -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "{{ printf "%s#product" .Permalink | safeJS }}",
+  "name": "{{ $prodText.name | safeJS }}",
+  {{ with $prodText.description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ .Permalink | safeJS }}",
+  "category": "{{ $productEntry.category | safeJS }}",
+  {{ with $prodText.key_properties -}}
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "keyProperties",
+    "value": "{{ . | safeJS }}"
+  },
+  {{ end -}}
+  "manufacturer": {
+    "@type": "Organization",
+    "@id": "{{ printf "%s#organization" .Site.BaseURL | safeJS }}"
+  }
+  {{- with $productEntry.material_grades -}}
+  ,
+  "material": [
+    {{ range $i, $mg := . -}}
+    {{- if $i }}, {{ end -}}"{{ $mg | safeJS }}"
+    {{- end -}}
+  ]
+  {{- end -}}
+  {{- with .Params.schema.about -}}
+  ,
+  "about": {
+    "@type": "Thing",
+    "url": "{{ . | safeJS }}"
+  }
+  {{- end -}}
+}
+</script>

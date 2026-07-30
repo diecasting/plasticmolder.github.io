@@ -1,0 +1,35 @@
+{{- /* footer.html — Site footer */ -}}
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>{{ .Site.Title }}</h4>
+      <p>{{ .Site.Params.description }}</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        {{ with .Site.Params.contact.email }}<li><a href="https://formspree.io/f/xwvgzljg">{{ . }}</a></li>{{ end }}
+        {{ with .Site.Params.contact.phone }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.footer.copyright | default .Site.Title }}. All rights reserved.</p>
+  </div>
+</footer>

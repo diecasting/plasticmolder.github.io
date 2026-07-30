@@ -1,0 +1,122 @@
+# ==========================================================================
+# manufacturing.toml — PlasticMolder Manufacturing Capabilities
+# ==========================================================================
+
+# --- Language-neutral equipment & process identifiers ---
+
+[equipment]
+tonnage_range_min = 50    # tons
+tonnage_range_max = 800   # tons
+key_equipment = [
+  "50T-800T Plastic Injection Molding Machines",
+  "High-Speed CNC Machining Centers",
+  "Mirror EDM & Wire-Cut EDM",
+  "CMM Dimensional Inspection Systems",
+  "Mold Flow Analysis Software"
+]
+
+[processes]
+core_processes = [
+  "plastic-injection-molding",
+  "injection-mold-manufacturing",
+  "insert-molding",
+  "overmolding",
+  "quality-inspection"
+]
+
+# --- Localized fields ---
+
+[en]
+knows_about = [
+  "Plastic Injection Molding",
+  "Injection Mold Manufacturing",
+  "Custom Plastic Parts",
+  "OEM Plastic Manufacturing",
+  "Insert Molding",
+  "Overmolding"
+]
+capabilities_description = "Since 2005, PlasticMolder has delivered precision plastic injection molding, in-house mold manufacturing and strict CMM-verified quality control for automotive, medical, electronics, EV and industrial customers worldwide."
+materials_primary = ["ABS", "PC", "PP", "PA Nylon", "POM", "TPU"]
+process_types = [
+  "Plastic Injection Molding",
+  "Injection Mold Design & Manufacturing",
+  "Insert Molding & Overmolding",
+  "Prototype & Low Volume Production",
+  "CMM Quality Inspection"
+]
+
+[de]
+knows_about = [
+  "Kunststoff-Spritzguss",
+  "Spritzgusswerkzeugbau",
+  "Kundenspezifische Kunststoffteile",
+  "OEM-Kunststofffertigung",
+  "Insert Molding",
+  "Umspritzen"
+]
+capabilities_description = "Seit 2005 liefert PlasticMolder Präzisions-Spritzguss, eigenen Werkzeugbau und strenge CMM-geprüfte Qualitätskontrolle für Kunden aus Automobil, Medizin, Elektronik, EV und Industrie weltweit."
+materials_primary = ["ABS", "PC", "PP", "PA Nylon", "POM", "TPU"]
+process_types = [
+  "Kunststoff-Spritzguss",
+  "Werkzeugdesign & -bau",
+  "Insert Molding & Umspritzen",
+  "Prototypen & Kleinserien",
+  "CMM-Qualitätsprüfung"
+]
+
+[ja]
+knows_about = [
+  "プラスチック射出成形",
+  "射出成形金型製作",
+  "カスタムプラスチック部品",
+  "OEMプラスチック製造",
+  "インサート成形",
+  "オーバーモールド"
+]
+capabilities_description = "2005年以来、PlasticMolderは精密射出成形、自社金型製作、CMM検証による厳格な品質管理を、世界中の自動車・医療・電子・EV・産業分野の顧客に提供しています。"
+materials_primary = ["ABS", "PC", "PP", "PAナイロン", "POM", "TPU"]
+process_types = [
+  "プラスチック射出成形",
+  "金型設計・製作",
+  "インサート成形・オーバーモールド",
+  "試作・小ロット生産",
+  "CMM品質検査"
+]
+
+[fr]
+knows_about = [
+  "Moulage par injection plastique",
+  "Fabrication de moules d'injection",
+  "Pièces plastiques sur mesure",
+  "Fabrication plastique OEM",
+  "Surmoulage d'inserts",
+  "Surmoulage"
+]
+capabilities_description = "Depuis 2005, PlasticMolder fournit un moulage par injection de précision, une fabrication de moules en interne et un contrôle qualité rigoureux vérifié par MMT pour des clients automobile, médical, électronique, VE et industriels dans le monde entier."
+materials_primary = ["ABS", "PC", "PP", "PA Nylon", "POM", "TPU"]
+process_types = [
+  "Moulage par injection plastique",
+  "Conception & fabrication de moules",
+  "Surmoulage d'inserts & surmoulage",
+  "Prototypes & petites séries",
+  "Contrôle qualité MMT"
+]
+
+[es]
+knows_about = [
+  "Moldeo por inyección de plástico",
+  "Fabricación de moldes de inyección",
+  "Piezas plásticas personalizadas",
+  "Fabricación plástica OEM",
+  "Moldeo con insertos",
+  "Sobremoldeo"
+]
+capabilities_description = "Desde 2005, PlasticMolder ofrece moldeo por inyección de precisión, fabricación interna de moldes y estricto control de calidad verificado por CMM para clientes de automoción, medicina, electrónica, VE e industria en todo el mundo."
+materials_primary = ["ABS", "PC", "PP", "PA Nylon", "POM", "TPU"]
+process_types = [
+  "Moldeo por inyección de plástico",
+  "Diseño y fabricación de moldes",
+  "Moldeo con insertos y sobremoldeo",
+  "Prototipos y bajo volumen",
+  "Inspección de calidad CMM"
+]

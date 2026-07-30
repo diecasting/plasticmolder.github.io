@@ -1,0 +1,32 @@
+# ==========================================================================
+# certifications.toml — PlasticMolder Quality Certifications
+# ==========================================================================
+
+[[certifications]]
+id = "iso-9001"
+code = "ISO 9001"
+sort_order = 1
+issue_authority = "International Organization for Standardization"
+url = "https://www.iso.org/standard/62085.html"
+
+# --- Localized descriptions ---
+
+[en.iso-9001]
+name = "ISO 9001 Quality Management System"
+description = "Certified quality management system covering mold manufacturing, injection molding and inspection processes for consistent product quality."
+
+[de.iso-9001]
+name = "ISO 9001 Qualitätsmanagementsystem"
+description = "Zertifiziertes Qualitätsmanagementsystem für Werkzeugbau, Spritzguss und Prüfprozesse zur gleichbleibenden Produktqualität."
+
+[ja.iso-9001]
+name = "ISO 9001 品質マネジメントシステム"
+description = "金型製作、射出成形、検査プロセスを対象とした認証品質マネジメントシステム。"
+
+[fr.iso-9001]
+name = "Système de management de la qualité ISO 9001"
+description = "Système qualité certifié couvrant la fabrication de moules, le moulage par injection et les processus d'inspection."
+
+[es.iso-9001]
+name = "Sistema de gestión de calidad ISO 9001"
+description = "Sistema de calidad certificado que cubre la fabricación de moldes, el moldeo por inyección y los procesos de inspección."

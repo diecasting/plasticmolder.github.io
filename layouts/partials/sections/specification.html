@@ -1,0 +1,26 @@
+{{- /* sections/specification.html — Technical specifications
+   Data: manufacturing.toml equipment tonnage, products.toml material grades */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $mfg := hugo.Data.schema.manufacturing -}}
+{{- $products := hugo.Data.schema.products -}}
+<section class="section section-specification" id="specification">
+  <div class="container">
+    <h2 class="section-title">Technical Specifications</h2>
+    <div class="spec-grid">
+      {{ with $mfg.equipment.tonnage_range_min }}
+      <div class="spec-item">
+        <span class="spec-label">Machine Tonnage Range</span>
+        <span class="spec-value">{{ $mfg.equipment.tonnage_range_min }}T - {{ $mfg.equipment.tonnage_range_max }}T</span>
+      </div>
+      {{ end }}
+      {{ range $products.products }}
+      {{ if .material_grades }}
+      <div class="spec-item">
+        <span class="spec-label">{{ .material_family }} Grades</span>
+        <span class="spec-value">{{ delimit .material_grades ", " }}</span>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

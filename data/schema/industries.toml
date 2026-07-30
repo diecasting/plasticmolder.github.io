@@ -1,0 +1,152 @@
+# ==========================================================================
+# industries.toml — Industries Served by PlasticMolder
+# ==========================================================================
+
+# --- Industry catalog (language-neutral IDs) ---
+
+[[industries]]
+id = "automotive"
+sort_order = 1
+
+[[industries]]
+id = "medical"
+sort_order = 2
+
+[[industries]]
+id = "electronics"
+sort_order = 3
+
+[[industries]]
+id = "ev-energy"
+sort_order = 4
+
+[[industries]]
+id = "industrial"
+sort_order = 5
+
+# --- Localized industry names and descriptions ---
+
+[en.automotive]
+name = "Automotive"
+description = "Injection molded interior trims, connectors, housings and under-hood plastic components with PPAP-level documentation."
+applications = ["Interior trim parts", "Connectors & clips", "Sensor housings", "Under-hood components"]
+
+[en.medical]
+name = "Medical Devices"
+description = "Medical-grade precision molding for diagnostic housings, disposables and device components with full lot traceability."
+applications = ["Diagnostic device housings", "Disposable components", "Lab consumables", "Surgical device parts"]
+
+[en.electronics]
+name = "Electronics"
+description = "Precision enclosures, connectors and structural parts for consumer and industrial electronics."
+applications = ["Electronic enclosures", "Precision connectors", "Structural frames", "Wearable housings"]
+
+[en.ev-energy]
+name = "EV & New Energy"
+description = "Plastic components for EV charging piles, battery modules and energy storage systems using flame-retardant engineering resins."
+applications = ["EV charging pile housings", "Battery module components", "Busbar insulation parts", "Energy storage enclosures"]
+
+[en.industrial]
+name = "Industrial Equipment"
+description = "Durable engineering plastic parts for industrial machinery, automation and fluid handling."
+applications = ["Machine housings", "Gears & bushings", "Pump components", "Automation fixtures"]
+
+[de.automotive]
+name = "Automobil"
+description = "Spritzgegossene Innenverkleidungen, Steckverbinder, Gehäuse und Motorraumkomponenten mit PPAP-Dokumentation."
+applications = ["Innenraumteile", "Steckverbinder & Clips", "Sensorgehäuse", "Motorraumkomponenten"]
+
+[de.medical]
+name = "Medizintechnik"
+description = "Medizinischer Präzisionsspritzguss für Diagnostikgehäuse, Einwegartikel und Gerätekomponenten mit vollständiger Chargenrückverfolgbarkeit."
+applications = ["Diagnostikgehäuse", "Einwegkomponenten", "Laborverbrauchsmaterial", "Chirurgische Geräteteile"]
+
+[de.electronics]
+name = "Elektronik"
+description = "Präzisionsgehäuse, Steckverbinder und Strukturteile für Konsum- und Industrieelektronik."
+applications = ["Elektronikgehäuse", "Präzisionssteckverbinder", "Strukturrahmen", "Wearable-Gehäuse"]
+
+[de.ev-energy]
+name = "EV & Neue Energien"
+description = "Kunststoffkomponenten für EV-Ladesäulen, Batteriemodule und Energiespeicher aus flammhemmenden Konstruktionskunststoffen."
+applications = ["Ladesäulengehäuse", "Batteriemodulkomponenten", "Stromschienen-Isolierteile", "Energiespeichergehäuse"]
+
+[de.industrial]
+name = "Industrieausrüstung"
+description = "Langlebige technische Kunststoffteile für Industriemaschinen, Automatisierung und Fluidtechnik."
+applications = ["Maschinengehäuse", "Zahnräder & Buchsen", "Pumpenkomponenten", "Automatisierungsvorrichtungen"]
+
+[ja.automotive]
+name = "自動車"
+description = "PPAPレベルの文書化に対応した内装トリム、コネクタ、ハウジング、エンジンルーム部品の射出成形。"
+applications = ["内装トリム部品", "コネクタ・クリップ", "センサーハウジング", "エンジンルーム部品"]
+
+[ja.medical]
+name = "医療機器"
+description = "診断機器ハウジング、ディスポーザブル、機器部品向けの医療グレード精密成形。完全なロットトレーサビリティ。"
+applications = ["診断機器ハウジング", "ディスポーザブル部品", "検査用消耗品", "手術機器部品"]
+
+[ja.electronics]
+name = "電子機器"
+description = "民生・産業電子機器向けの精密筐体、コネクタ、構造部品。"
+applications = ["電子筐体", "精密コネクタ", "構造フレーム", "ウェアラブルハウジング"]
+
+[ja.ev-energy]
+name = "EV・新エネルギー"
+description = "難燃性エンジニアリング樹脂によるEV充電スタンド、バッテリーモジュール、蓄電システム用プラスチック部品。"
+applications = ["EV充電スタンド筐体", "バッテリーモジュール部品", "ブスバー絶縁部品", "蓄電筐体"]
+
+[ja.industrial]
+name = "産業機器"
+description = "産業機械、自動化、流体制御向けの耐久性エンジニアリングプラスチック部品。"
+applications = ["機械ハウジング", "ギア・ブッシュ", "ポンプ部品", "自動化治具"]
+
+[fr.automotive]
+name = "Automobile"
+description = "Garnitures intérieures, connecteurs, boîtiers et composants sous capot moulés par injection avec documentation niveau PPAP."
+applications = ["Garnitures intérieures", "Connecteurs & clips", "Boîtiers de capteurs", "Composants sous capot"]
+
+[fr.medical]
+name = "Dispositifs médicaux"
+description = "Moulage de précision de qualité médicale pour boîtiers de diagnostic, consommables et composants avec traçabilité complète des lots."
+applications = ["Boîtiers de diagnostic", "Composants jetables", "Consommables de laboratoire", "Pièces de dispositifs chirurgicaux"]
+
+[fr.electronics]
+name = "Électronique"
+description = "Boîtiers de précision, connecteurs et pièces structurelles pour l'électronique grand public et industrielle."
+applications = ["Boîtiers électroniques", "Connecteurs de précision", "Cadres structurels", "Boîtiers wearables"]
+
+[fr.ev-energy]
+name = "VE & Nouvelles énergies"
+description = "Composants plastiques pour bornes de recharge VE, modules de batterie et stockage d'énergie en résines ignifuges."
+applications = ["Boîtiers de bornes de recharge", "Composants de modules batterie", "Pièces d'isolation busbar", "Boîtiers de stockage d'énergie"]
+
+[fr.industrial]
+name = "Équipement industriel"
+description = "Pièces plastiques techniques durables pour machines industrielles, automatisation et gestion des fluides."
+applications = ["Carters de machines", "Engrenages & bagues", "Composants de pompes", "Fixations d'automatisation"]
+
+[es.automotive]
+name = "Automoción"
+description = "Molduras interiores, conectores, carcasas y componentes bajo capó moldeados por inyección con documentación nivel PPAP."
+applications = ["Molduras interiores", "Conectores y clips", "Carcasas de sensores", "Componentes bajo capó"]
+
+[es.medical]
+name = "Dispositivos médicos"
+description = "Moldeo de precisión de grado médico para carcasas de diagnóstico, desechables y componentes con trazabilidad total de lotes."
+applications = ["Carcasas de diagnóstico", "Componentes desechables", "Consumibles de laboratorio", "Piezas de dispositivos quirúrgicos"]
+
+[es.electronics]
+name = "Electrónica"
+description = "Carcasas de precisión, conectores y piezas estructurales para electrónica de consumo e industrial."
+applications = ["Carcasas electrónicas", "Conectores de precisión", "Marcos estructurales", "Carcasas de wearables"]
+
+[es.ev-energy]
+name = "VE y Nuevas energías"
+description = "Componentes plásticos para cargadores de VE, módulos de batería y almacenamiento de energía en resinas ignífugas."
+applications = ["Carcasas de cargadores VE", "Componentes de módulos de batería", "Piezas de aislamiento de busbar", "Carcasas de almacenamiento"]
+
+[es.industrial]
+name = "Equipamiento industrial"
+description = "Piezas plásticas técnicas duraderas para maquinaria industrial, automatización y manejo de fluidos."
+applications = ["Carcasas de máquinas", "Engranajes y casquillos", "Componentes de bombas", "Utillajes de automatización"]

@@ -1,0 +1,66 @@
+# ==========================================================================
+# hugo.toml — PlasticMolder Site Configuration
+# ==========================================================================
+
+baseURL = "https://diecasting.github.io/plasticmolder.github.io/"
+title = "PlasticMolder"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+# Hugo version requirement: 0.163.3 extended
+
+# Build settings
+enableRobotsTXT = true
+enableGitInfo = false
+enableMissingTranslationPlaceholders = false
+
+# Pagination
+paginate = 12
+
+# Permalinks — clean URLs for SEO
+[permalinks]
+  blog = "/blog/:slug/"
+  services = "/:slug/"
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+
+# Minify configuration
+[minify]
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepComments = false
+    [minify.tdewolff.css]
+      precision = 0
+    [minify.tdewolff.js]
+      precision = 0
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4

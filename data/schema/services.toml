@@ -1,0 +1,267 @@
+# ==========================================================================
+# services.toml — PlasticMolder Service Catalog
+# ==========================================================================
+
+# --- Service catalog (language-neutral IDs) ---
+
+[[services]]
+id = "plastic-injection-molding"
+schema_type = "Service"
+url_path = "/plastic-injection-molding/"
+sort_order = 1
+
+[[services]]
+id = "custom-plastic-injection-molding"
+schema_type = "Service"
+url_path = "/custom-plastic-injection-molding/"
+sort_order = 2
+
+[[services]]
+id = "plastic-injection-mold-manufacturing"
+schema_type = "Service"
+url_path = "/plastic-injection-mold-manufacturing/"
+sort_order = 3
+
+[[services]]
+id = "prototype-injection-molding"
+schema_type = "Service"
+url_path = "/prototype-injection-molding/"
+sort_order = 4
+
+[[services]]
+id = "low-volume-injection-molding"
+schema_type = "Service"
+url_path = "/low-volume-injection-molding/"
+sort_order = 5
+
+[[services]]
+id = "plastic-injection-molding-services"
+schema_type = "Service"
+url_path = "/plastic-injection-molding-services/"
+sort_order = 6
+
+[[services]]
+id = "oem-plastic-parts-manufacturer"
+schema_type = "Service"
+url_path = "/oem-plastic-parts-manufacturer/"
+sort_order = 7
+
+[[services]]
+id = "custom-plastic-parts-manufacturer"
+schema_type = "Service"
+url_path = "/custom-plastic-parts-manufacturer/"
+sort_order = 8
+
+[[services]]
+id = "precision-plastic-components"
+schema_type = "Service"
+url_path = "/precision-plastic-components/"
+sort_order = 9
+
+[[services]]
+id = "precision-medical-molding"
+schema_type = "Service"
+url_path = "/precision-medical-molding/"
+sort_order = 10
+
+# --- Localized service names and descriptions ---
+
+[en.plastic-injection-molding]
+name = "Plastic Injection Molding"
+description = "Full-service plastic injection molding from 50T to 800T presses. ABS, PC, PP, PA, POM, TPU processing with tight tolerance control for global OEMs."
+
+[en.custom-plastic-injection-molding]
+name = "Custom Plastic Injection Molding"
+description = "Custom injection molding tailored to your part design — DFM analysis, material selection, tooling and production under one roof."
+
+[en.plastic-injection-mold-manufacturing]
+name = "Plastic Injection Mold Manufacturing"
+description = "Precision injection mold design and fabrication — P20, 718H, NAK80, S136 tool steels, hot runner systems, 300,000+ shot guarantees."
+
+[en.prototype-injection-molding]
+name = "Prototype Injection Molding"
+description = "Quick-turn prototype tooling and molded prototypes in production-grade resins within 7-15 days."
+
+[en.low-volume-injection-molding]
+name = "Low Volume Injection Molding"
+description = "Cost-effective low volume injection molding from 100 to 100,000 parts with soft steel or pre-hardened tool steel tooling."
+
+[en.plastic-injection-molding-services]
+name = "Plastic Injection Molding Services"
+description = "End-to-end injection molding services: design support, mold making, molding, assembly and quality inspection."
+
+[en.oem-plastic-parts-manufacturer]
+name = "OEM Plastic Parts Manufacturing"
+description = "OEM/ODM plastic parts production for automotive, medical, electronics, EV and industrial brands worldwide."
+
+[en.custom-plastic-parts-manufacturer]
+name = "Custom Plastic Parts Manufacturing"
+description = "Custom plastic parts engineered to print — insert molding, overmolding, secondary operations and assembly."
+
+[en.precision-plastic-components]
+name = "Precision Plastic Components"
+description = "High-precision plastic components with tolerances down to ±0.01 mm, CMM-verified dimensional reports."
+
+[en.precision-medical-molding]
+name = "Precision Medical Molding"
+description = "Medical-grade plastic injection molding with cleanroom-compatible processes, full traceability and ISO 13485-aligned quality systems."
+
+[de.plastic-injection-molding]
+name = "Kunststoff-Spritzguss"
+description = "Kompletter Spritzgussservice mit 50T-800T Maschinen. Verarbeitung von ABS, PC, PP, PA, POM, TPU mit enger Toleranzkontrolle."
+
+[de.custom-plastic-injection-molding]
+name = "Kundenspezifischer Spritzguss"
+description = "Maßgeschneiderter Spritzguss — DFM-Analyse, Materialauswahl, Werkzeugbau und Produktion aus einer Hand."
+
+[de.plastic-injection-mold-manufacturing]
+name = "Spritzgusswerkzeugbau"
+description = "Präzisions-Spritzgusswerkzeuge — P20, 718H, NAK80, S136 Werkzeugstähle, Heißkanalsysteme, 300.000+ Schuss Garantie."
+
+[de.prototype-injection-molding]
+name = "Prototypen-Spritzguss"
+description = "Schnelle Prototypenwerkzeuge und Spritzgussprototypen in Serienmaterialien innerhalb von 7-15 Tagen."
+
+[de.low-volume-injection-molding]
+name = "Kleinserien-Spritzguss"
+description = "Wirtschaftlicher Kleinserien-Spritzguss von 100 bis 100.000 Teilen mit weichem Stahl oder vorvergütetem Werkzeugstahl."
+
+[de.plastic-injection-molding-services]
+name = "Spritzguss-Dienstleistungen"
+description = "Spritzguss-Komplettservice: Designunterstützung, Werkzeugbau, Spritzguss, Montage und Qualitätsprüfung."
+
+[de.oem-plastic-parts-manufacturer]
+name = "OEM-Kunststoffteile-Fertigung"
+description = "OEM/ODM-Kunststoffteileproduktion für Automobil, Medizin, Elektronik, EV und Industrie weltweit."
+
+[de.custom-plastic-parts-manufacturer]
+name = "Kundenspezifische Kunststoffteile"
+description = "Kunststoffteile nach Zeichnung — Insert Molding, Umspritzen, Nachbearbeitung und Montage."
+
+[de.precision-plastic-components]
+name = "Präzisions-Kunststoffkomponenten"
+description = "Hochpräzise Kunststoffkomponenten mit Toleranzen bis ±0,01 mm, CMM-geprüfte Messberichte."
+
+[de.precision-medical-molding]
+name = "Medizinischer Präzisionsspritzguss"
+description = "Medizinischer Spritzguss mit reinraumkompatiblen Prozessen, vollständiger Rückverfolgbarkeit und ISO 13485-orientierten Qualitätssystemen."
+
+[ja.plastic-injection-molding]
+name = "プラスチック射出成形"
+description = "50T～800Tの成形機によるフルサービス射出成形。ABS、PC、PP、PA、POM、TPUを高精度公差で加工。"
+
+[ja.custom-plastic-injection-molding]
+name = "カスタム射出成形"
+description = "部品設計に合わせたカスタム射出成形 — DFM解析、材料選定、金型製作、量産まで一貫対応。"
+
+[ja.plastic-injection-mold-manufacturing]
+name = "射出成形金型製作"
+description = "精密射出成形金型の設計・製作 — P20、718H、NAK80、S136鋼材、ホットランナー、30万ショット保証。"
+
+[ja.prototype-injection-molding]
+name = "試作射出成形"
+description = "量産グレード樹脂による試作金型・試作成形品を7～15日で短納期対応。"
+
+[ja.low-volume-injection-molding]
+name = "小ロット射出成形"
+description = "100個から10万個までの小ロット射出成形。アルミ型・プリハードン鋼型でコスト効率良く対応。"
+
+[ja.plastic-injection-molding-services]
+name = "射出成形サービス"
+description = "設計支援、金型製作、成形、組立、品質検査までの一貫射出成形サービス。"
+
+[ja.oem-plastic-parts-manufacturer]
+name = "OEMプラスチック部品製造"
+description = "自動車、医療、電子機器、EV、産業機器向けOEM/ODMプラスチック部品を世界に供給。"
+
+[ja.custom-plastic-parts-manufacturer]
+name = "カスタムプラスチック部品製造"
+description = "図面通りのカスタムプラスチック部品 — インサート成形、オーバーモールド、二次加工、組立。"
+
+[ja.precision-plastic-components]
+name = "精密プラスチック部品"
+description = "±0.01mmまでの公差に対応する高精度プラスチック部品。CMM検証済み寸法レポート付き。"
+
+[ja.precision-medical-molding]
+name = "医療用精密成形"
+description = "クリーンルーム対応プロセス、完全なトレーサビリティ、ISO 13485準拠品質システムによる医療グレード射出成形。"
+
+[fr.plastic-injection-molding]
+name = "Moulage par injection plastique"
+description = "Service complet de moulage par injection avec presses de 50T à 800T. ABS, PC, PP, PA, POM, TPU avec contrôle de tolérances serrées."
+
+[fr.custom-plastic-injection-molding]
+name = "Moulage par injection sur mesure"
+description = "Injection sur mesure adaptée à votre conception — analyse DFM, sélection des matériaux, outillage et production intégrés."
+
+[fr.plastic-injection-mold-manufacturing]
+name = "Fabrication de moules d'injection"
+description = "Conception et fabrication de moules de précision — aciers P20, 718H, NAK80, S136, canaux chauds, garantie 300 000+ cycles."
+
+[fr.prototype-injection-molding]
+name = "Moulage par injection de prototypes"
+description = "Outillage prototype rapide et prototypes moulés en résines de production sous 7 à 15 jours."
+
+[fr.low-volume-injection-molding]
+name = "Moulage par injection petite série"
+description = "Injection petite série économique de 100 à 100 000 pièces avec moules en acier doux ou acier prétraité."
+
+[fr.plastic-injection-molding-services]
+name = "Services de moulage par injection"
+description = "Services complets : support de conception, fabrication de moules, moulage, assemblage et contrôle qualité."
+
+[fr.oem-plastic-parts-manufacturer]
+name = "Fabrication de pièces plastiques OEM"
+description = "Production OEM/ODM de pièces plastiques pour l'automobile, le médical, l'électronique, les VE et l'industrie."
+
+[fr.custom-plastic-parts-manufacturer]
+name = "Fabrication de pièces plastiques sur mesure"
+description = "Pièces plastiques selon plan — surmoulage d'inserts, surmoulage, opérations secondaires et assemblage."
+
+[fr.precision-plastic-components]
+name = "Composants plastiques de précision"
+description = "Composants plastiques haute précision avec tolérances jusqu'à ±0,01 mm, rapports dimensionnels vérifiés par MMT."
+
+[fr.precision-medical-molding]
+name = "Moulage médical de précision"
+description = "Injection plastique de qualité médicale avec procédés compatibles salle blanche, traçabilité complète et systèmes qualité alignés ISO 13485."
+
+[es.plastic-injection-molding]
+name = "Moldeo por inyección de plástico"
+description = "Servicio completo de moldeo por inyección con prensas de 50T a 800T. ABS, PC, PP, PA, POM, TPU con control de tolerancias estrictas."
+
+[es.custom-plastic-injection-molding]
+name = "Moldeo por inyección personalizado"
+description = "Inyección personalizada según su diseño — análisis DFM, selección de materiales, utillaje y producción integrados."
+
+[es.plastic-injection-mold-manufacturing]
+name = "Fabricación de moldes de inyección"
+description = "Diseño y fabricación de moldes de precisión — aceros P20, 718H, NAK80, S136, sistemas de canal caliente, garantía de 300.000+ ciclos."
+
+[es.prototype-injection-molding]
+name = "Moldeo por inyección de prototipos"
+description = "Utillaje de prototipos rápido y prototipos moldeados en resinas de producción en 7-15 días."
+
+[es.low-volume-injection-molding]
+name = "Moldeo por inyección de bajo volumen"
+description = "Inyección de bajo volumen rentable de 100 a 100.000 piezas con moldes de acero blando o acero pretratado."
+
+[es.plastic-injection-molding-services]
+name = "Servicios de moldeo por inyección"
+description = "Servicios integrales: soporte de diseño, fabricación de moldes, moldeo, ensamblaje e inspección de calidad."
+
+[es.oem-plastic-parts-manufacturer]
+name = "Fabricación de piezas plásticas OEM"
+description = "Producción OEM/ODM de piezas plásticas para automoción, medicina, electrónica, VE e industria en todo el mundo."
+
+[es.custom-plastic-parts-manufacturer]
+name = "Fabricación de piezas plásticas personalizadas"
+description = "Piezas plásticas según plano — moldeo con insertos, sobremoldeo, operaciones secundarias y ensamblaje."
+
+[es.precision-plastic-components]
+name = "Componentes plásticos de precisión"
+description = "Componentes plásticos de alta precisión con tolerancias de hasta ±0,01 mm, informes dimensionales verificados por CMM."
+
+[es.precision-medical-molding]
+name = "Moldeo médico de precisión"
+description = "Inyección de grado médico con procesos compatibles con sala limpia, trazabilidad total y sistemas de calidad alineados con ISO 13485."

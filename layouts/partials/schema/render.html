@@ -1,0 +1,104 @@
+{{- /* =========================================================================
+   schema/render.html — GEO Schema Rendering Engine Entry Point
+   ==========================================================================
+   Data-driven schema rendering based on page type detection.
+   Uses data/schema/*.toml as the sole data source (via hugo.Data).
+   Supports Front Matter overrides: schema.about, schema.mentions, schema.isPartOf.
+   Deduplication: each schema @type is output at most once per page via Scratch.
+   ========================================================================= */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $org := hugo.Data.schema.organization -}}
+{{- $mfg := hugo.Data.schema.manufacturing -}}
+{{- $services := hugo.Data.schema.services -}}
+{{- $products := hugo.Data.schema.products -}}
+{{- $industries := hugo.Data.schema.industries -}}
+{{- $locations := hugo.Data.schema.locations -}}
+{{- $certs := hugo.Data.schema.certifications -}}
+
+{{- .Scratch.Set "schema_lang" $lang -}}
+{{- .Scratch.Set "schema_org" $org -}}
+
+{{- /* Initialize dedup flags */ -}}
+{{- .Scratch.Set "schema_org_emitted" false -}}
+{{- .Scratch.Set "schema_breadcrumb_emitted" false -}}
+{{- .Scratch.Set "schema_website_emitted" false -}}
+{{- .Scratch.Set "schema_manufacturing_emitted" false -}}
+
+{{- if .IsHome -}}
+  {{- /* HOMEPAGE: ManufacturingBusiness + Organization + WebSite + Geo */ -}}
+  {{- .Scratch.Set "schema_manufacturing_emitted" true -}}
+  {{ partial "schema/manufacturing.html" . -}}
+
+  {{- .Scratch.Set "schema_org_emitted" true -}}
+  {{ partial "schema/organization.html" . -}}
+
+  {{- .Scratch.Set "schema_website_emitted" true -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ printf "%s#website" .Site.BaseURL | safeJS }}",
+    "name": "{{ .Site.Title | safeJS }}",
+    "alternateName": "{{ (index $org $lang).site_title | safeJS }}",
+    {{ with (index $org $lang).description }}"description": "{{ . | safeJS }}",{{ end }}
+    "url": "{{ .Site.BaseURL | safeJS }}",
+    {{ with .Site.Language.Params.locale }}"inLanguage": "{{ . | safeJS }}",{{ end }}
+    "publisher": {
+      "@type": "Organization",
+      "@id": "{{ printf "%s#organization" .Site.BaseURL | safeJS }}"
+    }
+  }
+  </script>
+
+  {{- /* Geo entity: Place + areaServed industries */ -}}
+  {{ partial "schema/geo-entity.html" . -}}
+
+{{- else -}}
+  {{- /* NON-HOMEPAGE: Detect page type */ -}}
+  {{- .Scratch.Set "schema_page_type" "article" -}}
+  {{- .Scratch.Set "schema_matched_service" "" -}}
+  {{- .Scratch.Set "schema_matched_product" "" -}}
+
+  {{- with .File -}}
+    {{- $dir := strings.TrimSuffix "/" (replace .Dir "\\" "/") -}}
+    {{- $sectionPath := printf "/%s/" $dir -}}
+    {{- $matchedSvcs := where $services.services "url_path" $sectionPath -}}
+    {{- if gt (len $matchedSvcs) 0 -}}
+      {{- $.Scratch.Set "schema_page_type" "service" -}}
+      {{- $.Scratch.Set "schema_matched_service" (index $matchedSvcs 0).id -}}
+    {{- else -}}
+      {{- $matchedProds := where $products.products "url_path" $sectionPath -}}
+      {{- if gt (len $matchedProds) 0 -}}
+        {{- $.Scratch.Set "schema_page_type" "product" -}}
+        {{- $.Scratch.Set "schema_matched_product" (index $matchedProds 0).id -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- if eq $dir "blog" -}}
+      {{- $.Scratch.Set "schema_page_type" "article" -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $pageType := .Scratch.Get "schema_page_type" -}}
+
+  {{- if eq $pageType "service" -}}
+    {{ partial "schema/service.html" . -}}
+  {{- else if eq $pageType "product" -}}
+    {{ partial "schema/product.html" . -}}
+  {{- else -}}
+    {{ partial "schema/article.html" . -}}
+  {{- end -}}
+
+  {{- /* BreadcrumbList for all non-homepage pages */ -}}
+  {{- .Scratch.Set "schema_breadcrumb_emitted" true -}}
+  {{ partial "schema/breadcrumb.html" . -}}
+
+{{- end -}}
+
+{{- /* FAQ support — triggered by front matter: schema.faq */ -}}
+{{- with .Params.schema -}}
+  {{- with .faq -}}
+    {{ partial "schema/faq.html" $ -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,21 @@
+{{- /* sections/process.html — Manufacturing process flow
+   Data: manufacturing.toml core_processes */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $mfg := hugo.Data.schema.manufacturing -}}
+{{- $mfgLocalized := index $mfg $lang -}}
+<section class="section section-process" id="process">
+  <div class="container">
+    <h2 class="section-title">Manufacturing Process</h2>
+    <div class="process-flow">
+      {{ range $i, $proc := $mfg.processes.core_processes }}
+      <div class="process-step">
+        <span class="step-number">{{ add $i 1 }}</span>
+        <span class="step-name">{{ replace $proc "-" " " | title }}</span>
+      </div>
+      {{ if lt (add $i 1) (len $mfg.processes.core_processes) }}
+      <div class="process-arrow">&rarr;</div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

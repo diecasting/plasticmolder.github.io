@@ -1,0 +1,25 @@
+{{- /* header.html — Site navigation header */ -}}
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ .Site.BaseURL }}" class="nav-logo">
+      {{ .Site.Title }}
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.classList.toggle('nav-open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ if .HasChildren }}
+        <ul class="nav-submenu">
+          {{ range .Children }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,38 @@
+{{- /* rfq_form shortcode — Reusable RFQ (Request for Quote) form
+   Usage: {{< rfq_form >}}
+   Renders a contact form for quote requests. */ -}}
+<form class="rfq-form shortcode-rfq" method="POST" action="https://formspree.io/f/xwvgzljg">
+  <div class="form-row">
+    <div class="form-group">
+      <label for="rfq-name-{{ .Ordinal }}">Name *</label>
+      <input type="text" id="rfq-name-{{ .Ordinal }}" name="name" required placeholder="Your full name">
+    </div>
+    <div class="form-group">
+      <label for="rfq-company-{{ .Ordinal }}">Company</label>
+      <input type="text" id="rfq-company-{{ .Ordinal }}" name="company" placeholder="Company name">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="rfq-email-{{ .Ordinal }}">Email *</label>
+      <input type="email" id="rfq-email-{{ .Ordinal }}" name="email" required placeholder="your@email.com">
+    </div>
+    <div class="form-group">
+      <label for="rfq-phone-{{ .Ordinal }}">Phone</label>
+      <input type="tel" id="rfq-phone-{{ .Ordinal }}" name="phone" placeholder="+1 234 567 890">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="rfq-material-{{ .Ordinal }}">Material</label>
+    <input type="text" id="rfq-material-{{ .Ordinal }}" name="material" placeholder="e.g. Aluminum ADC12">
+  </div>
+  <div class="form-group">
+    <label for="rfq-quantity-{{ .Ordinal }}">Estimated Quantity</label>
+    <input type="number" id="rfq-quantity-{{ .Ordinal }}" name="quantity" placeholder="e.g. 10000">
+  </div>
+  <div class="form-group">
+    <label for="rfq-message-{{ .Ordinal }}">Project Details *</label>
+    <textarea id="rfq-message-{{ .Ordinal }}" name="message" rows="5" required placeholder="Describe your project requirements, dimensions, tolerances, etc."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary btn-submit">Submit Quote Request</button>
+</form>

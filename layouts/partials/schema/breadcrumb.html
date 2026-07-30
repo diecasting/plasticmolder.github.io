@@ -1,0 +1,32 @@
+{{- /* schema/breadcrumb.html — BreadcrumbList JSON-LD
+   Data source: Hugo page tree (.Ancestors, .Title, .Permalink)
+   Called by: schema/render.html (all non-homepage pages) */ -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "{{ printf "%s#breadcrumb" .Permalink | safeJS }}",
+  "itemListElement": [
+    {{- $position := 0 -}}
+    {{- range .Ancestors -}}
+      {{- if not .IsHome -}}
+        {{- $position = add $position 1 -}}
+        {
+          "@type": "ListItem",
+          "position": {{ $position }},
+          "name": "{{ .Title | plainify | safeJS }}",
+          "item": "{{ .Permalink | safeJS }}"
+        },
+      {{- end -}}
+    {{- end -}}
+    {{- $position = add $position 1 -}}
+    {
+      "@type": "ListItem",
+      "position": {{ $position }},
+      "name": "{{ .Title | plainify | safeJS }}",
+      "item": "{{ .Permalink | safeJS }}"
+    }
+  ]
+}
+</script>

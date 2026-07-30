@@ -1,0 +1,42 @@
+# ==========================================================================
+# products.toml — PlasticMolder Product Categories & Materials
+# ==========================================================================
+# Note: url_path values here intentionally do NOT collide with service pages
+# (service schema takes priority for the 10 landing pages).
+# ==========================================================================
+
+[[products]]
+id = "engineering-plastic-parts"
+category = "Injection Molded Parts"
+material_family = "Engineering Plastics"
+material_grades = ["ABS", "PC", "PP", "PA6", "PA66", "POM", "TPU"]
+alloy_designations = []
+sort_order = 1
+url_path = "/products/engineering-plastic-parts/"
+
+# --- Localized product descriptions ---
+
+[en.engineering-plastic-parts]
+name = "Injection Molded Engineering Plastic Parts"
+description = "Custom injection molded parts in ABS, PC, PP, PA Nylon, POM and TPU for automotive, medical, electronics, EV and industrial applications."
+key_properties = "Tight tolerances to ±0.01 mm, stable dimensional accuracy, engineering-grade material performance"
+
+[de.engineering-plastic-parts]
+name = "Spritzgussteile aus technischen Kunststoffen"
+description = "Kundenspezifische Spritzgussteile aus ABS, PC, PP, PA, POM und TPU für Automobil, Medizin, Elektronik, EV und Industrie."
+key_properties = "Enge Toleranzen bis ±0,01 mm, stabile Maßhaltigkeit, technische Materialeigenschaften"
+
+[ja.engineering-plastic-parts]
+name = "エンジニアリングプラスチック射出成形部品"
+description = "ABS、PC、PP、PAナイロン、POM、TPUによる自動車・医療・電子・EV・産業用カスタム射出成形部品。"
+key_properties = "±0.01mmまでの高精度公差、安定した寸法精度、エンジニアリング材料性能"
+
+[fr.engineering-plastic-parts]
+name = "Pièces injectées en plastiques techniques"
+description = "Pièces moulées sur mesure en ABS, PC, PP, PA, POM et TPU pour l'automobile, le médical, l'électronique, les VE et l'industrie."
+key_properties = "Tolérances serrées jusqu'à ±0,01 mm, précision dimensionnelle stable, performances matériaux techniques"
+
+[es.engineering-plastic-parts]
+name = "Piezas inyectadas de plásticos técnicos"
+description = "Piezas moldeadas a medida en ABS, PC, PP, PA, POM y TPU para automoción, medicina, electrónica, VE e industria."
+key_properties = "Tolerancias estrictas hasta ±0,01 mm, precisión dimensional estable, rendimiento de materiales técnicos"

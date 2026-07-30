@@ -1,0 +1,15 @@
+{{- /* sections/hero.html — Hero section
+   Data: page front matter (title, description) + organization.toml slogan */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $org := hugo.Data.schema.organization -}}
+{{- $localized := index $org $lang -}}
+<section class="section section-hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">{{ .Title | default $localized.name }}</h1>
+    {{ with .Description }}<p class="hero-description">{{ . }}</p>{{ else }}{{ with $localized.slogan }}<p class="hero-description">{{ . }}</p>{{ end }}{{ end }}
+    <div class="hero-cta">
+      <a href="#rfq" class="btn btn-primary">Request a Quote</a>
+      <a href="#capabilities" class="btn btn-secondary">Our Capabilities</a>
+    </div>
+  </div>
+</section>

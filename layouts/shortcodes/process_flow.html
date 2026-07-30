@@ -1,0 +1,33 @@
+{{- /* process_flow shortcode — Renders a visual process flow diagram
+   Usage:
+   {{< process_flow
+     step1="Design & Engineering"
+     step2="Tooling & Mold Making"
+     step3="Injection Molding"
+     step4="CNC Machining"
+     step5="Quality Inspection"
+     step6="Packaging & Shipping"
+   >}} */ -}}
+{{- $params := .Params -}}
+{{- $steps := slice -}}
+{{- range seq 1 20 -}}
+  {{- $stepKey := printf "step%d" . -}}
+  {{- $step := index $params $stepKey -}}
+  {{- if $step -}}
+    {{- $steps = $steps | append $step -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $steps) 0 -}}
+<div class="process-flow shortcode-process-flow">
+  {{ range $i, $step := $steps }}
+  <div class="process-step">
+    <span class="step-number">{{ add $i 1 }}</span>
+    <span class="step-name">{{ $step }}</span>
+  </div>
+  {{ if lt (add $i 1) (len $steps) }}
+  <div class="process-arrow">&rarr;</div>
+  {{ end }}
+  {{ end }}
+</div>
+{{- end -}}

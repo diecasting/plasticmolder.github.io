@@ -1,0 +1,30 @@
+{{- /* material_selector shortcode — Renders material selection guide
+   Usage: {{< material_selector >}}
+   Reads from data/schema/products.toml automatically. */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $products := hugo.Data.schema.products -}}
+
+<div class="material-selector shortcode-material-selector">
+  <h3>Available Materials</h3>
+  <div class="materials-grid">
+    {{ range $products.products }}
+    {{- $prodText := index (index $products $lang) .id -}}
+    {{ if .material_grades }}
+    <div class="material-card">
+      <h4>{{ .material_family }}</h4>
+      {{ if $prodText }}
+      <p>{{ $prodText.description }}</p>
+      {{ end }}
+      <div class="material-grades">
+        {{ range .material_grades }}
+        <span class="grade-badge">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ with .alloy_designations }}
+      <p class="alloy-info">Designations: {{ delimit . ", " }}</p>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>

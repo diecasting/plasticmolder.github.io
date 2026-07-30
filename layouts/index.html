@@ -1,0 +1,27 @@
+{{- /* index.html — Homepage layout
+   Uses landing page engine with default sections if not specified. */ -}}
+{{ define "main" }}
+<div class="landing-page">
+  {{- $sections := .Params.sections -}}
+  {{- if not $sections -}}
+    {{- $sections = slice "hero" "capabilities" "process" "industries" "certifications" "rfq" -}}
+  {{- end -}}
+
+  {{- range $sections -}}
+    {{- $partialPath := printf "partials/sections/%s.html" . -}}
+    {{- if templates.Exists $partialPath -}}
+      {{- partial (printf "sections/%s.html" .) $ -}}
+    {{- else -}}
+      {{- warnf "Homepage section partial not found: sections/%s.html" . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if .Content -}}
+  <section class="section section-content">
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </section>
+  {{- end -}}
+</div>
+{{ end }}

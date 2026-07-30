@@ -1,0 +1,41 @@
+{{- /* =========================================================================
+   landing.html — Landing Page Layout with Section Engine
+   ==========================================================================
+   Reads the `sections` array from front matter and renders each section
+   partial from layouts/partials/sections/<name>.html.
+
+   Available sections: hero, capabilities, process, specification,
+   materials, industries, certifications, faq, rfq
+
+   Front Matter example:
+   ---
+   layout: landing
+   sections:
+     - hero
+     - capabilities
+     - process
+     - faq
+     - rfq
+   ---
+   ========================================================================= */ -}}
+{{ define "main" }}
+<div class="landing-page">
+  {{- range .Params.sections -}}
+    {{- $partialPath := printf "partials/sections/%s.html" . -}}
+    {{- if templates.Exists $partialPath -}}
+      {{- partial (printf "sections/%s.html" .) $ -}}
+    {{- else -}}
+      {{- warnf "Landing page section partial not found: sections/%s.html" . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Render page content if present (below sections) */ -}}
+  {{- if .Content -}}
+  <section class="section section-content">
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </section>
+  {{- end -}}
+</div>
+{{ end }}

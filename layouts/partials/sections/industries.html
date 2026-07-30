@@ -1,0 +1,23 @@
+{{- /* sections/industries.html — Industries served
+   Data: industries.toml */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $industries := hugo.Data.schema.industries -}}
+<section class="section section-industries" id="industries">
+  <div class="container">
+    <h2 class="section-title">Industries We Serve</h2>
+    <div class="industries-grid">
+      {{ range $industries.industries }}
+      {{- $indText := index (index $industries $lang) .id -}}
+      <div class="industry-card">
+        <h3>{{ $indText.name }}</h3>
+        <p>{{ $indText.description }}</p>
+        {{ with $indText.applications }}
+        <ul class="industry-applications">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

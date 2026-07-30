@@ -1,0 +1,47 @@
+{{- /* capability_table shortcode — Renders a capability table from data
+   Usage:
+   {{< capability_table
+     header="Capability,Specification,Tolerance"
+     row1="CNC Machining,5-axis,±0.01mm"
+     row2="Surface Finish,Polishing,Ra 0.4"
+   >}}
+
+   Or with inner content (markdown table):
+   {{< capability_table >}}
+   | Capability | Specification | Tolerance |
+   |------------|---------------|----------|
+   | CNC        | 5-axis        | ±0.01mm  |
+   {{< /capability_table >}} */ -}}
+{{- $params := .Params -}}
+{{- $header := index $params "header" -}}
+
+{{- if $header -}}
+{{- /* Parameter-based table */ -}}
+<table class="capability-table">
+  <thead>
+    <tr>
+      {{ range (split $header ",") }}
+      <th>{{ . | trim " " }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{- range seq 1 50 -}}
+      {{- $rowKey := printf "row%d" . -}}
+      {{- $row := index $params $rowKey -}}
+      {{- if $row -}}
+    <tr>
+      {{ range (split $row ",") }}
+      <td>{{ . | trim " " }}</td>
+      {{ end }}
+    </tr>
+      {{- end -}}
+    {{- end -}}
+  </tbody>
+</table>
+{{- else -}}
+{{- /* Inner content (markdown table) */ -}}
+<div class="capability-table-wrapper">
+  {{ .Inner | markdownify }}
+</div>
+{{- end -}}

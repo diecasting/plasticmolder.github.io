@@ -1,0 +1,33 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if used for assets)
+node_modules/
+package-lock.json
+
+# Environment-specific config (override per-site)
+config/production/
+config/staging/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local reference backup of original template files (not site source)
+.backup/
+
+# Misc temp build dirs
+/tmp/
+tmp/

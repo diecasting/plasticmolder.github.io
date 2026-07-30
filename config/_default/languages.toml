@@ -1,0 +1,53 @@
+# ==========================================================================
+# languages.toml — Multilingual Configuration (en/de/ja/fr/es)
+# ==========================================================================
+
+[en]
+  languageCode = "en-US"
+  label = "English"
+  weight = 1
+  title = "PlasticMolder — Plastic Injection Molding Manufacturer China"
+
+  [en.params]
+    locale = "en_US"
+    description = "PlasticMolder is a professional plastic injection molding manufacturer in Dongguan, China providing custom injection molding, mold making, prototyping and OEM plastic parts manufacturing services worldwide."
+
+[de]
+  languageCode = "de-DE"
+  label = "Deutsch"
+  weight = 2
+  title = "PlasticMolder — Kunststoff-Spritzguss Hersteller aus China"
+
+  [de.params]
+    locale = "de_DE"
+    description = "PlasticMolder ist ein professioneller Hersteller für Kunststoff-Spritzguss in Dongguan, China: kundenspezifischer Spritzguss, Werkzeugbau, Prototyping und OEM-Kunststoffteile weltweit."
+
+[ja]
+  languageCode = "ja-JP"
+  label = "日本語"
+  weight = 3
+  title = "PlasticMolder — 中国のプラスチック射出成形メーカー"
+
+  [ja.params]
+    locale = "ja_JP"
+    description = "PlasticMolderは中国・東莞のプラスチック射出成形メーカーです。カスタム射出成形、金型製作、試作、OEMプラスチック部品製造を世界中に提供しています。"
+
+[fr]
+  languageCode = "fr-FR"
+  label = "Français"
+  weight = 4
+  title = "PlasticMolder — Fabricant de moulage par injection plastique en Chine"
+
+  [fr.params]
+    locale = "fr_FR"
+    description = "PlasticMolder est un fabricant professionnel de moulage par injection plastique à Dongguan, Chine : moulage sur mesure, fabrication de moules, prototypage et pièces plastiques OEM dans le monde entier."
+
+[es]
+  languageCode = "es-ES"
+  label = "Español"
+  weight = 5
+  title = "PlasticMolder — Fabricante de moldeo por inyección de plástico en China"
+
+  [es.params]
+    locale = "es_ES"
+    description = "PlasticMolder es un fabricante profesional de moldeo por inyección de plástico en Dongguan, China: moldeo por inyección personalizado, fabricación de moldes, prototipado y piezas plásticas OEM en todo el mundo."

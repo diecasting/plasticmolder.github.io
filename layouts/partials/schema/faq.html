@@ -1,0 +1,33 @@
+{{- /* schema/faq.html — FAQPage JSON-LD
+   Data source: Front matter `schema.faq` array
+   Called by: schema/render.html (when schema.faq front matter is present)
+   Also triggered by faq_accordion shortcode via Scratch */ -}}
+
+{{- $faqItems := .Params.schema.faq -}}
+
+{{- with .Scratch.Get "shortcode_faq" -}}
+  {{- $faqItems = . -}}
+{{- end -}}
+
+{{- if $faqItems -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ printf "%s#faq" .Permalink | safeJS }}",
+  "mainEntity": [
+    {{ range $i, $item := $faqItems -}}
+    {{- if $i }}, {{ end -}}
+    {
+      "@type": "Question",
+      "name": "{{ $item.question | safeJS }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $item.answer | safeJS }}"
+      }
+    }
+    {{- end -}}
+  ]
+}
+</script>
+{{- end -}}

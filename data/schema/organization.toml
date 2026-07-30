@@ -1,0 +1,78 @@
+# ==========================================================================
+# organization.toml — PlasticMolder Organization Identity
+# ==========================================================================
+
+# --- Language-neutral fields ---
+
+[identity]
+legal_name = "PlasticMolder"
+url = "https://diecasting.github.io/plasticmolder.github.io/"
+logo = "https://plasticmolder.com/wp-content/uploads/logo.webp"
+images = [
+  "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+]
+founding_date = "2005"
+address_street = "Dongguan Manufacturing Facility"
+address_locality = "Dongguan"
+address_region = "Guangdong"
+address_postal = "523000"
+address_country = "China"
+contact_email = "vincent@plasticmolder.com"
+sales_email = "sales@plasticmolder.com"
+
+# --- Localized fields ---
+
+[en]
+name = "PlasticMolder"
+site_title = "Plastic Injection Molding Manufacturer China | Custom Plastic Parts Manufacturer"
+description = "PlasticMolder provides custom plastic injection molding, precision mold manufacturing, prototyping and OEM plastic parts manufacturing services."
+slogan = "Precision Plastic Injection Molding Solutions for Global Manufacturers"
+keywords = [
+  "Plastic Injection Molding Manufacturer China",
+  "Custom Plastic Injection Molding",
+  "Plastic Mold Manufacturer"
+]
+
+[de]
+name = "PlasticMolder"
+site_title = "Kunststoff-Spritzguss Hersteller China | Hersteller für kundenspezifische Kunststoffteile"
+description = "PlasticMolder bietet kundenspezifischen Kunststoff-Spritzguss, präzisen Werkzeugbau, Prototyping und die Fertigung von OEM-Kunststoffteilen."
+slogan = "Präzise Kunststoff-Spritzgusslösungen für globale Hersteller"
+keywords = [
+  "Kunststoff-Spritzguss Hersteller China",
+  "Kundenspezifischer Kunststoff-Spritzguss",
+  "Kunststoffwerkzeug-Hersteller"
+]
+
+[ja]
+name = "PlasticMolder"
+site_title = "中国のプラスチック射出成形メーカー | カスタムプラスチック部品メーカー"
+description = "PlasticMolderは、カスタム射出成形、精密金型製作、試作、OEMプラスチック部品製造サービスを提供しています。"
+slogan = "グローバルメーカー向けの精密プラスチック射出成形ソリューション"
+keywords = [
+  "中国のプラスチック射出成形メーカー",
+  "カスタムプラスチック射出成形",
+  "プラスチック金型メーカー"
+]
+
+[fr]
+name = "PlasticMolder"
+site_title = "Fabricant de moulage par injection plastique en Chine | Fabricant de pièces plastiques sur mesure"
+description = "PlasticMolder propose un moulage par injection plastique sur mesure, la fabrication de moules de précision, le prototypage et la fabrication de pièces plastiques OEM."
+slogan = "Solutions de moulage par injection plastique de précision pour les fabricants du monde entier"
+keywords = [
+  "Fabricant de moulage par injection plastique en Chine",
+  "Moulage par injection plastique sur mesure",
+  "Fabricant de moules plastiques"
+]
+
+[es]
+name = "PlasticMolder"
+site_title = "Fabricante de moldeo por inyección de plástico en China | Fabricante de piezas plásticas personalizadas"
+description = "PlasticMolder ofrece moldeo por inyección de plástico personalizado, fabricación de moldes de precisión, prototipado y fabricación de piezas plásticas OEM."
+slogan = "Soluciones de moldeo por inyección de plástico de precisión para fabricantes globales"
+keywords = [
+  "Fabricante de moldeo por inyección de plástico en China",
+  "Moldeo por inyección de plástico personalizado",
+  "Fabricante de moldes de plástico"
+]

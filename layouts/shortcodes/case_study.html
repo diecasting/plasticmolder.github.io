@@ -1,0 +1,57 @@
+{{- /* case_study shortcode — Renders a case study card
+   Usage:
+   {{< case_study
+     title="Automotive Engine Bracket Production"
+     client="Major Automotive OEM"
+     industry="Automotive"
+     material="ABS / Polycarbonate"
+     quantity="500,000 units/year"
+     challenge="Needed high-strength brackets with tight tolerances"
+     solution="Implemented precision injection molding with X-ray inspection"
+     result="Achieved 99.8% quality rate, reduced defect rate by 40%"
+   >}} */ -}}
+{{- $p := .Params -}}
+
+{{- if $p.title -}}
+<div class="case-study shortcode-case-study">
+  <div class="case-study-header">
+    <h3>{{ $p.title }}</h3>
+    {{ with $p.client }}<span class="case-study-client">Client: {{ . }}</span>{{ end }}
+    {{ with $p.industry }}<span class="case-study-industry tag">{{ . }}</span>{{ end }}
+  </div>
+  <div class="case-study-body">
+    {{ with $p.material }}
+    <div class="case-study-detail">
+      <span class="detail-label">Material:</span>
+      <span class="detail-value">{{ . }}</span>
+    </div>
+    {{ end }}
+    {{ with $p.quantity }}
+    <div class="case-study-detail">
+      <span class="detail-label">Quantity:</span>
+      <span class="detail-value">{{ . }}</span>
+    </div>
+    {{ end }}
+    {{ with $p.challenge }}
+    <div class="case-study-section">
+      <h4>Challenge</h4>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+    {{ with $p.solution }}
+    <div class="case-study-section">
+      <h4>Solution</h4>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+    {{ with $p.result }}
+    <div class="case-study-section">
+      <h4>Result</h4>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{- else -}}
+{{ .Inner | markdownify }}
+{{- end -}}

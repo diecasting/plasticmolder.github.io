@@ -1,0 +1,47 @@
+{{- /* head.html — Document head with SEO meta and GEO Schema rendering */ -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ $ot := (index hugo.Data.schema.organization .Site.Language.Lang).site_title }}{{ if $ot }}{{ $ot }}{{ else }}{{ .Site.Title }}{{ end }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+{{ with .Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+<meta name="author" content="{{ .Site.Params.Author.name }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ with .Site.Language.Params.locale }}<meta property="og:locale" content="{{ . | replace "-" "_" }}">{{ end }}
+
+<!-- hreflang alternates -->
+{{ if .IsTranslated -}}
+<link rel="alternate" hreflang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}" href="{{ .Permalink }}">
+{{ range .Translations -}}
+<link rel="alternate" hreflang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}" href="{{ .Permalink }}">
+{{ end -}}
+{{ range where .AllTranslations "Language.Lang" "en" -}}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{ end -}}
+{{ end -}}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp{{ end }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+{{ with .Description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+<meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp{{ end }}">
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "RSS" }}<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">{{ end }}
+
+<!-- Favicon -->
+<link rel="icon" href="{{ "favicon.ico" | absURL }}">
+
+<!-- CSS -->
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<!-- GEO Schema Rendering Engine -->
+{{ partial "schema/render.html" . }}

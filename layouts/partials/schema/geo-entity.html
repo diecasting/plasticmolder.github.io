@@ -1,0 +1,64 @@
+{{- /* schema/geo-entity.html — Geographic Entity & Area Served JSON-LD
+   Data source: locations.toml, industries.toml
+   Called by: schema/render.html (homepage) */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $locations := hugo.Data.schema.locations -}}
+{{- $industries := hugo.Data.schema.industries -}}
+
+{{- range $loc := $locations.locations -}}
+{{- $locText := index (index $locations $lang) $loc.id -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "@id": "{{ printf "%s#place-%s" $.Site.BaseURL $loc.id | safeJS }}",
+  "name": "{{ $locText.name | safeJS }}",
+  {{ with $locText.description }}"description": "{{ . | safeJS }}",{{ end }}
+  "address": {
+    "@type": "PostalAddress",
+    {{ with $loc.address_locality }}"addressLocality": "{{ . | safeJS }}",{{ end }}
+    {{ with $loc.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
+    {{ with $loc.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}
+  },
+  {{ with $loc.latitude -}}
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ . }},
+    "longitude": {{ $loc.longitude }}
+  },
+  {{ end -}}
+  {{ with $locText.address_display -}}
+  "displayAddress": "{{ . | safeJS }}"
+  {{- else -}}
+  "displayAddress": "{{ printf "%s, %s, %s" $loc.address_locality $loc.address_region $loc.address_country | safeJS }}"
+  {{- end -}}
+}
+</script>
+{{- end -}}
+
+{{- if $industries.industries -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "{{ printf "%s#areas-served" .Site.BaseURL | safeJS }}",
+  "name": "Industries Served",
+  "itemListElement": [
+    {{ range $i, $ind := $industries.industries -}}
+    {{- $indText := index (index $industries $lang) $ind.id -}}
+    {{- if $i }}, {{ end -}}
+    {
+      "@type": "ListItem",
+      "position": {{ $ind.sort_order }},
+      "item": {
+        "@type": "Thing",
+        "name": "{{ $indText.name | safeJS }}",
+        "description": "{{ $indText.description | safeJS }}"
+      }
+    }
+    {{- end -}}
+  ]
+}
+</script>
+{{- end -}}

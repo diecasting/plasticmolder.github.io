@@ -1,0 +1,26 @@
+{{- /* sections/materials.html — Material grades showcase
+   Data: products.toml material_family and material_grades */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $products := hugo.Data.schema.products -}}
+<section class="section section-materials" id="materials">
+  <div class="container">
+    <h2 class="section-title">Materials</h2>
+    <div class="materials-grid">
+      {{ range $products.products }}
+      {{ if .material_grades }}
+      <div class="material-card">
+        <h3>{{ .material_family }}</h3>
+        <div class="material-grades">
+          {{ range .material_grades }}
+          <span class="grade-badge">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ with .alloy_designations }}
+        <p class="alloy-info">{{ delimit . ", " }}</p>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

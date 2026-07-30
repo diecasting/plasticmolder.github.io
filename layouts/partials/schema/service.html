@@ -1,0 +1,68 @@
+{{- /* schema/service.html — Service JSON-LD
+   Data source: services.toml, industries.toml
+   Called by: schema/render.html (service pages)
+   Front Matter override: schema.about, schema.mentions */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $services := hugo.Data.schema.services -}}
+{{- $industries := hugo.Data.schema.industries -}}
+{{- $matchedID := .Scratch.Get "schema_matched_service" -}}
+
+{{- $serviceEntry := "" -}}
+{{- range $services.services -}}
+  {{- if eq .id $matchedID -}}
+    {{- $serviceEntry = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $svcLocalized := index $services $lang -}}
+{{- $svcText := index $svcLocalized $matchedID -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "{{ printf "%s#service" .Permalink | safeJS }}",
+  "name": "{{ $svcText.name | safeJS }}",
+  {{ with $svcText.description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ .Permalink | safeJS }}",
+  "serviceType": "{{ $serviceEntry.schema_type | safeJS }}",
+  "provider": {
+    "@type": "Organization",
+    "@id": "{{ printf "%s#organization" .Site.BaseURL | safeJS }}"
+  }
+  {{- if $industries.industries -}}
+  ,
+  "areaServed": [
+    {{ range $i, $ind := $industries.industries -}}
+    {{- $indText := index (index $industries $lang) $ind.id -}}
+    {{- if $i }}, {{ end -}}
+    {
+      "@type": "Thing",
+      "name": "{{ $indText.name | safeJS }}"
+    }
+    {{- end -}}
+  ]
+  {{- end -}}
+  {{- with .Params.schema.about -}}
+  ,
+  "about": {
+    "@type": "Thing",
+    "url": "{{ . | safeJS }}"
+  }
+  {{- end -}}
+  {{- with .Params.schema.mentions -}}
+  ,
+  "mentions": [
+    {{ range $i, $m := . -}}
+    {{- if $i }}, {{ end -}}
+    {{- if (reflect.IsMap $m) -}}
+      { "@id": "{{ $m.url | safeJS }}" }
+    {{- else -}}
+      "{{ $m | safeJS }}"
+    {{- end -}}
+    {{- end -}}
+  ]
+  {{- end -}}
+}
+</script>

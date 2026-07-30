@@ -1,0 +1,53 @@
+{{- /* schema/organization.html — Organization JSON-LD
+   Data source: data/schema/organization.toml
+   Called by: schema/render.html (homepage) */ -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $org := hugo.Data.schema.organization -}}
+{{- $localized := index $org $lang -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ printf "%s#organization" .Site.BaseURL | safeJS }}",
+  "name": "{{ $localized.name | safeJS }}",
+  "legalName": "{{ $org.identity.legal_name | safeJS }}",
+  "url": "{{ $org.identity.url | safeJS }}",
+  "logo": "{{ $org.identity.logo | absURL | safeJS }}",
+  {{ with $org.identity.images -}}
+  "image": [
+    {{ range $i, $img := . -}}
+    {{- if $i }}, {{ end -}}"{{ $img | absURL | safeJS }}"
+    {{- end -}}
+  ],
+  {{ end -}}
+  "description": "{{ $localized.description | safeJS }}",
+  {{ with $localized.keywords -}}
+  "keywords": [
+    {{ range $i, $kw := . -}}
+    {{- if $i }}, {{ end -}}"{{ $kw | safeJS }}"
+    {{- end -}}
+  ],
+  {{ end -}}
+  "address": {
+    "@type": "PostalAddress",
+    {{ with $org.identity.address_locality }}"addressLocality": "{{ . | safeJS }}",{{ end }}
+    {{ with $org.identity.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
+    {{ with $org.identity.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}
+  }
+  {{- with .Params.schema.mentions -}}
+  ,
+  "mentions": [
+    {{ range $i, $m := . -}}
+    {{- if $i }}, {{ end -}}
+    {{- if (reflect.IsMap $m) -}}
+      { "@id": "{{ $m.url | safeJS }}" }
+    {{- else -}}
+      "{{ $m | safeJS }}"
+    {{- end -}}
+    {{- end -}}
+  ]
+  {{- end -}}
+}
+</script>

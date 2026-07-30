@@ -1,0 +1,26 @@
+{{- /* sections/capabilities.html — Capabilities grid
+   Data: manufacturing.toml process_types and equipment */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $mfg := hugo.Data.schema.manufacturing -}}
+{{- $mfgLocalized := index $mfg $lang -}}
+<section class="section section-capabilities" id="capabilities">
+  <div class="container">
+    <h2 class="section-title">Our Capabilities</h2>
+    {{ with $mfgLocalized.capabilities_description }}<p class="section-description">{{ . }}</p>{{ end }}
+    <div class="capabilities-grid">
+      {{ range $i, $pt := $mfgLocalized.process_types }}
+      <div class="capability-card">
+        <h3>{{ $pt }}</h3>
+      </div>
+      {{ end }}
+    </div>
+    {{ with $mfg.equipment.key_equipment }}
+    <div class="equipment-list">
+      <h3>Key Equipment</h3>
+      <ul>
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</section>
