@@ -56,7 +56,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+image: "images/plastic-injection-molding-factory.webp"
 schema:
   faq:
     - question: "What is included in your molding service?"
@@ -74,7 +74,7 @@ Buyers rarely want one isolated operation; they want a manufacturing partner who
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring">
+{{< img src="images/plastic-injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring" >}}
 <figcaption>Our Dongguan molding floor runs 50T-800T presses under centralized process monitoring for consistent high-volume output.</figcaption>
 </figure>
 <h2 id=engineering-considerations>Engineering Considerations</h2>
@@ -88,7 +88,7 @@ Buyers rarely want one isolated operation; they want a manufacturing partner who
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 <h2 id=industries>Industries</h2>

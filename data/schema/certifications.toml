@@ -1,6 +1,11 @@
 # ==========================================================================
-# certifications.toml — PlasticMolder Quality Certifications
+# certifications.toml — PlasticMolder Quality & Certifications
+# Editable data: add or edit entries under [[certifications]] and their
+# localized descriptions under [lang.id]. The section note is localized
+# under [lang] note.
 # ==========================================================================
+
+note = "Quality systems and manufacturing standards available upon request."
 
 [[certifications]]
 id = "iso-9001"
@@ -9,24 +14,93 @@ sort_order = 1
 issue_authority = "International Organization for Standardization"
 url = "https://www.iso.org/standard/62085.html"
 
+[[certifications]]
+id = "iatf-16949"
+code = "IATF 16949"
+sort_order = 2
+issue_authority = "International Automotive Task Force"
+url = "https://www.iatf-global-oversight.org/"
+
+[[certifications]]
+id = "iso-13485"
+code = "ISO 13485"
+sort_order = 3
+issue_authority = "International Organization for Standardization"
+url = "https://www.iso.org/standard/56241.html"
+
 # --- Localized descriptions ---
 
 [en.iso-9001]
 name = "ISO 9001 Quality Management System"
-description = "Certified quality management system covering mold manufacturing, injection molding and inspection processes for consistent product quality."
+description = "Quality management system providing the foundation for process control, material traceability and continuous improvement across mold manufacturing and injection molding."
+
+[en.iatf-16949]
+name = "IATF 16949 Automotive Quality"
+description = "Automotive quality management standard for serial production supply. Quality systems and manufacturing standards available upon request for automotive programs."
+
+[en.iso-13485]
+name = "ISO 13485 Medical Devices"
+description = "Quality management system for medical device manufacturing. Quality systems and manufacturing standards available upon request for medical programs."
+
+[en]
+note = "Quality systems and manufacturing standards available upon request."
 
 [de.iso-9001]
 name = "ISO 9001 Qualitätsmanagementsystem"
-description = "Zertifiziertes Qualitätsmanagementsystem für Werkzeugbau, Spritzguss und Prüfprozesse zur gleichbleibenden Produktqualität."
+description = "Qualitätsmanagementsystem als Grundlage für Prozesskontrolle, Materialrückverfolgbarkeit und kontinuierliche Verbesserung im Werkzeugbau und Spritzguss."
+
+[de.iatf-16949]
+name = "IATF 16949 Automobilqualität"
+description = "Automobil-Qualitätsmanagementstandard für die Serienfertigung. Qualitätssysteme und Fertigungsstandards auf Anfrage für Automotive-Projekte verfügbar."
+
+[de.iso-13485]
+name = "ISO 13485 Medizinprodukte"
+description = "Qualitätsmanagementsystem für die Medizinproduktefertigung. Qualitätssysteme und Fertigungsstandards auf Anfrage für Medizinprojekte verfügbar."
+
+[de]
+note = "Qualitätssysteme und Fertigungsstandards auf Anfrage verfügbar."
 
 [ja.iso-9001]
 name = "ISO 9001 品質マネジメントシステム"
-description = "金型製作、射出成形、検査プロセスを対象とした認証品質マネジメントシステム。"
+description = "金型製作および射出成形におけるプロセス管理、材料トレーサビリティ、継続的改善の基盤となる品質マネジメントシステム。"
+
+[ja.iatf-16949]
+name = "IATF 16949 自動車産業品質"
+description = "量産供給のための自動車産業品質マネジメント規格。自動車プログラム向けの品質システムおよび製造基準はご要望に応じてご用意可能です。"
+
+[ja.iso-13485]
+name = "ISO 13485 医療機器"
+description = "医療機器製造のための品質マネジメントシステム。医療プログラム向けの品質システムおよび製造基準はご要望に応じてご用意可能です。"
+
+[ja]
+note = "品質システムおよび製造基準はご要望に応じてご用意可能です。"
 
 [fr.iso-9001]
 name = "Système de management de la qualité ISO 9001"
-description = "Système qualité certifié couvrant la fabrication de moules, le moulage par injection et les processus d'inspection."
+description = "Système qualité assurant le contrôle des processus, la traçabilité des matières et l'amélioration continue dans la fabrication de moules et le moulage par injection."
+
+[fr.iatf-16949]
+name = "Qualité automobile IATF 16949"
+description = "Norme de management de la qualité automobile pour la production en série. Systèmes qualité et standards de fabrication disponibles sur demande pour les programmes automobiles."
+
+[fr.iso-13485]
+name = "Dispositifs médicaux ISO 13485"
+description = "Système de management de la qualité pour la fabrication de dispositifs médicaux. Systèmes qualité et standards de fabrication disponibles sur demande pour les programmes médicaux."
+
+[fr]
+note = "Systèmes qualité et standards de fabrication disponibles sur demande."
 
 [es.iso-9001]
 name = "Sistema de gestión de calidad ISO 9001"
-description = "Sistema de calidad certificado que cubre la fabricación de moldes, el moldeo por inyección y los procesos de inspección."
+description = "Sistema de calidad que proporciona la base para el control de procesos, la trazabilidad de materiales y la mejora continua en la fabricación de moldes y el moldeo por inyección."
+
+[es.iatf-16949]
+name = "Calidad automotriz IATF 16949"
+description = "Norma de gestión de calidad automotriz para suministro en serie. Sistemas de calidad y estándares de fabricación disponibles bajo pedido para programas automotrices."
+
+[es.iso-13485]
+name = "Dispositivos médicos ISO 13485"
+description = "Sistema de gestión de calidad para fabricación de dispositivos médicos. Sistemas de calidad y estándares de fabricación disponibles bajo pedido para programas médicos."
+
+[es]
+note = "Sistemas de calidad y estándares de fabricación disponibles bajo pedido."

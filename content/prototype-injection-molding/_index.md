@@ -51,7 +51,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "How fast can prototypes be delivered?"
@@ -83,7 +83,7 @@ The same file that drives the prototype can seed the production tool later, so v
 ## Materials for Prototypes
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp" alt="Medical-grade precision plastic injection molding parts">
+{{< img src="images/medical-grade-plastic-parts.webp" alt="Medical-grade precision plastic injection molding parts" >}}
 <figcaption>Medical-grade precision parts molded under controlled, traceable processes for regulated applications.</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ Prototypes are molded in the same resins planned for production:
 Matching resin to production means test results carry forward with confidence. A bracket evaluated in the wrong plastic might pass a load test it would fail in production resin — exactly the false signal a prototype is supposed to prevent.
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Prototype plastic components molded in production-grade resin for fit-and-function testing">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Prototype plastic components molded in production-grade resin for fit-and-function testing" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 

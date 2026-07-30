@@ -1,10 +1,15 @@
-{{- /* sections/certifications.html — Quality certifications
+{{- /* sections/certifications.html — Quality & Certifications
    Data: certifications.toml */ -}}
 {{- $lang := .Page.Language.Lang -}}
 {{- $certs := hugo.Data.schema.certifications -}}
+{{- $note := index (index $certs $lang) "note" -}}
 <section class="section section-certifications" id="certifications">
   <div class="container">
-    <h2 class="section-title">Quality Certifications</h2>
+    <div class="section-head">
+      <span class="eyebrow">Quality Assurance</span>
+      <h2 class="section-title">Quality &amp; Certifications</h2>
+      {{ with $note }}<p class="section-description">{{ . }}</p>{{ end }}
+    </div>
     <div class="certs-grid">
       {{ range $certs.certifications }}
       {{- $certText := index (index $certs $lang) .id -}}

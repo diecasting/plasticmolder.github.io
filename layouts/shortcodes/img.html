@@ -1,0 +1,6 @@
+{{- /* img shortcode — localizable image with absURL (project-subpath safe)
+   Usage: {{< img src="images/foo.webp" alt="Description" >}} */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $cls := .Get "class" | default "" -}}
+<img src="{{ $src | absURL }}" alt="{{ $alt }}"{{ with $cls }} class="{{ . }}"{{ end }} loading="lazy" decoding="async">

@@ -51,7 +51,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "What tool steels do you use?"
@@ -98,7 +98,7 @@ Steel selection drives mold life, surface quality, and cost. The choice should f
 The right steel is the cheapest choice over the life of the program, not the cheapest choice on the purchase order. Specifying S136 for a medical resin that would corrode a standard steel avoids a failure no inspection can catch after the fact.
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Components molded from precision injection molds fabricated in-house">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Components molded from precision injection molds fabricated in-house" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ Hot-runner molds eliminate cold sprue waste, shorten cycle times, and improve pa
 ## Why In-House Tooling Protects Your Program
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring">
+{{< img src="images/plastic-injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring" >}}
 <figcaption>Our Dongguan molding floor runs 50T-800T presses under centralized process monitoring for consistent high-volume output.</figcaption>
 </figure>
 

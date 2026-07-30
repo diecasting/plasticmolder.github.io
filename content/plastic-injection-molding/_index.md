@@ -55,7 +55,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+image: "images/plastic-injection-molding-factory.webp"
 schema:
   faq:
     - question: "What is plastic injection molding?"
@@ -107,7 +107,7 @@ Selection is matched to function, environment, and regulatory requirements. For 
 ## Equipment and Plant Capacity
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring">
+{{< img src="images/plastic-injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring" >}}
 <figcaption>Our Dongguan molding floor runs 50T-800T presses under centralized process monitoring for consistent high-volume output.</figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ The plant runs a fleet of computerized machines from 50T to 800T, all with close
 ## Applications and Where They Fail
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 
@@ -135,7 +135,7 @@ Precision molding appears wherever a part must be light, consistent, and produce
 For EV and energy storage programs, battery module and charging hardware components are produced using flame-retardant engineering resins under controlled process discipline, where a single non-conforming part can affect an entire pack.
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/ev-charging-pile-battery-module-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins">
+{{< img src="images/ev-battery-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins" >}}
 <figcaption>EV charging and battery-module components molded from flame-retardant, thermally stable resins.</figcaption>
 </figure>
 

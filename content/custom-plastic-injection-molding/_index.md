@@ -54,7 +54,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "What does custom injection molding include?"
@@ -106,7 +106,7 @@ The goal is the resin that meets performance and cost targets simultaneously, no
 Custom tools run on the same 50T–800T fleet used for standard production, with hot-runner and multi-cavity options for volume. Robotic handling and automated inspection keep bespoke parts consistent from first shot to last, and cavity-pressure monitoring confirms every shot fills completely. Because the tool and the press are designed together, the tool is tuned to the machine it actually runs on rather than to a generic specification.
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Custom-molded industrial and electronic plastic components produced to customer drawings">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Custom-molded industrial and electronic plastic components produced to customer drawings" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ Custom programs span automotive, medical, electronics, and industrial sectors, a
 ## Quality Control for Custom Work
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp" alt="Medical-grade precision plastic injection molding parts">
+{{< img src="images/medical-grade-plastic-parts.webp" alt="Medical-grade precision plastic injection molding parts" >}}
 <figcaption>Medical-grade precision parts molded under controlled, traceable processes for regulated applications.</figcaption>
 </figure>
 

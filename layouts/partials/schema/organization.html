@@ -14,7 +14,6 @@
   "name": "{{ $localized.name | safeJS }}",
   "legalName": "{{ $org.identity.legal_name | safeJS }}",
   "url": "{{ $org.identity.url | safeJS }}",
-  "logo": "{{ $org.identity.logo | absURL | safeJS }}",
   {{ with $org.identity.images -}}
   "image": [
     {{ range $i, $img := . -}}

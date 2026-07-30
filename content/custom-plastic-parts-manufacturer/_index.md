@@ -52,7 +52,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "Can you mold multi-material parts?"
@@ -72,7 +72,7 @@ Many buyers do not need a molding process described to them - they need a finish
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 <h2 id=engineering-considerations>Engineering Considerations</h2>
@@ -86,7 +86,7 @@ Many buyers do not need a molding process described to them - they need a finish
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp" alt="Medical-grade precision plastic injection molding parts">
+{{< img src="images/medical-grade-plastic-parts.webp" alt="Medical-grade precision plastic injection molding parts" >}}
 <figcaption>Medical-grade precision parts molded under controlled, traceable processes for regulated applications.</figcaption>
 </figure>
 <h2 id=industries>Industries</h2>

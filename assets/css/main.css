@@ -331,6 +331,9 @@ p { margin-bottom: 1rem; }
   border-color: var(--brand); outline: none; box-shadow: 0 0 0 3px var(--brand-50);
 }
 .btn-submit { margin-top: 6px; }
+.form-group input[type="file"] { padding: 10px 12px; font-size: .9rem; cursor: pointer; background: #fff; }
+.form-help { margin: 7px 0 0; font-size: .82rem; color: var(--text); line-height: 1.5; }
+.form-help-secondary { color: #6b7785; margin-top: 3px; }
 
 /* ==========================================================================
    Article / Content (rendered markdown)

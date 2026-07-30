@@ -52,7 +52,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "What quantities suit low volume molding?"
@@ -88,7 +88,7 @@ Crucially, the tool is right-sized to the volume, not to a forecast you are not 
 Low volume runs use the same engineering resins as production — ABS, PC, PP, PA, POM, and TPU — molded on the 50T–800T fleet with cavity-pressure control. Parts meet the same ±0.02 mm tolerance standard as higher-volume work, because the press and process, not the tool steel, set the dimensional capability. The only difference is the economic life of the tool, not the quality of the part it produces.
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Small-batch plastic components produced through low volume injection molding">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Small-batch plastic components produced through low volume injection molding" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ Each application values responsiveness over unit price. A spare part needed next
 ## Industries Served by Short Runs
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/ev-charging-pile-battery-module-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins">
+{{< img src="images/ev-battery-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins" >}}
 <figcaption>EV charging and battery-module components molded from flame-retardant, thermally stable resins.</figcaption>
 </figure>
 

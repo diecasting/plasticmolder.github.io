@@ -48,7 +48,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp"
+image: "images/medical-grade-plastic-parts.webp"
 schema:
   faq:
     - question: "Is your medical molding cleanroom-compatible?"
@@ -66,7 +66,7 @@ Medical devices leave no room for a part that is almost right. Precision medical
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp" alt="Medical-grade precision plastic injection molding parts">
+{{< img src="images/medical-grade-plastic-parts.webp" alt="Medical-grade precision plastic injection molding parts" >}}
 <figcaption>Medical-grade precision parts molded under controlled, traceable processes for regulated applications.</figcaption>
 </figure>
 <h2 id=engineering-considerations>Engineering Considerations</h2>
@@ -80,7 +80,7 @@ Medical devices leave no room for a part that is almost right. Precision medical
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring">
+{{< img src="images/plastic-injection-molding-factory.webp" alt="Injection molding factory floor in Dongguan, China with 50T to 800T presses under centralized monitoring" >}}
 <figcaption>Our Dongguan molding floor runs 50T-800T presses under centralized process monitoring for consistent high-volume output.</figcaption>
 </figure>
 <h2 id=industries>Industries</h2>

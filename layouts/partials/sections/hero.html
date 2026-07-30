@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="hero-media">
-      {{ with .Params.image }}<img src="{{ . }}" alt="PlasticMolder injection molding factory in Dongguan, China" width="640" height="500" loading="eager" fetchpriority="high" decoding="async">{{ end }}
+      {{ with .Params.image }}<img src="{{ . | absURL }}" alt="Custom plastic injection molding factory producing OEM plastic parts in Dongguan, China" width="640" height="500" loading="eager" fetchpriority="high" decoding="async">{{ end }}
     </div>
   </div>
 </section>

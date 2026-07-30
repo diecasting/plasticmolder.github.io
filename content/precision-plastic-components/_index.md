@@ -52,7 +52,7 @@ surface_finishing:
     - "Laser Engraving"
     - "Ultrasonic Welding"
 geo_entity: "Dongguan, Guangdong, China"
-image: "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+image: "images/custom-plastic-parts-manufacturing.webp"
 schema:
   faq:
     - question: "What is your tightest molding tolerance?"
@@ -70,7 +70,7 @@ Precision is not a tolerance number on a drawing - it is a process capability th
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines">
+{{< img src="images/custom-plastic-parts-manufacturing.webp" alt="Precision industrial and electronic plastic components produced on injection molding lines" >}}
 <figcaption>Representative precision components for industrial and electronics assemblies, molded to tight tolerances and cosmetic specs.</figcaption>
 </figure>
 <h2 id=engineering-considerations>Engineering Considerations</h2>
@@ -84,7 +84,7 @@ Precision is not a tolerance number on a drawing - it is a process capability th
 
 
 <figure>
-<img src="https://plasticmolder.com/wp-content/uploads/2026/03/ev-charging-pile-battery-module-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins">
+{{< img src="images/ev-battery-plastic-components.webp" alt="EV charging pile and battery module plastic components molded with flame-retardant resins" >}}
 <figcaption>EV charging and battery-module components molded from flame-retardant, thermally stable resins.</figcaption>
 </figure>
 <h2 id=industries>Industries</h2>

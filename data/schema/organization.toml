@@ -7,9 +7,8 @@
 [identity]
 legal_name = "PlasticMolder"
 url = "https://diecasting.github.io/plasticmolder.github.io/"
-logo = "https://plasticmolder.com/wp-content/uploads/logo.webp"
 images = [
-  "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+  "images/plastic-injection-molding-factory.webp"
 ]
 founding_date = "2005"
 address_street = "Dongguan Manufacturing Facility"
