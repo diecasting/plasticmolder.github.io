@@ -1,16 +1,17 @@
-{{- /* header.html — Site navigation header */ -}}
-<header class="site-header">
+{{- /* header.html — Sticky site navigation with Request Quote CTA */ -}}
+<header class="site-header" id="siteHeader">
   <nav class="nav-container">
     <a href="{{ .Site.BaseURL }}" class="nav-logo">
-      {{ .Site.Title }}
+      <span class="logo-mark">P</span>
+      <span>{{ .Site.Title }}</span>
     </a>
-    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.classList.toggle('nav-open')">
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('siteHeader').classList.toggle('nav-open')">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-menu">
       {{ range .Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
+      <li{{ if .HasChildren }} class="has-children"{{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}{{ if .HasChildren }}<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>{{ end }}</a>
         {{ if .HasChildren }}
         <ul class="nav-submenu">
           {{ range .Children }}
@@ -21,5 +22,14 @@
       </li>
       {{ end }}
     </ul>
+    <a href='{{ relLangURL "en" }}#rfq' class="btn btn-primary nav-quote">Request Quote</a>
   </nav>
 </header>
+<script>
+  (function () {
+    var h = document.getElementById('siteHeader');
+    var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>

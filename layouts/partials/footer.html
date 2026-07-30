@@ -1,31 +1,46 @@
-{{- /* footer.html — Site footer */ -}}
+{{- /* footer.html — Premium industrial 4-column footer */ -}}
 <footer class="site-footer">
   <div class="footer-container">
-    <div class="footer-col">
-      <h4>{{ .Site.Title }}</h4>
+    <div class="footer-col footer-brand">
+      <span class="logo-mark">P</span>
+      <div class="f-name">{{ .Site.Title }}</div>
       <p>{{ .Site.Params.description }}</p>
     </div>
+
     <div class="footer-col">
-      <h4>Navigation</h4>
+      <h4>Company</h4>
       <ul>
-        {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+        <li><a href='{{ relLangURL "en" }}#about'>About PlasticMolder</a></li>
+        <li><a href='{{ relLangURL "en" }}#capabilities'>Manufacturing Capability</a></li>
+        <li><a href='{{ relLangURL "en" }}#certifications'>Quality Control</a></li>
       </ul>
     </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="/en/plastic-injection-molding/">Injection Molding</a></li>
+        <li><a href="/en/plastic-injection-mold-manufacturing/">Plastic Mold Making</a></li>
+        <li><a href="/en/prototype-injection-molding/">Prototype Manufacturing</a></li>
+        <li><a href="/en/custom-plastic-parts-manufacturer/">Overmolding &amp; Secondary</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="https://plasticmolder.com/blog/" target="_blank" rel="noopener">Blog</a></li>
+        <li><a href='{{ relLangURL "en" }}#faq'>FAQ</a></li>
+        <li><a href='{{ relLangURL "en" }}#capability'>Design Guide</a></li>
+      </ul>
+    </div>
+
     <div class="footer-col">
       <h4>Contact</h4>
-      <ul>
-        {{ with .Site.Params.contact.email }}<li><a href="https://formspree.io/f/xwvgzljg">{{ . }}</a></li>{{ end }}
-        {{ with .Site.Params.contact.phone }}<li>{{ . }}</li>{{ end }}
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Legal</h4>
-      <ul>
-        {{ range .Site.Menus.footer }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+      <ul class="footer-contact">
+        <li><span class="fc-label">Company</span><span class="fc-value">Dongguan Xinpei Mold Co., Ltd.</span></li>
+        <li><span class="fc-label">Email</span><a class="fc-value" href="https://formspree.io/f/xwvgzljg">vincent@plasticmolder.com</a></li>
+        <li><span class="fc-label">Address</span><span class="fc-value">{{ .Site.Params.contact.address }}</span></li>
       </ul>
     </div>
   </div>

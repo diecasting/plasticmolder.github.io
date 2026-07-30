@@ -1,7 +1,6 @@
 # ==========================================================================
 # menus.toml — Navigation Menu (PlasticMolder)
-# URLs are language-relative; header template applies langURL prefix.
-# Services dropdown maps to planned landing pages (url_path in services.toml).
+# Internal links are /en/-prefixed for the multilingual subdirectory deployment.
 # ==========================================================================
 
 [[main]]
@@ -10,9 +9,14 @@
   weight = 1
 
 [[main]]
+  name = "Capabilities"
+  url = "/en/#capabilities"
+  weight = 2
+
+[[main]]
   name = "Services"
   url = "/en/plastic-injection-molding/"
-  weight = 2
+  weight = 3
   identifier = "services"
 
 [[main]]
@@ -46,14 +50,19 @@
   weight = 5
 
 [[main]]
-  name = "Blog"
-  url = "https://plasticmolder.com/blog/"
-  weight = 3
+  name = "Industries"
+  url = "/en/#industries"
+  weight = 4
+
+[[main]]
+  name = "Resources"
+  url = "/en/#faq"
+  weight = 5
 
 [[main]]
   name = "Contact"
-  url = "https://plasticmolder.com/contact/"
-  weight = 4
+  url = "/en/#rfq"
+  weight = 6
 
 # Footer menu
 [[footer]]

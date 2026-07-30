@@ -1,15 +1,23 @@
-{{- /* sections/hero.html — Hero section
-   Data: page front matter (title, description) + organization.toml slogan */ -}}
+{{- /* sections/hero.html — Two-column hero with factory image */ -}}
 {{- $lang := .Page.Language.Lang -}}
 {{- $org := hugo.Data.schema.organization -}}
 {{- $localized := index $org $lang -}}
 <section class="section section-hero">
-  <div class="container hero-container">
-    <h1 class="hero-title">{{ .Title | default $localized.name }}</h1>
-    {{ with .Description }}<p class="hero-description">{{ . }}</p>{{ else }}{{ with $localized.slogan }}<p class="hero-description">{{ . }}</p>{{ end }}{{ end }}
-    <div class="hero-cta">
-      <a href="#rfq" class="btn btn-primary">Request a Quote</a>
-      <a href="#capabilities" class="btn btn-secondary">Our Capabilities</a>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-eyebrow">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-5 7 5v13"/></svg>
+        Precision Manufacturing Since 2005
+      </span>
+      <h1 class="hero-title">{{ .Title | default $localized.name }}</h1>
+      <p class="hero-description">{{ with .Params.hero_subtitle }}{{ . }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ $localized.slogan }}{{ end }}{{ end }}</p>
+      <div class="hero-cta">
+        <a href="#rfq" class="btn btn-primary btn-lg">Request A Quote</a>
+        <a href="#capabilities" class="btn btn-secondary btn-lg">Explore Manufacturing Capabilities</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      {{ with .Params.image }}<img src="{{ . }}" alt="PlasticMolder injection molding factory in Dongguan, China" width="640" height="500" loading="eager" fetchpriority="high" decoding="async">{{ end }}
     </div>
   </div>
 </section>

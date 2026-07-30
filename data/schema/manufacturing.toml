@@ -17,11 +17,11 @@ key_equipment = [
 
 [processes]
 core_processes = [
-  "plastic-injection-molding",
-  "injection-mold-manufacturing",
-  "insert-molding",
-  "overmolding",
-  "quality-inspection"
+  "design-analysis",
+  "mold-manufacturing",
+  "injection-molding",
+  "quality-inspection",
+  "delivery"
 ]
 
 # --- Localized fields ---

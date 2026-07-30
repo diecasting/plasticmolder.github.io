@@ -1,5 +1,5 @@
 ---
-title: "Plastic Injection Molding Manufacturer China | Custom Plastic Parts Manufacturer"
+title: "Custom Plastic Injection Molding Manufacturer in China"
 description: "PlasticMolder is a China-based plastic injection molding manufacturer offering custom plastic parts, precision mold manufacturing, rapid prototyping, and low-volume production for automotive, medical, electronics, EV, and industrial clients worldwide."
 keywords:
   - "Plastic Injection Molding Manufacturer China"
@@ -9,12 +9,17 @@ keywords:
   - "Injection Mold Manufacturing"
   - "Prototype Injection Molding"
 translationKey: "home"
+hero_subtitle: "Precision injection molding, tooling, and plastic part manufacturing for global OEM customers."
 sections:
   - hero
+  - trust-bar
   - capabilities
+  - services
+  - capability-table
   - process
   - materials
   - industries
+  - why-choose
   - certifications
   - faq
   - rfq

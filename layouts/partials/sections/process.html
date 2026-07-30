@@ -1,20 +1,29 @@
-{{- /* sections/process.html — Manufacturing process flow
+{{- /* sections/process.html — Manufacturing process timeline
    Data: manufacturing.toml core_processes */ -}}
 {{- $lang := .Page.Language.Lang -}}
 {{- $mfg := hugo.Data.schema.manufacturing -}}
 {{- $mfgLocalized := index $mfg $lang -}}
+{{- $desc := dict
+  "design-analysis" "DFM review, material selection and mold design."
+  "mold-manufacturing" "CNC, EDM and fitting of the production mold."
+  "injection-molding" "Scientific molding on calibrated presses."
+  "quality-inspection" "SPC, FAI and CMM dimensional verification."
+  "delivery" "Packaging, logistics and on-time shipment."
+-}}
 <section class="section section-process" id="process">
   <div class="container">
-    <h2 class="section-title">Manufacturing Process</h2>
+    <div class="section-head">
+      <span class="eyebrow">How We Work</span>
+      <h2 class="section-title">Our Manufacturing Process</h2>
+      <p class="section-description">A controlled, repeatable workflow from engineering review to delivered parts.</p>
+    </div>
     <div class="process-flow">
       {{ range $i, $proc := $mfg.processes.core_processes }}
       <div class="process-step">
         <span class="step-number">{{ add $i 1 }}</span>
         <span class="step-name">{{ replace $proc "-" " " | title }}</span>
+        {{ with index $desc $proc }}<span class="step-desc">{{ . }}</span>{{ end }}
       </div>
-      {{ if lt (add $i 1) (len $mfg.processes.core_processes) }}
-      <div class="process-arrow">&rarr;</div>
-      {{ end }}
       {{ end }}
     </div>
   </div>

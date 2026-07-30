@@ -1,0 +1,41 @@
+{{- /* sections/services.html — Service cards grid (homepage) */ -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $svc := hugo.Data.schema.services -}}
+{{- $svcLocalized := index $svc $lang -}}
+{{- $featured := slice "plastic-injection-molding" "plastic-injection-mold-manufacturing" "prototype-injection-molding" "custom-plastic-parts-manufacturer" "oem-plastic-parts-manufacturer" "precision-plastic-components" -}}
+{{- $imgs := dict
+  "plastic-injection-molding" "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+  "plastic-injection-mold-manufacturing" "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+  "prototype-injection-molding" "https://plasticmolder.com/wp-content/uploads/2026/03/medical-grade-precision-plastic-injection-molding-parts.webp"
+  "custom-plastic-parts-manufacturer" "https://plasticmolder.com/wp-content/uploads/2026/03/ev-charging-pile-battery-module-plastic-components.webp"
+  "oem-plastic-parts-manufacturer" "https://plasticmolder.com/wp-content/uploads/2026/03/injection-molding-factory.webp"
+  "precision-plastic-components" "https://plasticmolder.com/wp-content/uploads/2026/03/precision-industrial-electronic-plastic-components.webp"
+-}}
+<section class="section section-services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What We Do</span>
+      <h2 class="section-title">Injection Molding &amp; Mold Manufacturing Services</h2>
+      <p class="section-description">From prototype to high-volume production, we deliver precision plastic components and the tooling behind them.</p>
+    </div>
+    <div class="services-grid">
+      {{ range $featured }}
+      {{- $id := . -}}
+      {{- $meta := index $svcLocalized $id -}}
+      {{- $url := printf "/en/%s/" $id -}}
+      <article class="service-card">
+        <a class="service-media" href="{{ $url }}" aria-label="{{ $meta.name }}">
+          <img src="{{ index $imgs $id }}" alt="{{ $meta.name }} — PlasticMolder" loading="lazy" decoding="async" width="600" height="375">
+        </a>
+        <div class="service-body">
+          <h3><a href="{{ $url }}">{{ $meta.name }}</a></h3>
+          <p>{{ $meta.description }}</p>
+          <a class="service-link" href="{{ $url }}">Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
