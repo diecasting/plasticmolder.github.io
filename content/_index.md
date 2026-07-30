@@ -13,6 +13,7 @@ hero_subtitle: "Precision injection molding, tooling, and plastic part manufactu
 sections:
   - hero
   - trust-bar
+  - capability-overview
   - capabilities
   - services
   - process

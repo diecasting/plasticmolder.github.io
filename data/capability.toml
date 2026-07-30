@@ -1,0 +1,38 @@
+# ==========================================================================
+# capability.toml — PlasticMolder Manufacturing Capability Overview
+# --------------------------------------------------------------------------
+# Editable data for the homepage "Manufacturing Capability Overview" section.
+# Update any value here to change the rendered section without touching HTML.
+# ==========================================================================
+
+# Section title
+title = "Plastic Injection Molding Manufacturing Capability"
+
+# Factory location (buyer confidence element)
+factory_location = "Dongguan, China"
+
+# Core capability offerings (rendered as capability cards)
+capabilities = [
+  "Custom Injection Molding",
+  "Plastic Mold Manufacturing",
+  "Prototype Development",
+  "Secondary Operations"
+]
+
+# --- Editable specification values ---
+injection_machine_range = "50T – 800T"
+tolerance               = "±0.01 mm"
+production_volume       = "Prototype to 1,000,000+ parts / year"
+lead_time               = "Tooling 15–25 days · Production 5–10 days"
+dfm_feedback            = "Engineering review within 24 hours"
+
+# Materials molded (rendered as chips)
+materials = [
+  "ABS",
+  "PC",
+  "PA",
+  "POM",
+  "PP",
+  "PE",
+  "TPU"
+]

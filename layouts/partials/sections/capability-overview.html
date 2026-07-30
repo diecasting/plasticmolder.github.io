@@ -1,0 +1,45 @@
+{{- /* sections/capability-overview.html — Manufacturing Capability Overview
+   Data-driven from data/capability.toml (editable).
+   Reuses existing .section / .section-head / .card-icon design tokens. */ -}}
+{{- $cap := hugo.Data.capability -}}
+<section class="section section-cap-overview" id="cap-overview">
+  <div class="container">
+    <div class="section-head left cap-overview-head">
+      <span class="eyebrow">Manufacturing Capability Overview</span>
+      {{ with $cap.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+      {{ with $cap.factory_location }}
+      <p class="cap-overview-loc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Factory: {{ . }}
+      </p>
+      {{ end }}
+    </div>
+
+    {{ with $cap.capabilities }}
+    <div class="cap-overview-grid">
+      {{ range . }}
+      <div class="cap-overview-card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg>
+        </div>
+        <h3>{{ . }}</h3>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="cap-spec-grid">
+      {{ with $cap.injection_machine_range }}<div class="cap-spec-card"><span class="cap-spec-label">Injection Machine Range</span><span class="cap-spec-value">{{ . }}</span></div>{{ end }}
+      {{ with $cap.tolerance }}<div class="cap-spec-card"><span class="cap-spec-label">Dimensional Tolerance</span><span class="cap-spec-value">{{ . }}</span></div>{{ end }}
+      {{ with $cap.production_volume }}<div class="cap-spec-card"><span class="cap-spec-label">Production Volume</span><span class="cap-spec-value">{{ . }}</span></div>{{ end }}
+      {{ with $cap.lead_time }}<div class="cap-spec-card"><span class="cap-spec-label">Lead Time</span><span class="cap-spec-value">{{ . }}</span></div>{{ end }}
+      {{ with $cap.dfm_feedback }}<div class="cap-spec-card cap-spec-card--accent"><span class="cap-spec-label">DFM Feedback</span><span class="cap-spec-value">{{ . }}</span></div>{{ end }}
+      {{ with $cap.materials }}
+      <div class="cap-spec-card cap-spec-card--materials">
+        <span class="cap-spec-label">Materials We Mold</span>
+        <span class="cap-spec-chips">{{ range . }}<span class="cap-chip">{{ . }}</span>{{ end }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
