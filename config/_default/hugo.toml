@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = true
 # Hugo version requirement: 0.163.3 extended
 
 # Build settings
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableGitInfo = false
 enableMissingTranslationPlaceholders = false
 
