@@ -2,7 +2,7 @@
 # hugo.toml — PlasticMolder Site Configuration
 # ==========================================================================
 
-baseURL = "https://diecasting.github.io/plasticmolder.github.io/"
+baseURL = "https://blog.plasticmolder.com/"
 title = "PlasticMolder"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

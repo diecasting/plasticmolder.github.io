@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://diecasting.github.io/plasticmolder.github.io/sitemap.xml
+Sitemap: https://blog.plasticmolder.com/sitemap.xml
