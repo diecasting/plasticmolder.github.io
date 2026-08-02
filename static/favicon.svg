@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b4a8e"/>
+      <stop offset="100%" stop-color="#1e88e5"/>
+    </linearGradient>
+    <linearGradient id="nozzleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#1e88e5"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="96" ry="96" fill="url(#bgGrad)"/>
+  <!-- Injection nozzle detail (top center) -->
+  <rect x="232" y="56" width="48" height="28" rx="6" fill="url(#nozzleGrad)" opacity="0.9"/>
+  <polygon points="232,84 280,84 268,108 244,108" fill="url(#nozzleGrad)" opacity="0.8"/>
+  <!-- Bold geometric P letter -->
+  <path d="
+    M 140 150
+    L 300 150
+    Q 382 150 382 232
+    Q 382 314 300 314
+    L 210 314
+    L 210 456
+    L 140 456
+    Z
+    M 210 212
+    L 210 252
+    L 282 252
+    Q 308 252 308 232
+    Q 308 212 282 212
+    Z
+  " fill="#ffffff"/>
+</svg>
