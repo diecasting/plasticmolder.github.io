@@ -35,6 +35,16 @@
     {{ with $org.identity.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
     {{ with $org.identity.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}
   }
+  {{ with $org.identity.founding_date }},
+  "foundingDate": "{{ . | safeJS }}"{{ end }}
+  {{ with $org.identity.contact_email }},
+  "email": "{{ . | safeJS }}"{{ end }}
+  {{ with $org.identity.area_served }},
+  "areaServed": [
+    {{ range $i, $a := . -}}
+    {{- if $i }}, {{ end -}}"{{ $a | safeJS }}"
+    {{- end -}}
+  ]{{ end }}
   {{- with .Params.schema.mentions -}}
   ,
   "mentions": [

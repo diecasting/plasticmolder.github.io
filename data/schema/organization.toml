@@ -18,6 +18,13 @@ address_postal = "523000"
 address_country = "China"
 contact_email = "vincent@plasticmolder.com"
 sales_email = "sales@plasticmolder.com"
+area_served = [
+  "Worldwide",
+  "China",
+  "North America",
+  "Europe",
+  "Southeast Asia"
+]
 
 # --- Localized fields ---
 
