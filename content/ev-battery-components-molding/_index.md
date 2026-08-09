@@ -96,3 +96,9 @@ Material grades are selected for flame class and thermal duty and documented per
 - [Plastic Connectors & Terminals Molding](/en/plastic-connectors-molding/)
 - [Insert Molding](/en/insert-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
+
+
+## Related Materials
+
+- [ABS Injection Molding](/en/abs-injection-molding/)
+- [Nylon (PA6 / PA66) Injection Molding](/en/nylon-injection-molding/)

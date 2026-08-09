@@ -98,3 +98,10 @@ Tooling is specified for 1,000,000+ shot life with planned maintenance. We run S
 - [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/)
 - [Low Volume Injection Molding](/en/low-volume-injection-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
+
+
+## Related Services
+
+- [Plastic Injection Mold Tooling in China — Design and Manufacturing](/en/plastic-injection-mold-tooling/)
+- [Automotive Injection Molding Manufacturer in China](/en/automotive-injection-molding/)
+- [Consumer Electronics Injection Molding Manufacturer in China](/en/consumer-electronics-injection-molding/)

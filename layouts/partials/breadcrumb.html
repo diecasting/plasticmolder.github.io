@@ -1,0 +1,28 @@
+{{- /* breadcrumb.html — visible breadcrumb (HTML only).
+   JSON-LD BreadcrumbList is rendered separately by schema/breadcrumb.html,
+   so this partial intentionally emits NO <script> and does NOT duplicate schema.
+   Trail format: Home › Category › PageTitle */ -}}
+{{- if not .IsHome -}}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    <li class="breadcrumb-item">
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
+    </li>
+    {{- if eq .Section "categories" -}}
+      {{- /* taxonomy hub / index page: current title is the last (current) crumb */ -}}
+      <li class="breadcrumb-item" aria-current="page">{{ .Title }}</li>
+    {{- else -}}
+      {{- $catLabels := dict "materials" "Materials" "applications" "Applications" "capabilities" "Capabilities" "industries" "Industries" -}}
+      {{- range .Params.categories -}}
+        {{- $term := . -}}
+        {{- with index $catLabels $term -}}
+          <li class="breadcrumb-item">
+            <a href="{{ relLangURL (printf "categories/%s/" $term) }}">{{ . }}</a>
+          </li>
+        {{- end -}}
+      {{- end -}}
+      <li class="breadcrumb-item" aria-current="page">{{ .Title }}</li>
+    {{- end -}}
+  </ol>
+</nav>
+{{- end -}}

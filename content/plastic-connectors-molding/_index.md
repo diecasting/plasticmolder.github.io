@@ -96,3 +96,9 @@ Material grade is matched to reflow temperature and flammability needs; LCP is u
 - [Precision Injection Molding](/en/precision-injection-molding/)
 - [EV & Battery Plastic Components Molding](/en/ev-battery-components-molding/)
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
+
+
+## Related Materials
+
+- [ABS Injection Molding](/en/abs-injection-molding/)
+- [Nylon (PA6 / PA66) Injection Molding](/en/nylon-injection-molding/)

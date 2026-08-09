@@ -96,3 +96,9 @@ Material and wall thickness are matched to the cycle and strength target; we use
 - [High-Volume Production Molding](/en/high-volume-production-molding/)
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Enclosures & Housings Molding](/en/enclosures-housings-molding/)
+
+
+## Related Services
+
+- [Plastic Injection Mold Tooling in China — Design and Manufacturing](/en/plastic-injection-mold-tooling/)
+- [Two-shot Injection Molding Services in China](/en/two-shot-injection-molding/)

@@ -95,3 +95,8 @@ Material pairing with glass fill or impact modifiers is selected against the loa
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
 - [Automotive Injection Molding](/en/automotive-injection-molding/)
 - [Precision Injection Molding](/en/precision-injection-molding/)
+
+
+## Related Applications
+
+- [Enclosures & Housings Molding](/en/enclosures-housings-molding/)

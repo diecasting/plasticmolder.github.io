@@ -94,3 +94,9 @@ Material hardness and grade are matched to flex, abrasion, and regulatory needs.
 - [Medical Plastic Injection Molding](/en/medical-plastic-injection-molding/)
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
+
+
+## Related Applications
+
+- [Enclosures & Housings Molding](/en/enclosures-housings-molding/)
+- [Medical Device Components Molding](/en/medical-device-components-molding/)

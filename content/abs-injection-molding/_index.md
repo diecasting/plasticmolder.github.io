@@ -95,3 +95,8 @@ Material choice between ABS and PC/ABS is made against temperature and impact ne
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/)
 - [Automotive Injection Molding](/en/automotive-injection-molding/)
+
+
+## Related Applications
+
+- [Plastic Connectors & Terminals Molding](/en/plastic-connectors-molding/)

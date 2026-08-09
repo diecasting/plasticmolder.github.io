@@ -160,3 +160,9 @@ Warpage, sink marks, short shots, and flash are symptoms of process ignorance, n
 ## Related Capabilities
 
 Industrial molding is one option in a broader toolkit. Pair it with [Automotive Injection Molding](/en/automotive-injection-molding/) for vehicle components, [Plastic Injection Mold Tooling](/en/plastic-injection-mold-tooling/) for the molds, or [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for bespoke industrial parts. See the [homepage](/en/) for the full capability overview.
+
+
+## Related Services
+
+- [OEM Plastic Parts Manufacturer & Supplier in China](/en/oem-plastic-parts-manufacturer/)
+- [Plastic Injection Molding Manufacturer in China](/en/plastic-injection-molding/)

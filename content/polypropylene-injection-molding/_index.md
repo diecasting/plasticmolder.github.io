@@ -93,3 +93,9 @@ Material grade is selected for hinge life, clarity, or chemical duty. We size to
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/)
 - [Medical Plastic Injection Molding](/en/medical-plastic-injection-molding/)
+
+
+## Related Applications
+
+- [Enclosures & Housings Molding](/en/enclosures-housings-molding/)
+- [EV & Battery Plastic Components Molding](/en/ev-battery-components-molding/)

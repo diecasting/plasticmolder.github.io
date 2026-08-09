@@ -100,3 +100,9 @@ Operations are matched to the finished-component print; we document assembly che
 - [Insert Molding](/en/insert-molding/)
 - [Overmolding](/en/overmolding/)
 - [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/)
+
+
+## Related Services
+
+- [Plastic Injection Mold Tooling in China — Design and Manufacturing](/en/plastic-injection-mold-tooling/)
+- [Consumer Electronics Injection Molding Manufacturer in China](/en/consumer-electronics-injection-molding/)

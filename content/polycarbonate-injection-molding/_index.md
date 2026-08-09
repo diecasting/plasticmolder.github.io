@@ -94,3 +94,9 @@ Material grade is matched to optical or structural needs, with hard-coat options
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Precision Injection Molding](/en/precision-injection-molding/)
 - [Medical Plastic Injection Molding](/en/medical-plastic-injection-molding/)
+
+
+## Related Applications
+
+- [Plastic Connectors & Terminals Molding](/en/plastic-connectors-molding/)
+- [Plastic Gears & Bushings Molding](/en/plastic-gears-bushings-molding/)

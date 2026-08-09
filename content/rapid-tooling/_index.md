@@ -99,3 +99,9 @@ Tool material is matched to volume and life; aluminum suits bridge runs, pre-har
 - [Plastic Injection Mold Tooling](/en/plastic-injection-mold-tooling/)
 - [Low Volume Injection Molding](/en/low-volume-injection-molding/)
 - [plastic-injection-mold-manufacturing](/en/plastic-injection-mold-manufacturing/)
+
+
+## Related Services
+
+- [Consumer Electronics Injection Molding Manufacturer in China](/en/consumer-electronics-injection-molding/)
+- [Custom Injection Molding Company in Dongguan](/en/custom-plastic-injection-molding/)

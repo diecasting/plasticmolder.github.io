@@ -8,6 +8,7 @@
    so each hub is a real commercial entry point, not just an index list. */ -}}
 {{ define "main" }}
 <div class="landing-page category-hub">
+  {{- partial "breadcrumb.html" . -}}
   {{ partial "sections/hero.html" . }}
 
   {{ with .Content }}<section class="section section-content">

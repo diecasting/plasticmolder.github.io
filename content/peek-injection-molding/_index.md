@@ -94,3 +94,9 @@ Material selection drives the outcome more than any other variable. We qualify t
 - [Precision Injection Molding](/en/precision-injection-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
 - [Cleanroom Injection Molding](/en/cleanroom-injection-molding/)
+
+
+## Related Applications
+
+- [Plastic Gears & Bushings Molding](/en/plastic-gears-bushings-molding/)
+- [Enclosures & Housings Molding](/en/enclosures-housings-molding/)

@@ -6,6 +6,12 @@
 {{ with .Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
 <meta name="author" content="{{ .Site.Params.Author.name }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- /* SEO indexing control: paginated archives (/page/) are noindex; everything else indexable */ -}}
+{{- if findRE "/page/" .RelPermalink -}}
+<meta name="robots" content="noindex,follow">
+{{- else -}}
+<meta name="robots" content="index,follow">
+{{- end -}}
 {{ with .Site.Language.Params.locale }}<meta property="og:locale" content="{{ . | replace "-" "_" }}">{{ end }}
 
 <!-- hreflang alternates -->

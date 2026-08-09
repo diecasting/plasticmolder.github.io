@@ -160,3 +160,9 @@ Sink marks, flow lines, flash, short shots, and color drift are symptoms of proc
 ## Related Capabilities
 
 Electronics molding is one option in a broader toolkit. Pair it with [Precision Injection Molding](/en/precision-injection-molding/) for tight-tolerance parts, [Two-shot Injection Molding](/en/two-shot-injection-molding/) for multi-color shells, or [Insert Molding](/en/insert-molding/) for metal-plastic connectors. See the [homepage](/en/) for the full capability overview.
+
+
+## Related Services
+
+- [Plastic Injection Mold Tooling in China — Design and Manufacturing](/en/plastic-injection-mold-tooling/)
+- [Custom Injection Molding Company in Dongguan](/en/custom-plastic-injection-molding/)

@@ -1,0 +1,17 @@
+{{- /* alias.html — Hugo redirect stubs (e.g. paginated archive /page/1/ URLs).
+   These are not real content pages; mark them noindex,follow and redirect
+   to the canonical URL. Overrides the internal alias template so pagination
+   archives are excluded from indexing per SEO requirements. */ -}}
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Permalink }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+</head>
+<body>
+  <a href="{{ .Permalink }}">Redirecting...</a>
+</body>
+</html>
