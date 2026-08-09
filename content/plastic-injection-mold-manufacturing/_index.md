@@ -1,9 +1,10 @@
 ---
-title: "Plastic Injection Mold Manufacturing"
-description: "Precision injection mold design and fabrication using P20, 718H, NAK80 and S136 tool steels with hot runner systems and 300,000+ shot guarantees."
+title: "Plastic Injection Mold Manufacturer in China"
+description: "Plastic injection mold manufacturer in China: precision mold design and fabrication in P20, 718H, NAK80 and S136 tool steels with hot runner systems and 300,000+ shot guarantees."
 keywords:
     - "injection mold manufacturing"
     - "mold making China"
+    - "plastic injection molding manufacturer China"
     - "precision mold maker"
     - "tool steel molds"
     - "hot runner molds"

@@ -1,10 +1,11 @@
 ---
-title: "Plastic Injection Molding"
-description: "Precision plastic injection molding services from 50T to 800T presses, producing custom thermoplastic components for global OEMs."
+title: "Plastic Injection Molding Manufacturer in China"
+description: "PlasticMolder is a plastic injection molding manufacturer in China, producing custom thermoplastic components on 50T-800T presses for global OEMs."
 keywords:
     - "plastic injection molding"
     - "custom plastic molding"
-    - "injection molding manufacturer China"
+    - "plastic injection molding manufacturer China"
+    - "custom injection molding company Dongguan"
     - "thermoplastic molding"
     - "plastic parts supplier"
 translationKey: "plastic-injection-molding"

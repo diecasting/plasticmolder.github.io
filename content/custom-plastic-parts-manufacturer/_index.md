@@ -1,12 +1,13 @@
 ---
-title: "Custom Plastic Parts Manufacturer"
-description: "Custom plastic parts engineered to print with insert molding, overmolding, secondary operations and assembly."
+title: "Custom Plastic Parts Manufacturer in Dongguan"
+description: "Custom plastic parts manufacturer in Dongguan engineering components to print with insert molding, overmolding, secondary operations and assembly."
 keywords:
     - "custom plastic parts"
     - "engineered plastic components"
+    - "custom injection molding company Dongguan"
+    - "automotive plastic parts supplier China"
     - "insert molding"
     - "overmolding"
-    - "plastic part fabrication"
 translationKey: "custom-plastic-parts-manufacturer"
 layout: "landing"
 sections:

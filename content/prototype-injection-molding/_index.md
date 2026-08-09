@@ -1,11 +1,12 @@
 ---
-title: "Prototype Injection Molding"
-description: "Quick-turn prototype tooling and molded prototypes in production-grade resins delivered within 7 to 15 days."
+title: "Prototype Injection Molding in China"
+description: "Prototype injection molding in China with quick-turn tooling and molded prototypes in production-grade resins delivered within 7 to 15 days."
 keywords:
     - "prototype injection molding"
     - "rapid prototype molding"
+    - "plastic injection molding manufacturer China"
+    - "custom injection molding company Dongguan"
     - "low cost prototype tooling"
-    - "pre-production samples"
     - "bridge tooling"
 translationKey: "prototype-injection-molding"
 layout: "landing"

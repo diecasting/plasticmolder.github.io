@@ -1,10 +1,11 @@
 ---
-title: "Custom Plastic Injection Molding"
-description: "Custom injection molding engineered to your part design, with DFM analysis, material selection, tooling and production managed under one roof."
+title: "Custom Injection Molding Company in Dongguan"
+description: "Custom injection molding company in Dongguan engineering parts to your design, with DFM analysis, material selection, tooling and production managed under one roof."
 keywords:
     - "custom plastic injection molding"
     - "custom molded plastics"
-    - "DFM injection molding"
+    - "custom injection molding company Dongguan"
+    - "plastic injection molding manufacturer China"
     - "bespoke plastic parts"
     - "plastic molding China"
 translationKey: "custom-plastic-injection-molding"

@@ -1,10 +1,11 @@
 ---
-title: "Low Volume Injection Molding"
-description: "Cost-effective low volume injection molding from 100 to 100,000 parts using soft steel or pre-hardened tool steel tooling."
+title: "Low Volume Injection Molding in China"
+description: "Cost-effective low volume injection molding from 100 to 100,000 parts, built by a custom injection molding company in Dongguan using soft or pre-hardened tool steel."
 keywords:
     - "low volume injection molding"
     - "small batch molding"
-    - "bridge production"
+    - "custom injection molding company Dongguan"
+    - "plastic injection molding manufacturer China"
     - "on-demand injection molding"
     - "short run molding"
 translationKey: "low-volume-injection-molding"

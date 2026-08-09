@@ -1,11 +1,12 @@
 ---
-title: "OEM Plastic Parts Manufacturer"
-description: "OEM and ODM plastic parts production for automotive, medical, electronics, EV and industrial brands worldwide."
+title: "OEM Plastic Parts Manufacturer & Supplier in China"
+description: "OEM and ODM plastic parts manufacturer and automotive plastic parts supplier in China for automotive, medical, electronics, EV and industrial brands worldwide."
 keywords:
     - "OEM plastic parts"
     - "ODM plastic manufacturer"
+    - "automotive plastic parts supplier China"
+    - "plastic injection molding manufacturer China"
     - "plastic parts supplier"
-    - "contract molding"
     - "private label plastics"
 translationKey: "oem-plastic-parts-manufacturer"
 layout: "landing"

@@ -1,11 +1,12 @@
 ---
-title: "Precision Plastic Components"
-description: "High-precision plastic components with tolerances down to ±0.01 mm and CMM-verified dimensional reports."
+title: "Precision Plastic Components Manufacturer in China"
+description: "Precision plastic components manufacturer in China holding tolerances down to ±0.01 mm, also serving as an automotive plastic parts supplier for high-tolerance applications."
 keywords:
     - "precision plastic components"
     - "high tolerance plastic parts"
+    - "plastic injection molding manufacturer China"
+    - "automotive plastic parts supplier China"
     - "CMM inspected plastics"
-    - "tight tolerance molding"
     - "precision molded parts"
 translationKey: "precision-plastic-components"
 layout: "landing"

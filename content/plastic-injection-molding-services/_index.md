@@ -1,11 +1,12 @@
 ---
-title: "Plastic Injection Molding Services"
-description: "End-to-end injection molding services covering design support, mold making, molding, assembly and quality inspection."
+title: "Plastic Injection Molding Services in China"
+description: "End-to-end plastic injection molding services in China covering design support, mold making, molding, assembly and quality inspection from a custom injection molding company in Dongguan."
 keywords:
     - "injection molding services"
     - "turnkey plastic molding"
+    - "plastic injection molding manufacturer China"
+    - "custom injection molding company Dongguan"
     - "mold to part services"
-    - "full service molding"
     - "plastic manufacturing China"
 translationKey: "plastic-injection-molding-services"
 layout: "landing"

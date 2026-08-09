@@ -1,9 +1,10 @@
 ---
-title: "Precision Medical Molding"
-description: "Medical-grade plastic injection molding with cleanroom-compatible processes, full traceability and ISO 13485-aligned quality systems."
+title: "Precision Medical Molding in China"
+description: "Medical-grade plastic injection molding from a plastic injection molding manufacturer in China, with cleanroom-compatible processes, full traceability and ISO 13485-aligned quality systems."
 keywords:
     - "medical injection molding"
     - "medical grade plastics"
+    - "plastic injection molding manufacturer China"
     - "cleanroom molding"
     - "ISO 13485 molding"
     - "precision medical parts"
