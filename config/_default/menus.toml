@@ -50,6 +50,156 @@
   weight = 5
 
 [[main]]
+  name = "Automotive Injection Molding"
+  url = "/en/automotive-injection-molding/"
+  parent = "services"
+  weight = 6
+
+[[main]]
+  name = "Medical Plastic Injection Molding"
+  url = "/en/medical-plastic-injection-molding/"
+  parent = "services"
+  weight = 7
+
+[[main]]
+  name = "Overmolding"
+  url = "/en/overmolding/"
+  parent = "services"
+  weight = 8
+
+[[main]]
+  name = "Insert Molding"
+  url = "/en/insert-molding/"
+  parent = "services"
+  weight = 9
+
+[[main]]
+  name = "Two-shot Injection Molding"
+  url = "/en/two-shot-injection-molding/"
+  parent = "services"
+  weight = 10
+
+[[main]]
+  name = "Precision Injection Molding"
+  url = "/en/precision-injection-molding/"
+  parent = "services"
+  weight = 11
+
+[[main]]
+  name = "Plastic Injection Mold Tooling"
+  url = "/en/plastic-injection-mold-tooling/"
+  parent = "services"
+  weight = 12
+
+[[main]]
+  name = "Industrial Plastic Injection Molding"
+  url = "/en/industrial-plastic-injection-molding/"
+  parent = "services"
+  weight = 13
+
+[[main]]
+  name = "Consumer Electronics Injection Molding"
+  url = "/en/consumer-electronics-injection-molding/"
+  parent = "services"
+  weight = 14
+
+[[main]]
+  name = "PEEK Injection Molding"
+  url = "/en/peek-injection-molding/"
+  parent = "services"
+  weight = 15
+
+[[main]]
+  name = "Nylon (PA6 / PA66) Injection Molding"
+  url = "/en/nylon-injection-molding/"
+  parent = "services"
+  weight = 16
+
+[[main]]
+  name = "ABS Injection Molding"
+  url = "/en/abs-injection-molding/"
+  parent = "services"
+  weight = 17
+
+[[main]]
+  name = "Polycarbonate (PC) Injection Molding"
+  url = "/en/polycarbonate-injection-molding/"
+  parent = "services"
+  weight = 18
+
+[[main]]
+  name = "Polypropylene (PP) Injection Molding"
+  url = "/en/polypropylene-injection-molding/"
+  parent = "services"
+  weight = 19
+
+[[main]]
+  name = "TPU Injection Molding"
+  url = "/en/tpu-injection-molding/"
+  parent = "services"
+  weight = 20
+
+[[main]]
+  name = "Plastic Connectors & Terminals Molding"
+  url = "/en/plastic-connectors-molding/"
+  parent = "services"
+  weight = 21
+
+[[main]]
+  name = "Medical Device Components Molding"
+  url = "/en/medical-device-components-molding/"
+  parent = "services"
+  weight = 22
+
+[[main]]
+  name = "EV & Battery Plastic Components Molding"
+  url = "/en/ev-battery-components-molding/"
+  parent = "services"
+  weight = 23
+
+[[main]]
+  name = "Plastic Gears & Bushings Molding"
+  url = "/en/plastic-gears-bushings-molding/"
+  parent = "services"
+  weight = 24
+
+[[main]]
+  name = "Enclosures & Housings Molding"
+  url = "/en/enclosures-housings-molding/"
+  parent = "services"
+  weight = 25
+
+[[main]]
+  name = "High-Volume Production Molding"
+  url = "/en/high-volume-production-molding/"
+  parent = "services"
+  weight = 26
+
+[[main]]
+  name = "Cleanroom Injection Molding"
+  url = "/en/cleanroom-injection-molding/"
+  parent = "services"
+  weight = 27
+
+[[main]]
+  name = "Rapid Tooling & Fast Tooling"
+  url = "/en/rapid-tooling/"
+  parent = "services"
+  weight = 28
+
+[[main]]
+  name = "Thin-Wall Injection Molding"
+  url = "/en/thin-wall-injection-molding/"
+  parent = "services"
+  weight = 29
+
+[[main]]
+  name = "Assembly & Secondary Operations"
+  url = "/en/assembly-secondary-operations/"
+  parent = "services"
+  weight = 30
+
+[[main]]
   name = "Industries"
   url = "/en/#industries"
   weight = 4

@@ -118,6 +118,118 @@ schema_type = "Service"
 url_path = "/consumer-electronics-injection-molding/"
 sort_order = 19
 
+
+[[services]]
+id = "peek-injection-molding"
+schema_type = "Service"
+url_path = "/peek-injection-molding/"
+sort_order = 20
+
+
+[[services]]
+id = "nylon-injection-molding"
+schema_type = "Service"
+url_path = "/nylon-injection-molding/"
+sort_order = 21
+
+
+[[services]]
+id = "abs-injection-molding"
+schema_type = "Service"
+url_path = "/abs-injection-molding/"
+sort_order = 22
+
+
+[[services]]
+id = "polycarbonate-injection-molding"
+schema_type = "Service"
+url_path = "/polycarbonate-injection-molding/"
+sort_order = 23
+
+
+[[services]]
+id = "polypropylene-injection-molding"
+schema_type = "Service"
+url_path = "/polypropylene-injection-molding/"
+sort_order = 24
+
+
+[[services]]
+id = "tpu-injection-molding"
+schema_type = "Service"
+url_path = "/tpu-injection-molding/"
+sort_order = 25
+
+
+[[services]]
+id = "plastic-connectors-molding"
+schema_type = "Service"
+url_path = "/plastic-connectors-molding/"
+sort_order = 26
+
+
+[[services]]
+id = "medical-device-components-molding"
+schema_type = "Service"
+url_path = "/medical-device-components-molding/"
+sort_order = 27
+
+
+[[services]]
+id = "ev-battery-components-molding"
+schema_type = "Service"
+url_path = "/ev-battery-components-molding/"
+sort_order = 28
+
+
+[[services]]
+id = "plastic-gears-bushings-molding"
+schema_type = "Service"
+url_path = "/plastic-gears-bushings-molding/"
+sort_order = 29
+
+
+[[services]]
+id = "enclosures-housings-molding"
+schema_type = "Service"
+url_path = "/enclosures-housings-molding/"
+sort_order = 30
+
+
+[[services]]
+id = "high-volume-production-molding"
+schema_type = "Service"
+url_path = "/high-volume-production-molding/"
+sort_order = 31
+
+
+[[services]]
+id = "cleanroom-injection-molding"
+schema_type = "Service"
+url_path = "/cleanroom-injection-molding/"
+sort_order = 32
+
+
+[[services]]
+id = "rapid-tooling"
+schema_type = "Service"
+url_path = "/rapid-tooling/"
+sort_order = 33
+
+
+[[services]]
+id = "thin-wall-injection-molding"
+schema_type = "Service"
+url_path = "/thin-wall-injection-molding/"
+sort_order = 34
+
+
+[[services]]
+id = "assembly-secondary-operations"
+schema_type = "Service"
+url_path = "/assembly-secondary-operations/"
+sort_order = 35
+
 # --- Localized service names and descriptions ---
 
 [en.plastic-injection-molding]
@@ -501,3 +613,325 @@ description = "Moldeo por inyeccion plastica industrial de carcasas, soportes y 
 [es.consumer-electronics-injection-molding]
 name = "Moldeo por inyeccion de electronica de consumo"
 description = "Moldeo por inyeccion para electronica de consumo de carcasas y conectores con tolerancias estrictas, paredes finas y superficies a color."
+
+# --- Phase 2 SEO cluster pages (new) ---
+
+[en.peek-injection-molding]
+name = "PEEK Injection Molding"
+description = "PEEK injection molding for high-temperature, chemical-resistant, and biocompatible components with tight tolerance control."
+
+[de.peek-injection-molding]
+name = "PEEK-Spritzguss"
+description = "PEEK-Spritzguss fuer hitzebestaendige, chemikalienresistente und biokompatible Bauteile mit enger Toleranzkontrolle."
+
+[ja.peek-injection-molding]
+name = "PEEK射出成形"
+description = "高温、耐薬品、生体適合性が求められる部品を高精度に成形するPEEK射出成形。"
+
+[fr.peek-injection-molding]
+name = "Moulage PEEK"
+description = "Moulage PEEK pour composants resistants a haute temperature, aux produits chimiques et biocompatibles avec controle de tolerances."
+
+[es.peek-injection-molding]
+name = "Moldeo PEEK"
+description = "Moldeo PEEK para componentes resistentes a alta temperatura, quimicos y biocompatibles con control de tolerancias."
+
+[en.nylon-injection-molding]
+name = "Nylon Injection Molding"
+description = "Nylon PA6 and PA66 injection molding for gears, bushings, and structural parts with glass-fill options."
+
+[de.nylon-injection-molding]
+name = "Nylon-Spritzguss"
+description = "Spritzguss von Nylon PA6 und PA66 fuer Zahnraeder, Buchsen und Strukturbauteile mit Glasfaserverstaerkung."
+
+[ja.nylon-injection-molding]
+name = "ナイロン射出成形"
+description = "歯車やブッシュ、構造部品向けのナイロンPA6/PA66射出成形。ガラス充填対応。"
+
+[fr.nylon-injection-molding]
+name = "Moulage nylon"
+description = "Moulage de nylon PA6 et PA66 pour engrenages, douilles et pieces structurelles avec option chargee verre."
+
+[es.nylon-injection-molding]
+name = "Moldeo de nylon"
+description = "Moldeo de nylon PA6 y PA66 para engranajes, bujes y piezas estructurales con opcion de carga de vidrio."
+
+[en.abs-injection-molding]
+name = "ABS Injection Molding"
+description = "ABS injection molding for enclosures, trims, and consumer shells with excellent surface finish."
+
+[de.abs-injection-molding]
+name = "ABS-Spritzguss"
+description = "ABS-Spritzguss fuer Gehaeuse, Leisten und Konsolen mit exzellenter Oberflaeche."
+
+[ja.abs-injection-molding]
+name = "ABS射出成形"
+description = "筐体やトリム、コンシューマーシェル向けのABS射出成形。優れた表面品質。"
+
+[fr.abs-injection-molding]
+name = "Moulage ABS"
+description = "Moulage ABS pour boitiers, garnitures et coques avec excellente finition de surface."
+
+[es.abs-injection-molding]
+name = "Moldeo ABS"
+description = "Moldeo ABS para carcasas, molduras y carcasas de consumo con excelente acabado."
+
+[en.polycarbonate-injection-molding]
+name = "Polycarbonate Injection Molding"
+description = "Polycarbonate molding for optical, lighting, and transparent housings with high impact strength."
+
+[de.polycarbonate-injection-molding]
+name = "Polycarbonat-Spritzguss"
+description = "Polycarbonat-Spritzguss fuer optische, Beleuchtungs- und transparente Gehaeuse mit hoher Schlagfestigkeit."
+
+[ja.polycarbonate-injection-molding]
+name = "ポリカーボネート射出成形"
+description = "光学・照明・透明筐体向けのポリカーボネート射出成形。高耐衝撃。"
+
+[fr.polycarbonate-injection-molding]
+name = "Moulage polycarbonate"
+description = "Moulage polycarbonate pour optique, eclairage et boitiers transparents avec haute resistance aux chocs."
+
+[es.polycarbonate-injection-molding]
+name = "Moldeo de policarbonato"
+description = "Moldeo de policarbonato para optica, iluminacion y carcasas transparentes con alta resistencia."
+
+[en.polypropylene-injection-molding]
+name = "Polypropylene Injection Molding"
+description = "Polypropylene molding for living hinges, caps, containers, and automotive ducts at low cost."
+
+[de.polypropylene-injection-molding]
+name = "Polypropylen-Spritzguss"
+description = "Polypropylen-Spritzguss fuer Lebensgelenke, Verschluesse, Behaelter und Luftkanaele kostenguenstig."
+
+[ja.polypropylene-injection-molding]
+name = "ポリプロピレン射出成形"
+description = "リビングヒンジやキャップ、容器、エアダクト向けのポリプロピレン射出成形。低コスト。"
+
+[fr.polypropylene-injection-molding]
+name = "Moulage polypropylene"
+description = "Moulage polypropylene pour charnieres, bouchons, contenants et conduits automobile a bas cout."
+
+[es.polypropylene-injection-molding]
+name = "Moldeo de polipropileno"
+description = "Moldeo de polipropileno para bisagras, tapas, contenedores y conductos a bajo costo."
+
+[en.tpu-injection-molding]
+name = "TPU Injection Molding"
+description = "TPU molding for soft-touch grips, seals, and wheels with elastomeric flexibility."
+
+[de.tpu-injection-molding]
+name = "TPU-Spritzguss"
+description = "TPU-Spritzguss fuer Weichgriffe, Dichtungen und Raeder mit elastischer Flexibilitaet."
+
+[ja.tpu-injection-molding]
+name = "TPU射出成形"
+description = "ソフトグリップやシール、車輪向けのTPU射出成形。弾性に優れる。"
+
+[fr.tpu-injection-molding]
+name = "Moulage TPU"
+description = "Moulage TPU pour poignees souples, joints et roues avec flexibilite elastomere."
+
+[es.tpu-injection-molding]
+name = "Moldeo TPU"
+description = "Moldeo TPU para agarres suaves, juntas y ruedas con flexibilidad elastomerica."
+
+[en.plastic-connectors-molding]
+name = "Plastic Connectors Molding"
+description = "Precision molding of plastic connectors and terminals for electronics, automotive, and EV systems."
+
+[de.plastic-connectors-molding]
+name = "Kunststoff-Steckverbinder"
+description = "Praezisionsspritzguss von Kunststoffsteckverbindern und Kontakten fuer Elektronik, Automobil und EV."
+
+[ja.plastic-connectors-molding]
+name = "プラスチックコネクタ成形"
+description = "電子機器、自動車、EV向けプラスチックコネクタ・端子の精密成形。"
+
+[fr.plastic-connectors-molding]
+name = "Moulage de connecteurs"
+description = "Moulage de precision de connecteurs et bornes plastiques pour electronique, automobile et EV."
+
+[es.plastic-connectors-molding]
+name = "Moldeo de conectores"
+description = "Moldeo de precision de conectores y terminales plasticos para electronica, automocion y EV."
+
+[en.medical-device-components-molding]
+name = "Medical Device Components Molding"
+description = "Molding of medical device components under ISO 13485-controlled, cleanroom-compatible processes."
+
+[de.medical-device-components-molding]
+name = "Medizinische Bauteile"
+description = "Spritzguss medizinischer Bauteile unter ISO 13485-konformen, reinraumkompatiblen Prozessen."
+
+[ja.medical-device-components-molding]
+name = "医療機器部品成形"
+description = "ISO 13485準拠のクリーンルーム対応工程で医療機器部品を成形。"
+
+[fr.medical-device-components-molding]
+name = "Composants dispositifs medicaux"
+description = "Moulage de composants de dispositifs medicaux sous processus conformes ISO 13485 et compatibles salle blanche."
+
+[es.medical-device-components-molding]
+name = "Componentes de dispositivos medicos"
+description = "Moldeo de componentes de dispositivos medicos bajo procesos ISO 13485 y compatibles con sala limpia."
+
+[en.ev-battery-components-molding]
+name = "EV & Battery Components Molding"
+description = "Molding of EV and battery plastic components with flame-retardant, heat-stable resins."
+
+[de.ev-battery-components-molding]
+name = "EV- und Batteriebauteile"
+description = "Spritzguss von EV- und Batteriebauteilen mit flammhemmenden, waermestabilen Kunststoffen."
+
+[ja.ev-battery-components-molding]
+name = "EV・バッテリー部品成形"
+description = "難燃・耐熱樹脂を用いたEV・バッテリー樹脂部品の成形。"
+
+[fr.ev-battery-components-molding]
+name = "Composants EV et batteries"
+description = "Moulage de composants EV et batteries avec resines ignifugees et thermostables."
+
+[es.ev-battery-components-molding]
+name = "Componentes EV y baterias"
+description = "Moldeo de componentes EV y baterias con resinas ignifugas y termoestables."
+
+[en.plastic-gears-bushings-molding]
+name = "Plastic Gears & Bushings Molding"
+description = "Molding of plastic gears and bushings in POM, PA, and PEEK with tight tooth geometry."
+
+[de.plastic-gears-bushings-molding]
+name = "Kunststoff-Zahnraeder"
+description = "Spritzguss von Kunststoffzahnraedern und Buchsen aus POM, PA und PEEK mit genauer Verzahnung."
+
+[ja.plastic-gears-bushings-molding]
+name = "プラスチック歯車・ブッシュ成形"
+description = "POM、PA、PEEKによるプラスチック歯車・ブッシュの精密成形。"
+
+[fr.plastic-gears-bushings-molding]
+name = "Engrenages et douilles plastiques"
+description = "Moulage d'engrenages et douilles plastiques en POM, PA et PEEK avec geometrie de denture serree."
+
+[es.plastic-gears-bushings-molding]
+name = "Engranajes y bujes plasticos"
+description = "Moldeo de engranajes y bujes plasticos en POM, PA y PEEK con geometria de diente ajustada."
+
+[en.enclosures-housings-molding]
+name = "Enclosures & Housings Molding"
+description = "Molding of plastic enclosures and housings in ABS, PC, and PP with cosmetic surfaces."
+
+[de.enclosures-housings-molding]
+name = "Gehaeuse und Kapselungen"
+description = "Spritzguss von Kunststoffgehaeusen aus ABS, PC und PP mit kosmetischen Oberflaechen."
+
+[ja.enclosures-housings-molding]
+name = "筐体・ハウジング成形"
+description = "ABS、PC、PPによるプラスチック筐体・ハウジングの成形。化粧表面対応。"
+
+[fr.enclosures-housings-molding]
+name = "Boitiers et carcassemoulage"
+description = "Moulage de boitiers et carcassemoulage en ABS, PC et PP avec surfaces cosmetiques."
+
+[es.enclosures-housings-molding]
+name = "Carcasas y alojamientos"
+description = "Moldeo de carcasas y alojamientos plasticos en ABS, PC y PP con superficies cosmeticas."
+
+[en.high-volume-production-molding]
+name = "High-Volume Production Molding"
+description = "High-volume injection molding with multi-cavity tools, automated cells, and SPC."
+
+[de.high-volume-production-molding]
+name = "Grossserien-Spritzguss"
+description = "Grossserien-Spritzguss mit Mehrfachkavitaeten, automatisierten Zellen und SPC."
+
+[ja.high-volume-production-molding]
+name = "大量生産射出成形"
+description = "多腔数金型と自動化セル、SPCによる大量生産射出成形。"
+
+[fr.high-volume-production-molding]
+name = "Moulage grande serie"
+description = "Moulage grande serie avec moules multicavites, cellules automatisees et SPC."
+
+[es.high-volume-production-molding]
+name = "Moldeo de gran volumen"
+description = "Moldeo de gran volumen con moldes multicavidad, celdas automaticas y SPC."
+
+[en.cleanroom-injection-molding]
+name = "Cleanroom Injection Molding"
+description = "Cleanroom-compatible molding for medical, optical, and electronic parts with controlled handling."
+
+[de.cleanroom-injection-molding]
+name = "Reinraum-Spritzguss"
+description = "Reinraumkompatibler Spritzguss fuer medizinische, optische und elektronische Teile."
+
+[ja.cleanroom-injection-molding]
+name = "クリーンルーム射出成形"
+description = "医療・光学・電子部品向けクリーンルーム対応射出成形。"
+
+[fr.cleanroom-injection-molding]
+name = "Moulage en salle blanche"
+description = "Moulage compatible salle blanche pour pieces medicales, optiques et electroniques."
+
+[es.cleanroom-injection-molding]
+name = "Moldeo en sala limpia"
+description = "Moldeo compatible con sala limpia para piezas medicas, opticas y electronicas."
+
+[en.rapid-tooling]
+name = "Rapid Tooling & Fast Tooling"
+description = "Rapid and fast tooling in aluminum or pre-hardened steel to cut lead time to days."
+
+[de.rapid-tooling]
+name = "Schnellwerkzeugbau"
+description = "Schneller Werkzeugbau aus Aluminium oder vorverguetetem Stahl in Tagen statt Wochen."
+
+[ja.rapid-tooling]
+name = "ラピッド金型"
+description = "アルミまたはプリハードン鋼によるラピッド金型。納期を日単位に短縮。"
+
+[fr.rapid-tooling]
+name = "Outillage rapide"
+description = "Outillage rapide en aluminium ou acier pretraite pour reduire le delai a quelques jours."
+
+[es.rapid-tooling]
+name = "Utillaje rapido"
+description = "Utillaje rapido en aluminio o acero pretratado para reducir el plazo a dias."
+
+[en.thin-wall-injection-molding]
+name = "Thin-Wall Injection Molding"
+description = "Thin-wall molding for lightweight packaging, containers, and electronics with fast cycles."
+
+[de.thin-wall-injection-molding]
+name = "Wanddickes Spritzguss"
+description = "Dunwandiger Spritzguss fuer leichte Verpackungen, Behaelter und Elektronik mit kurzen Zyklen."
+
+[ja.thin-wall-injection-molding]
+name = "薄肉射出成形"
+description = "軽量包装・容器・電子部品向け薄肉射出成形。短サイクル。"
+
+[fr.thin-wall-injection-molding]
+name = "Moulage paroi mince"
+description = "Moulage paroi mince pour emballages, contenants et electronique avec cycles rapides."
+
+[es.thin-wall-injection-molding]
+name = "Moldeo de pared fina"
+description = "Moldeo de pared fina para envases, contenedores y electronica con ciclos rapidos."
+
+[en.assembly-secondary-operations]
+name = "Assembly & Secondary Operations"
+description = "Value-added assembly and secondary operations for finished plastic components."
+
+[de.assembly-secondary-operations]
+name = "Montage und Nachbearbeitung"
+description = "Wertschopfende Montage und Nachbearbeitung fuer fertige Kunststoffteile."
+
+[ja.assembly-secondary-operations]
+name = "組立・二次加工"
+description = "完成樹脂部品向けの付加価値ある組立と二次加工。"
+
+[fr.assembly-secondary-operations]
+name = "Assemblage et operations secondaires"
+description = "Assemblage et operations secondaires a valeur ajoutee pour composants plastiques finis."
+
+[es.assembly-secondary-operations]
+name = "Montaje y operaciones secundarias"
+description = "Montaje y operaciones secundarias de valor anadido para componentes plasticos terminados."

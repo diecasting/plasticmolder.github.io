@@ -2,7 +2,7 @@
 {{- $lang := .Page.Language.Lang -}}
 {{- $svc := hugo.Data.schema.services -}}
 {{- $svcLocalized := index $svc $lang -}}
-{{- $featured := slice "plastic-injection-molding" "plastic-injection-mold-manufacturing" "prototype-injection-molding" "custom-plastic-parts-manufacturer" "oem-plastic-parts-manufacturer" "precision-plastic-components" -}}
+{{- $featured := slice "plastic-injection-molding" "plastic-injection-mold-manufacturing" "prototype-injection-molding" "custom-plastic-parts-manufacturer" "oem-plastic-parts-manufacturer" "precision-plastic-components" "automotive-injection-molding" "medical-plastic-injection-molding" "overmolding" "insert-molding" "two-shot-injection-molding" "precision-injection-molding" "plastic-injection-mold-tooling" "industrial-plastic-injection-molding" "consumer-electronics-injection-molding" -}}
 {{- $imgs := dict
   "plastic-injection-molding" "images/plastic-injection-molding-factory.webp"
   "plastic-injection-mold-manufacturing" "images/custom-plastic-parts-manufacturing.webp"
@@ -10,6 +10,15 @@
   "custom-plastic-parts-manufacturer" "images/ev-battery-plastic-components.webp"
   "oem-plastic-parts-manufacturer" "images/plastic-injection-molding-factory.webp"
   "precision-plastic-components" "images/custom-plastic-parts-manufacturing.webp"
+  "automotive-injection-molding" "images/ev-battery-plastic-components.webp"
+  "medical-plastic-injection-molding" "images/medical-grade-plastic-parts.webp"
+  "overmolding" "images/custom-plastic-parts-manufacturing.webp"
+  "insert-molding" "images/custom-plastic-parts-manufacturing.webp"
+  "two-shot-injection-molding" "images/custom-plastic-parts-manufacturing.webp"
+  "precision-injection-molding" "images/custom-plastic-parts-manufacturing.webp"
+  "plastic-injection-mold-tooling" "images/custom-plastic-parts-manufacturing.webp"
+  "industrial-plastic-injection-molding" "images/plastic-injection-molding-factory.webp"
+  "consumer-electronics-injection-molding" "images/plastic-injection-molding-factory.webp"
 -}}
 {{- $alts := dict
   "plastic-injection-molding" "Custom plastic injection molding factory producing OEM plastic parts in Dongguan, China"
@@ -18,6 +27,15 @@
   "custom-plastic-parts-manufacturer" "Custom plastic parts manufactured for EV and industrial OEM customers"
   "oem-plastic-parts-manufacturer" "OEM plastic parts production on injection molding lines from 50T to 800T"
   "precision-plastic-components" "Precision plastic components for electronics and industrial applications"
+  "automotive-injection-molding" "Automotive injection molded connectors, housings, and EV components in Dongguan, China"
+  "medical-plastic-injection-molding" "Medical-grade plastic injection molded components under ISO 13485-controlled processes"
+  "overmolding" "Overmolded components with soft-touch TPE grips bonded to rigid substrates"
+  "insert-molding" "Insert molded components with encapsulated threaded inserts and contacts"
+  "two-shot-injection-molding" "Two-shot molded hard-soft and multi-color components in a single cycle"
+  "precision-injection-molding" "Precision injection molded components holding tight tolerances with CMM verification"
+  "plastic-injection-mold-tooling" "Injection mold tooling designed and built for prototype to production"
+  "industrial-plastic-injection-molding" "Industrial injection molded housings and brackets for harsh environments"
+  "consumer-electronics-injection-molding" "Consumer electronics enclosures and connectors molded to tight tolerances"
 -}}
 <section class="section section-services" id="services">
   <div class="container">

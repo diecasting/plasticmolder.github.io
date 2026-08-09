@@ -1,0 +1,22 @@
+{{- /* taxonomy.html — Taxonomy term hub (SEO cluster hub page) */ -}}
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    <p class="list-description">Browse our {{ .Title | lower }} for plastic injection molding services, materials, and capabilities.</p>
+  </header>
+  <div class="services-grid">
+    {{ range .Pages }}
+    <article class="service-card">
+      <div class="service-body">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        <a class="service-link" href="{{ .Permalink }}">Learn more
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
