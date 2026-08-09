@@ -1,9 +1,9 @@
 {{- /* header.html — Sticky site navigation with Request Quote CTA */ -}}
 <header class="site-header" id="siteHeader">
   <nav class="nav-container">
-    <a href="{{ .Site.BaseURL }}" class="nav-logo">
+    <a href="{{ .Site.BaseURL }}" class="nav-logo" aria-label="PlasticMolder">
       <span class="logo-mark">P</span>
-      <span>{{ .Site.Title }}</span>
+      <span class="brand-visually-hidden">{{ .Site.Title }}</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('siteHeader').classList.toggle('nav-open')">
       <span></span><span></span><span></span>
@@ -21,6 +21,28 @@
         {{ end }}
       </li>
       {{ end }}
+      <li class="lang-switcher-item">
+        {{ $nativeNames := dict "en" "English" "de" "Deutsch" "ja" "日本語" "fr" "Français" "es" "Español" }}
+        <nav class="lang-switcher" aria-label="Select language">
+          <ul>
+            {{ range .Site.Languages }}
+              {{ $code := .Lang }}
+              {{ $url := "" }}
+              {{ $matched := false }}
+              {{ range $.Translations }}
+                {{ if eq .Lang $code }}{{ $url = .RelPermalink }}{{ $matched = true }}{{ end }}
+              {{ end }}
+              {{ if not $matched }}{{ $url = (printf "/%s/" $code) }}{{ end }}
+              {{ $name := index $nativeNames $code | default $code }}
+              <li>
+                <a href="{{ $url }}" hreflang="{{ $code }}" lang="{{ $code }}"
+                   {{ if eq $code $.Site.Language.Lang }}aria-current="true"{{ end }}
+                   title="{{ $name }}" aria-label="{{ $name }}">{{ $code | upper }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </nav>
+      </li>
     </ul>
     <a href='{{ relLangURL "en" }}#rfq' class="btn btn-primary nav-quote">Request Quote</a>
   </nav>

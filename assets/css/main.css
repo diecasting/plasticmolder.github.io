@@ -115,6 +115,27 @@ p { margin-bottom: 1rem; }
 .nav-submenu li a:hover { background: var(--brand-50); color: var(--brand); }
 .nav-quote { margin-left: 8px; }
 .nav-quote.btn { padding: 11px 22px; font-size: .95rem; }
+
+/* Visually hidden (accessible) — hides text but keeps it for screen readers */
+.brand-visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Multilingual language switcher (inline: EN | DE | JA | FR | ES) */
+.lang-switcher { display: flex; align-items: center; margin-left: 4px; padding: 4px 0; }
+.lang-switcher ul { display: flex; align-items: center; list-style: none; margin: 0; padding: 0; }
+.lang-switcher li { display: flex; align-items: center; }
+.lang-switcher a {
+  display: inline-flex; align-items: center;
+  font-size: .76rem; font-weight: 700; letter-spacing: .05em; line-height: 1;
+  color: var(--ink); text-decoration: none; padding: 4px 7px; border-radius: 6px;
+}
+.lang-switcher a:hover { color: var(--brand); background: var(--brand-50); }
+.lang-switcher a[aria-current="true"] { color: var(--brand); }
+.lang-switcher li:not(:last-child)::after {
+  content: ""; width: 1px; height: 13px; background: var(--line); display: inline-block;
+}
 .nav-toggle {
   display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px;
 }
