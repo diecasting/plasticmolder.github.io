@@ -64,6 +64,60 @@ schema_type = "Service"
 url_path = "/precision-medical-molding/"
 sort_order = 10
 
+[[services]]
+id = "automotive-injection-molding"
+schema_type = "Service"
+url_path = "/automotive-injection-molding/"
+sort_order = 11
+
+[[services]]
+id = "medical-plastic-injection-molding"
+schema_type = "Service"
+url_path = "/medical-plastic-injection-molding/"
+sort_order = 12
+
+[[services]]
+id = "overmolding"
+schema_type = "Service"
+url_path = "/overmolding/"
+sort_order = 13
+
+[[services]]
+id = "insert-molding"
+schema_type = "Service"
+url_path = "/insert-molding/"
+sort_order = 14
+
+[[services]]
+id = "two-shot-injection-molding"
+schema_type = "Service"
+url_path = "/two-shot-injection-molding/"
+sort_order = 15
+
+[[services]]
+id = "precision-injection-molding"
+schema_type = "Service"
+url_path = "/precision-injection-molding/"
+sort_order = 16
+
+[[services]]
+id = "plastic-injection-mold-tooling"
+schema_type = "Service"
+url_path = "/plastic-injection-mold-tooling/"
+sort_order = 17
+
+[[services]]
+id = "industrial-plastic-injection-molding"
+schema_type = "Service"
+url_path = "/industrial-plastic-injection-molding/"
+sort_order = 18
+
+[[services]]
+id = "consumer-electronics-injection-molding"
+schema_type = "Service"
+url_path = "/consumer-electronics-injection-molding/"
+sort_order = 19
+
 # --- Localized service names and descriptions ---
 
 [en.plastic-injection-molding]
@@ -265,3 +319,185 @@ description = "Componentes plásticos de alta precisión con tolerancias de hast
 [es.precision-medical-molding]
 name = "Moldeo médico de precisión"
 description = "Inyección de grado médico con procesos compatibles con sala limpia, trazabilidad total y sistemas de calidad alineados con ISO 13485."
+
+# --- Phase 1 SEO service pages (new) ---
+
+[en.automotive-injection-molding]
+name = "Automotive Injection Molding"
+description = "Automotive injection molding for connectors, housings, and EV components on 50T-800T presses with PPAP documentation and full lot traceability."
+
+[en.medical-plastic-injection-molding]
+name = "Medical Plastic Injection Molding"
+description = "Medical-grade plastic injection molding of biocompatible, tight-tolerance device components under ISO 13485-controlled cleanroom processes."
+
+[en.overmolding]
+name = "Overmolding"
+description = "Overmolding services bonding TPE and elastomers over rigid substrates for soft-touch grips, seals, and ergonomic components."
+
+[en.insert-molding]
+name = "Insert Molding"
+description = "Insert molding encapsulating threaded inserts, bushings, and contacts in thermoplastic for robust one-shot metal-plastic assemblies."
+
+[en.two-shot-injection-molding]
+name = "Two-shot Injection Molding"
+description = "Two-shot (2K) injection molding of two resins or colors in a single cycle for durable hard-soft and multi-color components."
+
+[en.precision-injection-molding]
+name = "Precision Injection Molding"
+description = "Precision injection molding holding tolerances down to ±0.01 mm on connectors, optical, and micro-feature components with CMM verification."
+
+[en.plastic-injection-mold-tooling]
+name = "Plastic Injection Mold Tooling"
+description = "Injection mold tooling design and manufacturing from prototype to multi-cavity production molds with 15-35 day lead times."
+
+[en.industrial-plastic-injection-molding]
+name = "Industrial Plastic Injection Molding"
+description = "Industrial plastic injection molding of durable housings, brackets, and functional components for harsh environments on 50T-800T presses."
+
+[en.consumer-electronics-injection-molding]
+name = "Consumer Electronics Injection Molding"
+description = "Consumer electronics injection molding of enclosures and connectors with tight tolerances, thin walls, and color-matched cosmetic surfaces."
+
+[de.automotive-injection-molding]
+name = "Automobil-Spritzguss"
+description = "Automobil-Spritzguss fuer Stecker, Gehaeuse und EV-Komponenten auf 50T-800T Maschinen mit PPAP-Dokumentation und Chargenrueckverfolgbarkeit."
+
+[de.medical-plastic-injection-molding]
+name = "Medizinischer Kunststoffspritzguss"
+description = "Medizinischer Kunststoffspritzguss biokompatibler, praeziser Bauteile unter ISO 13485-konformen Reinraumprozessen."
+
+[de.overmolding]
+name = "Umspritzen"
+description = "Umspritzdienstleistungen verbinden TPE und Elastomere mit starren Traegern fuer Weichgriffe, Dichtungen und ergonomische Teile."
+
+[de.insert-molding]
+name = "Insertspritzguss"
+description = "Insertspritzguss umschliesst Gewindeeinsaetze, Buchsen und Kontakte in Thermoplast fuer robuste Metall-Kunststoff-Bauteile."
+
+[de.two-shot-injection-molding]
+name = "Zweikomponenten-Spritzguss"
+description = "Zweikomponenten-Spritzguss (2K) zweier Kunststoffe oder Farben in einem Zyklus fuer robuste Hart-Weich- und Mehrfarbenteile."
+
+[de.precision-injection-molding]
+name = "Praezisionsspritzguss"
+description = "Praezisionsspritzguss mit Toleranzen bis ±0,01 mm fuer Stecker, optische und Mikrobauteile mit CMM-Pruefung."
+
+[de.plastic-injection-mold-tooling]
+name = "Spritzgusswerkzeugbau"
+description = "Konstruktion und Fertigung von Spritzgusswerkzeugen vom Prototyp bis zur Mehrfachkavitaet mit 15-35 Tagen Lieferzeit."
+
+[de.industrial-plastic-injection-molding]
+name = "Industrieller Kunststoffspritzguss"
+description = "Industrieller Kunststoffspritzguss langlebiger Gehaeuse, Halter und Funktionsteile fuer raue Umgebungen auf 50T-800T Maschinen."
+
+[de.consumer-electronics-injection-molding]
+name = "Elektronik-Spritzguss"
+description = "Elektronik-Spritzguss von Gehaeusen und Steckern mit engen Toleranzen, duennen Waenden und farbgleichen Oberflaechen."
+
+[ja.automotive-injection-molding]
+name = "自動車用射出成形"
+description = "50T〜800Tの成形機によるコネクタ、ハウジング、EV部品の自動車用射出成形。PPAP文書とロット追跡に対応。"
+
+[ja.medical-plastic-injection-molding]
+name = "医療用プラスチック射出成形"
+description = "ISO 13485準拠のクリーンルーム工程で生体適合性部品を高精度に成形する医療用プラスチック射出成形。"
+
+[ja.overmolding]
+name = "オーバーモールド"
+description = "硬質基体にTPEやエラストマーを接合し、ソフトグリップやシール、エルゴノミクス部品を作るオーバーモールド。"
+
+[ja.insert-molding]
+name = "インサート成形"
+description = "ねじ込みインサートやブッシュ、端子を熱可塑性樹脂で包み込む堅牢な金属‐樹脂一体化部品のインサート成形。"
+
+[ja.two-shot-injection-molding]
+name = "二色射出成形"
+description = "2種類の樹脂や色を1サイクルで成形する二色(2K)射出成形。堅牢なハード‐ソフト・多色部品に対応。"
+
+[ja.precision-injection-molding]
+name = "精密射出成形"
+description = "コネクタ、光学部品、マイクロ部品をCMM検証付きで±0.01mmの公差に成形する精密射出成形。"
+
+[ja.plastic-injection-mold-tooling]
+name = "射出成形金型製作"
+description = "試作から多腔数生産金型までの射出成形金型の設計・製作。納期15〜35日。"
+
+[ja.industrial-plastic-injection-molding]
+name = "産業用プラスチック射出成形"
+description = "50T〜800Tの成形機で過酷な環境向けの耐久性ハウジングやブラケット、機能部品を成形する産業用射出成形。"
+
+[ja.consumer-electronics-injection-molding]
+name = "民生電子部品射出成形"
+description = "民生電子機器のハウジングやコネクタを、厳しい公差と薄肉、色合わせ表面で成形する射出成形。"
+
+[fr.automotive-injection-molding]
+name = "Moulage par injection automobile"
+description = "Moulage par injection automobile de connecteurs, boitiers et composants EV sur presses 50T-800T avec documentation PPAP et tracabilite."
+
+[fr.medical-plastic-injection-molding]
+name = "Moulage par injection plastique medical"
+description = "Moulage par injection plastique de composants medicaux biocompatibles et precis sous processus salle blanche conformes ISO 13485."
+
+[fr.overmolding]
+name = "Surmoulage"
+description = "Services de surmoulage liant TPE et elastomeres sur substrats rigides pour poignees souples, joints et composants ergonomiques."
+
+[fr.insert-molding]
+name = "Moulage avec inserts"
+description = "Moulage avec inserts encapsulant inserts filetes, douilles et contacts dans des thermoplastiques pour assemblages metal-plastique robustes."
+
+[fr.two-shot-injection-molding]
+name = "Moulage par injection bi-matiere"
+description = "Moulage par injection bi-matiere (2K) de deux resines ou couleurs en un cycle pour composants dur-souple et multicolores durables."
+
+[fr.precision-injection-molding]
+name = "Moulage par injection de precision"
+description = "Moulage par injection de precision avec tolerances de ±0,01 mm pour connecteurs, optique et micro-composants verifies par MMT."
+
+[fr.plastic-injection-mold-tooling]
+name = "Outillage de moules d'injection"
+description = "Conception et fabrication d'outillages de moulage par injection du prototype a l'outillage multi-cavites avec delais de 15 a 35 jours."
+
+[fr.industrial-plastic-injection-molding]
+name = "Moulage par injection plastique industriel"
+description = "Moulage par injection plastique industriel de boitiers, supports et composants fonctionnels durables pour environnements difficiles sur presses 50T-800T."
+
+[fr.consumer-electronics-injection-molding]
+name = "Moulage par injection electronique grand public"
+description = "Moulage par injection pour l'electronique grand public de boitiers et connecteurs avec tolerances serrees, parois fines et surfaces colorimetriques."
+
+[es.automotive-injection-molding]
+name = "Moldeo por inyeccion automotriz"
+description = "Moldeo por inyeccion automotriz de conectores, carcasas y componentes EV en prensas de 50T-800T con documentacion PPAP y trazabilidad."
+
+[es.medical-plastic-injection-molding]
+name = "Moldeo por inyeccion plastica medica"
+description = "Moldeo por inyeccion plastica de componentes medicos biocompatibles y precisos bajo procesos de sala limpia conformes con ISO 13485."
+
+[es.overmolding]
+name = "Sobremoldeo"
+description = "Servicios de sobremoldeo que unen TPE y elastomeros sobre sustratos rigidos para agarres suaves, juntas y componentes ergonomicos."
+
+[es.insert-molding]
+name = "Moldeo con insertos"
+description = "Moldeo con insertos que encapsula insertos roscados, bujes y contactos en termoplasticos para ensambles robustos metal-plastico."
+
+[es.two-shot-injection-molding]
+name = "Moldeo por inyeccion bi-material"
+description = "Moldeo por inyeccion bi-material (2K) de dos resinas o colores en un ciclo para componentes duro-blandos y multicolor durables."
+
+[es.precision-injection-molding]
+name = "Moldeo por inyeccion de precision"
+description = "Moldeo por inyeccion de precision con tolerancias de ±0,01 mm para conectores, optica y microcomponentes verificados por CMM."
+
+[es.plastic-injection-mold-tooling]
+name = "Utillaje de moldes de inyeccion"
+description = "Diseno y fabricacion de utillaje de moldeo por inyeccion del prototipo a moldes multicavidad con plazos de 15 a 35 dias."
+
+[es.industrial-plastic-injection-molding]
+name = "Moldeo por inyeccion plastica industrial"
+description = "Moldeo por inyeccion plastica industrial de carcasas, soportes y componentes funcionales durables para entornos hostiles en prensas 50T-800T."
+
+[es.consumer-electronics-injection-molding]
+name = "Moldeo por inyeccion de electronica de consumo"
+description = "Moldeo por inyeccion para electronica de consumo de carcasas y conectores con tolerancias estrictas, paredes finas y superficies a color."
