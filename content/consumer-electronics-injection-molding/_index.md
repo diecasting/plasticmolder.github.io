@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "consumer-electronics-injection-molding"
 materials:
     - "PC"
@@ -62,6 +63,8 @@ schema:
       answer: "Yes. On smaller high-speed presses we mold thin-wall enclosures and high-gloss cosmetic shells with tight process control and cavity-pressure monitoring."
     - question: "Do you support color matching and decoration?"
       answer: "Yes. We color-match to standard and custom specs and support pad printing, laser engraving, and IMD foil decoration for cosmetic surfaces."
+categories:
+    - "industries"
 ---
 
 ## Consumer Electronics Injection Molding at Production Scale

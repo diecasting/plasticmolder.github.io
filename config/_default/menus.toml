@@ -1,6 +1,16 @@
 # ==========================================================================
 # menus.toml — Navigation Menu (PlasticMolder)
 # Internal links are /en/-prefixed for the multilingual subdirectory deployment.
+#
+# Top-level structure (4 semantic groups + utility links):
+#   Services     -> core molding service offerings (points to main service page)
+#   Industries   -> by-industry / application verticals (points to /categories/industries/ hub)
+#   Materials    -> by-resin molding pages (points to /categories/materials/ hub)
+#   Capabilities -> specialized techniques & production capability pages
+#                   (points to /categories/capabilities/ hub — fixes the prior
+#                    "Capabilities" anchor collision)
+# All existing URLs are preserved; links were only moved between groups.
+# "precision-plastic-components" was added to Capabilities (was missing from nav).
 # ==========================================================================
 
 [[main]]
@@ -8,15 +18,13 @@
   url = "/en/"
   weight = 1
 
-[[main]]
-  name = "Capabilities"
-  url = "/en/#capabilities"
-  weight = 2
-
+# --------------------------------------------------------------------------
+# Services
+# --------------------------------------------------------------------------
 [[main]]
   name = "Services"
   url = "/en/plastic-injection-molding/"
-  weight = 3
+  weight = 2
   identifier = "services"
 
 [[main]]
@@ -50,169 +58,200 @@
   weight = 5
 
 [[main]]
-  name = "Automotive Injection Molding"
-  url = "/en/automotive-injection-molding/"
-  parent = "services"
-  weight = 6
-
-[[main]]
-  name = "Medical Plastic Injection Molding"
-  url = "/en/medical-plastic-injection-molding/"
-  parent = "services"
-  weight = 7
-
-[[main]]
   name = "Overmolding"
   url = "/en/overmolding/"
   parent = "services"
-  weight = 8
+  weight = 6
 
 [[main]]
   name = "Insert Molding"
   url = "/en/insert-molding/"
   parent = "services"
-  weight = 9
+  weight = 7
 
 [[main]]
   name = "Two-shot Injection Molding"
   url = "/en/two-shot-injection-molding/"
   parent = "services"
-  weight = 10
-
-[[main]]
-  name = "Precision Injection Molding"
-  url = "/en/precision-injection-molding/"
-  parent = "services"
-  weight = 11
-
-[[main]]
-  name = "Plastic Injection Mold Tooling"
-  url = "/en/plastic-injection-mold-tooling/"
-  parent = "services"
-  weight = 12
-
-[[main]]
-  name = "Industrial Plastic Injection Molding"
-  url = "/en/industrial-plastic-injection-molding/"
-  parent = "services"
-  weight = 13
-
-[[main]]
-  name = "Consumer Electronics Injection Molding"
-  url = "/en/consumer-electronics-injection-molding/"
-  parent = "services"
-  weight = 14
-
-[[main]]
-  name = "PEEK Injection Molding"
-  url = "/en/peek-injection-molding/"
-  parent = "services"
-  weight = 15
-
-[[main]]
-  name = "Nylon (PA6 / PA66) Injection Molding"
-  url = "/en/nylon-injection-molding/"
-  parent = "services"
-  weight = 16
-
-[[main]]
-  name = "ABS Injection Molding"
-  url = "/en/abs-injection-molding/"
-  parent = "services"
-  weight = 17
-
-[[main]]
-  name = "Polycarbonate (PC) Injection Molding"
-  url = "/en/polycarbonate-injection-molding/"
-  parent = "services"
-  weight = 18
-
-[[main]]
-  name = "Polypropylene (PP) Injection Molding"
-  url = "/en/polypropylene-injection-molding/"
-  parent = "services"
-  weight = 19
-
-[[main]]
-  name = "TPU Injection Molding"
-  url = "/en/tpu-injection-molding/"
-  parent = "services"
-  weight = 20
-
-[[main]]
-  name = "Plastic Connectors & Terminals Molding"
-  url = "/en/plastic-connectors-molding/"
-  parent = "services"
-  weight = 21
-
-[[main]]
-  name = "Medical Device Components Molding"
-  url = "/en/medical-device-components-molding/"
-  parent = "services"
-  weight = 22
-
-[[main]]
-  name = "EV & Battery Plastic Components Molding"
-  url = "/en/ev-battery-components-molding/"
-  parent = "services"
-  weight = 23
-
-[[main]]
-  name = "Plastic Gears & Bushings Molding"
-  url = "/en/plastic-gears-bushings-molding/"
-  parent = "services"
-  weight = 24
-
-[[main]]
-  name = "Enclosures & Housings Molding"
-  url = "/en/enclosures-housings-molding/"
-  parent = "services"
-  weight = 25
-
-[[main]]
-  name = "High-Volume Production Molding"
-  url = "/en/high-volume-production-molding/"
-  parent = "services"
-  weight = 26
-
-[[main]]
-  name = "Cleanroom Injection Molding"
-  url = "/en/cleanroom-injection-molding/"
-  parent = "services"
-  weight = 27
-
-[[main]]
-  name = "Rapid Tooling & Fast Tooling"
-  url = "/en/rapid-tooling/"
-  parent = "services"
-  weight = 28
-
-[[main]]
-  name = "Thin-Wall Injection Molding"
-  url = "/en/thin-wall-injection-molding/"
-  parent = "services"
-  weight = 29
+  weight = 8
 
 [[main]]
   name = "Assembly & Secondary Operations"
   url = "/en/assembly-secondary-operations/"
   parent = "services"
-  weight = 30
+  weight = 9
 
+# --------------------------------------------------------------------------
+# Industries
+# --------------------------------------------------------------------------
 [[main]]
   name = "Industries"
-  url = "/en/#industries"
+  url = "/en/categories/industries/"
+  weight = 3
+  identifier = "industries"
+
+[[main]]
+  name = "Automotive Injection Molding"
+  url = "/en/automotive-injection-molding/"
+  parent = "industries"
+  weight = 1
+
+[[main]]
+  name = "Medical Plastic Injection Molding"
+  url = "/en/medical-plastic-injection-molding/"
+  parent = "industries"
+  weight = 2
+
+[[main]]
+  name = "Industrial Plastic Injection Molding"
+  url = "/en/industrial-plastic-injection-molding/"
+  parent = "industries"
+  weight = 3
+
+[[main]]
+  name = "Consumer Electronics Injection Molding"
+  url = "/en/consumer-electronics-injection-molding/"
+  parent = "industries"
   weight = 4
 
 [[main]]
+  name = "EV & Battery Plastic Components"
+  url = "/en/ev-battery-components-molding/"
+  parent = "industries"
+  weight = 5
+
+[[main]]
+  name = "Medical Device Components Molding"
+  url = "/en/medical-device-components-molding/"
+  parent = "industries"
+  weight = 6
+
+[[main]]
+  name = "Plastic Connectors & Terminals"
+  url = "/en/plastic-connectors-molding/"
+  parent = "industries"
+  weight = 7
+
+[[main]]
+  name = "Plastic Gears & Bushings"
+  url = "/en/plastic-gears-bushings-molding/"
+  parent = "industries"
+  weight = 8
+
+[[main]]
+  name = "Enclosures & Housings"
+  url = "/en/enclosures-housings-molding/"
+  parent = "industries"
+  weight = 9
+
+# --------------------------------------------------------------------------
+# Materials
+# --------------------------------------------------------------------------
+[[main]]
+  name = "Materials"
+  url = "/en/categories/materials/"
+  weight = 4
+  identifier = "materials"
+
+[[main]]
+  name = "PEEK Injection Molding"
+  url = "/en/peek-injection-molding/"
+  parent = "materials"
+  weight = 1
+
+[[main]]
+  name = "Nylon (PA6 / PA66) Injection Molding"
+  url = "/en/nylon-injection-molding/"
+  parent = "materials"
+  weight = 2
+
+[[main]]
+  name = "ABS Injection Molding"
+  url = "/en/abs-injection-molding/"
+  parent = "materials"
+  weight = 3
+
+[[main]]
+  name = "Polycarbonate (PC) Injection Molding"
+  url = "/en/polycarbonate-injection-molding/"
+  parent = "materials"
+  weight = 4
+
+[[main]]
+  name = "Polypropylene (PP) Injection Molding"
+  url = "/en/polypropylene-injection-molding/"
+  parent = "materials"
+  weight = 5
+
+[[main]]
+  name = "TPU Injection Molding"
+  url = "/en/tpu-injection-molding/"
+  parent = "materials"
+  weight = 6
+
+# --------------------------------------------------------------------------
+# Capabilities
+# --------------------------------------------------------------------------
+[[main]]
+  name = "Capabilities"
+  url = "/en/categories/capabilities/"
+  weight = 5
+  identifier = "capabilities"
+
+[[main]]
+  name = "Precision Injection Molding"
+  url = "/en/precision-injection-molding/"
+  parent = "capabilities"
+  weight = 1
+
+[[main]]
+  name = "Plastic Injection Mold Tooling"
+  url = "/en/plastic-injection-mold-tooling/"
+  parent = "capabilities"
+  weight = 2
+
+[[main]]
+  name = "High-Volume Production Molding"
+  url = "/en/high-volume-production-molding/"
+  parent = "capabilities"
+  weight = 3
+
+[[main]]
+  name = "Cleanroom Injection Molding"
+  url = "/en/cleanroom-injection-molding/"
+  parent = "capabilities"
+  weight = 4
+
+[[main]]
+  name = "Rapid Tooling & Fast Tooling"
+  url = "/en/rapid-tooling/"
+  parent = "capabilities"
+  weight = 5
+
+[[main]]
+  name = "Thin-Wall Injection Molding"
+  url = "/en/thin-wall-injection-molding/"
+  parent = "capabilities"
+  weight = 6
+
+[[main]]
+  name = "Precision Plastic Components"
+  url = "/en/precision-plastic-components/"
+  parent = "capabilities"
+  weight = 7
+
+# --------------------------------------------------------------------------
+# Utility links
+# --------------------------------------------------------------------------
+[[main]]
   name = "Resources"
   url = "/en/#faq"
-  weight = 5
+  weight = 6
 
 [[main]]
   name = "Contact"
   url = "/en/#rfq"
-  weight = 6
+  weight = 7
 
 # Footer menu
 [[footer]]

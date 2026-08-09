@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "nylon-injection-molding"
 categories:
     - "materials"

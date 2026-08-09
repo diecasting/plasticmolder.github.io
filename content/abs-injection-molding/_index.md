@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "abs-injection-molding"
 categories:
     - "materials"

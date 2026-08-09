@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "tpu-injection-molding"
 categories:
     - "materials"

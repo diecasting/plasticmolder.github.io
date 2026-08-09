@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "polypropylene-injection-molding"
 categories:
     - "materials"

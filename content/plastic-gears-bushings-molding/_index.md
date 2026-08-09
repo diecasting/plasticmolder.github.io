@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "plastic-gears-bushings-molding"
 categories:
     - "applications"

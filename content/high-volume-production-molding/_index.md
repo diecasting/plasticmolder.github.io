@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "high-volume-production-molding"
 categories:
     - "capabilities"

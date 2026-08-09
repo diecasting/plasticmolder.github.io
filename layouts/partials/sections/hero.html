@@ -13,7 +13,7 @@
       <p class="hero-description">{{ with .Params.hero_subtitle }}{{ . }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ $localized.slogan }}{{ end }}{{ end }}</p>
       <div class="hero-cta">
         <a href="#rfq" class="btn btn-primary btn-lg">Request A Quote</a>
-        <a href="#capabilities" class="btn btn-secondary btn-lg">Explore Manufacturing Capabilities</a>
+        <a href='{{ .Params.hero_secondary_url | default "#capabilities" }}' class="btn btn-secondary btn-lg">{{ .Params.hero_secondary_text | default "Explore Manufacturing Capabilities" }}</a>
       </div>
     </div>
     <div class="hero-media">

@@ -1,22 +1,42 @@
-{{- /* taxonomy.html — Taxonomy term hub (SEO cluster hub page) */ -}}
+{{- /* taxonomy.html — Taxonomy term hub upgraded to a commercial landing page.
+   Used for /en/categories/<term>/ (materials, applications, capabilities, industries).
+
+   Structure follows the existing landing architecture by reusing the same
+   section partials (hero / faq / rfq). It also renders:
+     - an SEO intro from the term's _index.md content (internal links)
+     - a grid of member pages (service cards = internal links)
+   so each hub is a real commercial entry point, not just an index list. */ -}}
 {{ define "main" }}
-<div class="list-page">
-  <header class="list-header">
-    <h1>{{ .Title }}</h1>
-    <p class="list-description">Browse our {{ .Title | lower }} for plastic injection molding services, materials, and capabilities.</p>
-  </header>
-  <div class="services-grid">
-    {{ range .Pages }}
-    <article class="service-card">
-      <div class="service-body">
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        {{ with .Description }}<p>{{ . }}</p>{{ end }}
-        <a class="service-link" href="{{ .Permalink }}">Learn more
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
+<div class="landing-page category-hub">
+  {{ partial "sections/hero.html" . }}
+
+  {{ with .Content }}<section class="section section-content">
+    <div class="container">{{ . }}</div>
+  </section>{{ end }}
+
+  <section class="section section-grid">
+    <div class="container">
+      <h2 class="section-title">{{ .Params.grid_title | default (printf "%s We Support" .Title) }}</h2>
+      {{ with .Params.grid_intro }}<p class="section-description">{{ . }}</p>{{ end }}
+      <div class="services-grid">
+        {{- $pages := .Pages -}}
+        {{- if not $pages -}}{{- $pages = .Data.Pages -}}{{- end -}}
+        {{ range $pages }}
+        <article class="service-card">
+          <div class="service-body">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
+            <a class="service-link" href="{{ .Permalink }}">Learn more
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+        {{ end }}
       </div>
-    </article>
-    {{ end }}
-  </div>
+    </div>
+  </section>
+
+  {{ partial "sections/faq.html" . }}
+  {{ partial "sections/rfq.html" . }}
 </div>
 {{ end }}

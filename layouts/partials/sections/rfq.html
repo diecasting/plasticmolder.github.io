@@ -1,10 +1,24 @@
-{{- /* sections/rfq.html — Request for Quote form section
-   Renders RFQ form. Also available as shortcode {{< rfq_form >}}. */ -}}
+{{- /* sections/rfq.html — Reusable Request for Quote form section
+   Used on every landing page (service / material / application / capability)
+   and on taxonomy hub pages via the landing/section engine.
+
+   - Keeps the existing Formspree integration (action URL unchanged).
+   - Adds service/source/page context via hidden fields so every submission
+     is attributable to the page it came from.
+   - CTA copy is configurable per page through front matter
+     (rfq_heading / rfq_intro / rfq_subject) with sensible defaults.
+   - Rendered exactly once per page (referenced from the `sections` array),
+     so no forms are duplicated. */ -}}
 <section class="section section-rfq" id="rfq">
   <div class="container">
-    <h2 class="section-title">Request a Quote</h2>
-    <p class="section-description">Fill out the form below and our team will get back to you within 24 hours.</p>
+    <h2 class="section-title">{{ .Params.rfq_heading | default "Request a Quote" }}</h2>
+    <p class="section-description">{{ .Params.rfq_intro | default "Fill out the form below and our team will get back to you within 24 hours." }}</p>
     <form class="rfq-form" method="POST" action="https://formspree.io/f/xwvgzljg" enctype="multipart/form-data">
+      {{/* Context fields — passed to Formspree, never shown to the visitor */}}
+      <input type="hidden" name="_subject" value='{{ .Params.rfq_subject | default (printf "New RFQ: %s — PlasticMolder" (.Params.service | default .Title)) }}'>
+      <input type="hidden" name="source" value='{{ .Params.rfq_source | default "website" }}'>
+      <input type="hidden" name="page" value='{{ .Permalink }}'>
+      <input type="hidden" name="service" value='{{ .Params.service | default .Title }}'>
       <div class="form-row">
         <div class="form-group">
           <label for="rfq-name">Name *</label>

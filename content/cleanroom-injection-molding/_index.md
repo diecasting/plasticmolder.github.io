@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "cleanroom-injection-molding"
 categories:
     - "capabilities"

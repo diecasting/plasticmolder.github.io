@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "assembly-secondary-operations"
 categories:
     - "capabilities"

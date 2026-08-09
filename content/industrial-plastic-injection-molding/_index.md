@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "industrial-plastic-injection-molding"
 materials:
     - "PP"
@@ -62,6 +63,8 @@ schema:
       answer: "Yes. Our 50T to 800T press range handles large housings and enclosures up to roughly 2000 g shot weight with stable, repeatable process control."
     - question: "Do you support functional and structural parts?"
       answer: "Yes. We mold brackets, mounts, fluid components, and wear parts where dimensional stability and durability matter more than appearance."
+categories:
+    - "industries"
 ---
 
 ## Industrial Plastic Injection Molding at Production Scale

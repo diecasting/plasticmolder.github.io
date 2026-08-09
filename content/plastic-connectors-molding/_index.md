@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "plastic-connectors-molding"
 categories:
     - "applications"

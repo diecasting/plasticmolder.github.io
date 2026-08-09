@@ -18,9 +18,11 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "ev-battery-components-molding"
 categories:
     - "applications"
+    - "industries"
 materials:
     - "PA66"
     - "PBT"

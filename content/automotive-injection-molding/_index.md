@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "automotive-injection-molding"
 materials:
     - "PA66 (Nylon)"
@@ -62,6 +63,8 @@ schema:
       answer: "We mold PA66, PPS, PBT, PC/ABS, glass-filled nylons, and TPU, including flame-retardant and heat-stabilized grades qualified per application."
     - question: "Can you support EV and battery-component programs?"
       answer: "Yes. We produce flame-retardant, thermally stable components for EV charging piles and battery modules under controlled process discipline with lot-level traceability."
+categories:
+    - "industries"
 ---
 
 ## Automotive Injection Molding at Production Scale

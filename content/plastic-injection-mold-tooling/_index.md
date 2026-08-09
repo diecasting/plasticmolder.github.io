@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "plastic-injection-mold-tooling"
 materials:
     - "P20"

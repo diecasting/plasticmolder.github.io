@@ -18,9 +18,11 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "medical-device-components-molding"
 categories:
     - "applications"
+    - "industries"
 materials:
     - "PC"
     - "PP"

@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "insert-molding"
 materials:
     - "PA6 / PA66"

@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "thin-wall-injection-molding"
 categories:
     - "capabilities"

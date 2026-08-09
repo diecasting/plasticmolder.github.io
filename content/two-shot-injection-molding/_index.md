@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "two-shot-injection-molding"
 materials:
     - "PC + TPU"

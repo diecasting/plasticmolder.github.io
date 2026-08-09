@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "oem-plastic-parts-manufacturer"
 materials:
     - "ABS"

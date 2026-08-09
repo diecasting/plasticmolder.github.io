@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "enclosures-housings-molding"
 categories:
     - "applications"

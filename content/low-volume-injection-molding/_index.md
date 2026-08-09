@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "low-volume-injection-molding"
 materials:
     - "ABS"

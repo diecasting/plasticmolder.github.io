@@ -19,6 +19,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "medical-plastic-injection-molding"
 materials:
     - "Medical-grade PC"
@@ -61,6 +62,8 @@ schema:
       answer: "We mold medical-grade PC, PP, PE, PEEK, TPU, and COP/COC, including USP Class VI and ISO 10993-qualified grades selected per application."
     - question: "Can you support UDI and device traceability?"
       answer: "Yes. We support laser-marked UDI, lot-level traceability, and ISO 13485-controlled documentation for audit readiness."
+categories:
+    - "industries"
 ---
 
 ## Medical Plastic Injection Molding at Production Scale

@@ -18,6 +18,7 @@ sections:
     - "industries"
     - "certifications"
     - "faq"
+    - "rfq"
 service: "polycarbonate-injection-molding"
 categories:
     - "materials"
