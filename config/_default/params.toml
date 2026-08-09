@@ -10,7 +10,7 @@ keywords = ["Plastic Injection Molding Manufacturer China", "Custom Plastic Inje
 mainSite = "https://plasticmolder.com/"
 
 [Author]
-  name = "PlasticMolder — Dongguan Xinpei Mold Co., Ltd."
+  name = "PlasticMolder — Dongguan Zhongkaibao Innovative Energy Technology Co., Ltd."
   email = "vincent@plasticmolder.com"
 
 # Contact information (used in footer and schema)
@@ -43,5 +43,5 @@ mainSite = "https://plasticmolder.com/"
 
 # Footer configuration
 [footer]
-  copyright = "PlasticMolder — Dongguan Xinpei Mold Co., Ltd. All rights reserved."
+  copyright = "PlasticMolder — Dongguan Zhongkaibao Innovative Energy Technology Co., Ltd. All rights reserved."
   showLegalLinks = true

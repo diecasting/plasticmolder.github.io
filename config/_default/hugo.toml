@@ -2,7 +2,7 @@
 # hugo.toml — PlasticMolder Site Configuration
 # ==========================================================================
 
-baseURL = "https://blog.plasticmolder.com/"
+baseURL = "https://plasticmolder.com/"
 title = "PlasticMolder"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
