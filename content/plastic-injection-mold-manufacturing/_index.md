@@ -241,6 +241,8 @@ A tool is an asset the supplier should help you own confidently. Maintenance is 
 
 A mold exists to feed a program. Connect it to [Plastic Injection Molding](/en/plastic-injection-molding/) for production, [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for bespoke geometry, [Prototype Injection Molding](/en/prototype-injection-molding/) for validation tooling, and [Low Volume Injection Molding](/en/low-volume-injection-molding/) for short runs, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. The full overview is on the [homepage](/en/).
 
+- [OEM mold manufacturing and contract production](/en/oem-plastic-parts-manufacturer/)
+
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 

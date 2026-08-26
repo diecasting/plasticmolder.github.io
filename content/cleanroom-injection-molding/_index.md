@@ -97,6 +97,7 @@ Processes run under ISO 13485-aligned controls with clean handling and packaging
 - [Precision Injection Molding](/en/precision-injection-molding/)
 - [PEEK Injection Molding](/en/peek-injection-molding/)
 - [Precision Medical Molding](/en/precision-medical-molding/)
+- [Precision plastic components for medical and optical applications](/en/precision-plastic-components/)
 
 
 ## Related Services

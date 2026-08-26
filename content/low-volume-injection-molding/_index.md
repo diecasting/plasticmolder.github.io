@@ -241,6 +241,8 @@ Many short runs grow, and the signal is steady or rising demand that justifies h
 
 Short runs connect to [Prototype Injection Molding](/en/prototype-injection-molding/) for validation, [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the scaling tool, and [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for bespoke geometry, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. The full overview is on the [homepage](/en/).
 
+- [OEM low-volume plastic parts production](/en/oem-plastic-parts-manufacturer/)
+
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 

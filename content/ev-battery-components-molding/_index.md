@@ -96,6 +96,8 @@ Material grades are selected for flame class and thermal duty and documented per
 - [Plastic Connectors & Terminals Molding](/en/plastic-connectors-molding/)
 - [Insert Molding](/en/insert-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
+- [Precision plastic components for EV and battery systems](/en/precision-plastic-components/)
+- [Custom plastic parts for EV and battery programs](/en/custom-plastic-parts-manufacturer/)
 
 
 ## Related Materials

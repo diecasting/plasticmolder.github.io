@@ -96,3 +96,4 @@ Material is matched to load, speed, and lubrication; POM leads for low friction,
 - [PEEK Injection Molding](/en/peek-injection-molding/)
 - [Precision Injection Molding](/en/precision-injection-molding/)
 - [Industrial Plastic Injection Molding](/en/industrial-plastic-injection-molding/)
+- [Custom plastic gears and bushings](/en/custom-plastic-parts-manufacturer/)

@@ -97,6 +97,7 @@ Material grade is matched to finish, heat, and impact needs; EMI options are ava
 - [Polycarbonate Injection Molding](/en/polycarbonate-injection-molding/)
 - [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/)
 - [Thin-Wall Injection Molding](/en/thin-wall-injection-molding/)
+- [Custom plastic enclosures and housings](/en/custom-plastic-parts-manufacturer/)
 
 
 ## Related Materials
