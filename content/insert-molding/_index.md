@@ -63,6 +63,8 @@ schema:
       answer: "Inserts are held by precision mold features or automated placement, and preheated where needed so the plastic bonds and the insert stays located through injection and ejection."
     - question: "What kinds of inserts do you mold in?"
       answer: "We encapsulate threaded inserts, bushings, bearings, electrical contacts, terminals, ferrite cores, and stamped metal components for functional assemblies."
+categories:
+    - "capabilities"
 ---
 
 ## Insert Molding at Production Scale

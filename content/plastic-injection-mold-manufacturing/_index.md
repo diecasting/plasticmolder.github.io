@@ -60,6 +60,8 @@ schema:
       answer: "We machine P20, 718H, NAK80 and S136 steels selected by wear, corrosion and surface requirements."
     - question: "What mold life do you guarantee?"
       answer: "Production molds are guaranteed for 300,000 to 1,000,000 shots depending on steel and resin."
+categories:
+    - "capabilities"
 ---
 ## Injection Mold Manufacturing: Where Part Quality Is Decided
 

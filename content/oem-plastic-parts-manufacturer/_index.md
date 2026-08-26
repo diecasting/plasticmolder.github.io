@@ -64,6 +64,8 @@ schema:
       answer: "Yes, we produce both OEM build-to-print and ODM design-supported plastic part programs."
     - question: "Which industries do you supply?"
       answer: "We supply automotive, medical, electronics, EV and industrial brands worldwide."
+categories:
+    - "capabilities"
 ---
 Outsourcing a plastic component program is a supply-chain decision, not just a purchase order. As an OEM and ODM plastic parts manufacturer, the role is to take a defined product requirement - drawing, specification, forecast, and quality agreement - and deliver certified parts into your line or your customers' hands on a schedule you can plan around. Build-to-print and design-supported models are both supported, so the engagement can start from a finished drawing or from a performance requirement that still needs engineering input. For the buying team, the practical question is not whether a supplier can mold plastic, but whether it can own a program end to end: tooling, molding, finishing, documentation, and delivery, with one accountable point of contact.
 

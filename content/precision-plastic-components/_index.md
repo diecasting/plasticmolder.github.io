@@ -61,6 +61,8 @@ schema:
       answer: "We hold tolerances down to ±0.01 mm on precision components with CMM-verified reports."
     - question: "Are dimensional reports provided?"
       answer: "Yes, CMM inspection reports are supplied for critical and precision-molded features."
+categories:
+    - "capabilities"
 ---
 Precision is not a tolerance number on a drawing - it is a process capability that holds that number on every shot, across shifts, for the life of the tool. Precision plastic components are the parts where a few microns decide fit, sealing, or signal integrity: connectors, gears, optical elements, and sensor housings. This page addresses tight-tolerance molding and the metrology that proves it, aimed at engineers who specify the interface rather than the process.
 

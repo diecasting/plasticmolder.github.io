@@ -162,3 +162,6 @@ Warpage, sink marks, short shots, flash, and particulate contamination are sympt
 - [Custom Injection Molding Company in Dongguan](/en/custom-plastic-injection-molding/)
 - [Custom Plastic Parts Manufacturer in Dongguan](/en/custom-plastic-parts-manufacturer/)
 - [Insert Molding Services in China — Metal and Plastic Assemblies](/en/insert-molding/)
+- [Medical Device Components Molding](/en/medical-device-components-molding/)
+- [Precision Medical Molding](/en/precision-medical-molding/)
+- [Cleanroom Injection Molding](/en/cleanroom-injection-molding/)

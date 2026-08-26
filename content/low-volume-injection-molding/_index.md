@@ -61,6 +61,8 @@ schema:
       answer: "Low volume molding is ideal for 100 to 100,000 parts between prototyping and full mass production."
     - question: "Which tooling is used for low volumes?"
       answer: "We use soft steel or pre-hardened tool steel tooling to keep cost low for short runs."
+categories:
+    - "capabilities"
 ---
 ## Low Volume Injection Molding for Short Runs
 

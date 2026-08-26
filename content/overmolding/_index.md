@@ -63,6 +63,8 @@ schema:
       answer: "Bond strength depends on material compatibility, substrate preparation, and process control. We select chemically compatible pairs and validate peel and adhesion on tryout before production."
     - question: "Can overmolding be done in a single machine cycle?"
       answer: "Yes. With a rotary platen or shuttle, both materials can be molded in one cycle; otherwise a two-step process molds the substrate first, then the overmold."
+categories:
+    - "capabilities"
 ---
 
 ## Overmolding at Production Scale

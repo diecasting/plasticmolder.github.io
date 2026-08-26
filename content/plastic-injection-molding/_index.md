@@ -64,6 +64,8 @@ schema:
       answer: "Plastic injection molding is a manufacturing process that injects molten thermoplastic into a steel mold to produce high-volume, high-precision components."
     - question: "What tolerances can PlasticMolder hold?"
       answer: "We hold standard tolerances of ±0.02 mm with CMM-verified inspection on critical dimensions."
+categories:
+    - "capabilities"
 ---
 ## Plastic Injection Molding at Production Scale
 

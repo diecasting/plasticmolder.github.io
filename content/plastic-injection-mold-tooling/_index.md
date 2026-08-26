@@ -64,6 +64,8 @@ schema:
       answer: "Tooling lead time is typically 15 to 35 days, reflecting in-house design and machining that compress the critical path from release to first article."
     - question: "Which mold steels do you use?"
       answer: "We select steel by application: P20 and 718H for general production, H13 and hardened H13 for high-volume, and S136 or NAK80 for corrosion resistance and polish."
+categories:
+    - "capabilities"
 ---
 
 ## Plastic Injection Mold Tooling at Production Scale

@@ -63,6 +63,8 @@ schema:
       answer: "Custom molding covers DFM review, material selection, tool fabrication and production molding tailored to your drawing."
     - question: "Do you support design for manufacturability?"
       answer: "Yes, our engineers provide DFM analysis to optimize wall thickness, gating and tolerances before tooling."
+categories:
+    - "capabilities"
 ---
 ## Custom Plastic Injection Molding Built Around Your Drawing
 

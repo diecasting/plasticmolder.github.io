@@ -61,6 +61,8 @@ schema:
       answer: "Yes, we offer insert molding and overmolding for multi-material and sealed assemblies."
     - question: "What secondary operations are available?"
       answer: "We provide machining, welding, printing, assembly and other secondary operations in-house."
+categories:
+    - "capabilities"
 ---
 Many buyers do not need a molding process described to them - they need a finished custom plastic part that fits, performs, and ships ready to use. As a custom plastic parts manufacturer, the unit of delivery is the part: a single engineered component, an overmolded assembly, or a multi-material part built to your drawing. This is distinct from a custom molding service; the focus here is the part as a product, including the finishing and assembly that make it complete. For procurement, that means one supplier is responsible for the outcome, not a chain of specialists each pointing at the next.</p>
 

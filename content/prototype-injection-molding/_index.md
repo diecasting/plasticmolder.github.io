@@ -60,6 +60,8 @@ schema:
       answer: "Prototype tooling and molded parts are typically delivered within 7 to 15 days."
     - question: "Are prototypes made in production resin?"
       answer: "Yes, we mold prototypes in production-grade thermoplastics so fit and function reflect the final part."
+categories:
+    - "capabilities"
 ---
 ## Prototype Injection Molding: De-Risk Before You Commit
 

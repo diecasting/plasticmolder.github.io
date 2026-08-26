@@ -63,6 +63,8 @@ schema:
       answer: "Low-warp, dimensionally stable resins such as POM, LCP, PEEK, PBT, and PC are preferred for tight-tolerance and micro-feature components."
     - question: "Do you support micro molding?"
       answer: "Yes. On smaller presses we mold micro-feature components where feature repeatability, not just overall size, defines the challenge."
+categories:
+    - "capabilities"
 ---
 
 ## Precision Injection Molding at Production Scale

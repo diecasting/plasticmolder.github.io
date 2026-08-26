@@ -65,6 +65,8 @@ schema:
       answer: "Our service covers design support, mold making, molding, assembly and final quality inspection."
     - question: "Do you manage logistics for volume programs?"
       answer: "Yes, we support kitting, inspected shipments and managed logistics for ongoing supply programs."
+categories:
+    - "capabilities"
 ---
 Buyers rarely want one isolated operation; they want a manufacturing partner who can take a product from drawing to delivered, finished part. Plastic injection molding services is the umbrella that covers the full range - tooling, molding, prototyping, low-volume, custom and OEM work, plus finishing and assembly - under one quality system and one accountable team. This page is the capability statement and the engagement model, written for sourcing and engineering leads deciding how to structure a program.
 

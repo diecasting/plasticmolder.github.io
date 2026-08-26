@@ -57,6 +57,8 @@ schema:
       answer: "Yes, our medical molding uses cleanroom-compatible processes with full lot traceability."
     - question: "Which quality systems apply to medical parts?"
       answer: "Medical programs follow ISO 13485-aligned quality systems with documented controls."
+categories:
+    - "industries"
 ---
 Medical devices leave no room for a part that is almost right. Precision medical molding combines tight-tolerance molding with the controls a regulated product demands: cleanroom or controlled environment molding, validated processes, biocompatible resins, and documentation that survives an audit. This page addresses medical-grade component production specifically, for device teams who must answer to a regulatory file as well as a drawing.
 
@@ -163,7 +165,7 @@ Medical devices leave no room for a part that is almost right. Precision medical
 <p>Traceability is what turns a quality system from a promise into evidence. Each lot records the resin certification, the process parameters, and the inspection results, so any shipped unit is reconstructable from its records. That capability supports audits and field recalls, and it is why a device team can answer a regulator with data rather than memory. For a medical program, lot traceability is not a nice-to-have; it is the backbone of the regulatory file, and it is built into the program from the first lot.
 
 <h2 id=related-capabilities>Related Capabilities</h2>
-<p>See <a href="/en/precision-plastic-components/">Precision Plastic Components</a> for tight-tolerance molding, <a href="/en/prototype-injection-molding/">Prototype Injection Molding</a> for device prototypes, and <a href="/en/oem-plastic-parts-manufacturer/">OEM Plastic Parts Manufacturer</a> for contract medical supply. Overview on the <a href="/en/">homepage</a>.</p>
+<p>See <a href="/en/precision-plastic-components/">Precision Plastic Components</a> for tight-tolerance molding, <a href="/en/prototype-injection-molding/">Prototype Injection Molding</a> for device prototypes, and <a href="/en/oem-plastic-parts-manufacturer/">OEM Plastic Parts Manufacturer</a> for contract medical supply. Related medical programs: <a href="/en/medical-plastic-injection-molding/">Medical Plastic Injection Molding</a>, <a href="/en/medical-device-components-molding/">Medical Device Components Molding</a>, and <a href="/en/cleanroom-injection-molding/">Cleanroom Injection Molding</a>. Overview on the <a href="/en/">homepage</a>.</p>
 
 <p>Commercial detail: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">

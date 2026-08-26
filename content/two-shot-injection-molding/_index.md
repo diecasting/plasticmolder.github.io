@@ -63,6 +63,8 @@ schema:
       answer: "Choose two-shot when you need a fully bonded hard-soft or multi-color part at high volume with no secondary handling. Overmolding is better for lower volumes or when the substrate is molded separately."
     - question: "What material combinations bond well?"
       answer: "Common pairs include PC plus TPU, ABS plus TPU, PP plus TPE, and PC-over-PC for color. We validate compatibility and bond on tryout before production."
+categories:
+    - "capabilities"
 ---
 
 ## Two-shot Injection Molding at Production Scale
