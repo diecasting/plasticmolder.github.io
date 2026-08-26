@@ -31,6 +31,7 @@
   {{ end -}}
   "address": {
     "@type": "PostalAddress",
+    {{ with $org.identity.address_street }}"streetAddress": "{{ . | safeJS }}",{{ end }}
     {{ with $org.identity.address_locality }}"addressLocality": "{{ . | safeJS }}",{{ end }}
     {{ with $org.identity.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
     {{ with $org.identity.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}

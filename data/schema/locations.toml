@@ -5,9 +5,9 @@
 [[locations]]
 id = "dongguan-facility"
 schema_type = "Place"
-address_street = "Dongguan Manufacturing Facility"
-address_locality = "Dongguan"
-address_region = "Guangdong"
+address_street = "东莞市大岭山镇官陂街238号之二101室"
+address_locality = "东莞市"
+address_region = "广东省"
 address_postal = "523000"
 address_country = "CN"
 address_country_iso = "CN"

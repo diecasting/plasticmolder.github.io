@@ -5,17 +5,17 @@
 # --- Language-neutral fields ---
 
 [identity]
-legal_name = "Dongguan Zhongkaibao Innovative Energy Technology Co., Ltd."
+legal_name = "东莞鑫沛模具有限公司"
 url = "https://plasticmolder.com/"
 images = [
   "images/plastic-injection-molding-factory.webp"
 ]
 founding_date = "2005"
-address_street = "Dongguan Manufacturing Facility"
-address_locality = "Dongguan"
-address_region = "Guangdong"
+address_street = "东莞市大岭山镇官陂街238号之二101室"
+address_locality = "东莞市"
+address_region = "广东省"
 address_postal = "523000"
-address_country = "China"
+address_country = "CN"
 contact_email = "vincent@plasticmolder.com"
 sales_email = "sales@plasticmolder.com"
 area_served = [

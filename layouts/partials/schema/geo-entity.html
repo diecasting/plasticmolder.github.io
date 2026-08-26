@@ -17,6 +17,7 @@
   {{ with $locText.description }}"description": "{{ . | safeJS }}",{{ end }}
   "address": {
     "@type": "PostalAddress",
+    {{ with $loc.address_street }}"streetAddress": "{{ . | safeJS }}",{{ end }}
     {{ with $loc.address_locality }}"addressLocality": "{{ . | safeJS }}",{{ end }}
     {{ with $loc.address_region }}"addressRegion": "{{ . | safeJS }}",{{ end }}
     {{ with $loc.address_country }}"addressCountry": "{{ . | safeJS }}"{{ end }}

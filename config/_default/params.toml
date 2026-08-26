@@ -10,7 +10,7 @@ keywords = ["Plastic Injection Molding Manufacturer China", "Custom Plastic Inje
 mainSite = "https://plasticmolder.com/"
 
 [Author]
-  name = "PlasticMolder — Dongguan Zhongkaibao Innovative Energy Technology Co., Ltd."
+  name = "PlasticMolder — 东莞鑫沛模具有限公司"
   email = "vincent@plasticmolder.com"
 
 # Contact information (used in footer and schema)
@@ -18,7 +18,7 @@ mainSite = "https://plasticmolder.com/"
   email = "vincent@plasticmolder.com"
   salesEmail = "sales@plasticmolder.com"
   phone = ""
-  address = "Dongguan Manufacturing Facility, Dongguan, Guangdong 523000, China"
+  address = "东莞市大岭山镇官陂街238号之二101室"
   formspree = "https://formspree.io/f/xwvgzljg"
 
 # Social media (used in schema sameAs)
@@ -43,5 +43,5 @@ mainSite = "https://plasticmolder.com/"
 
 # Footer configuration
 [footer]
-  copyright = "PlasticMolder — Dongguan Zhongkaibao Innovative Energy Technology Co., Ltd. All rights reserved."
+  copyright = "PlasticMolder — 东莞鑫沛模具有限公司. All rights reserved."
   showLegalLinks = true
