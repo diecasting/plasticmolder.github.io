@@ -156,6 +156,5 @@ Outsourcing a plastic component program is a supply-chain decision, not just a p
 <p>See also <a href="/en/plastic-injection-molding-services/">Plastic Injection Molding Services</a> for the full service range. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

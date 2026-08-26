@@ -208,7 +208,6 @@ Tooling dominates lead time, and a clean DFM with in-house fabrication compresse
 When you shortlist suppliers, the questions that separate a partner from a job shop are practical: is tooling built in-house or outsourced? Are process engineers available during DFM, or only at the press? What quality documentation ships with each lot? Can the plant show PPAP experience for your sector? The answers predict whether your program stays predictable at volume — which is the real measure of a supplier.
 
 
-
 ## What a Typical Production Program Looks Like
 
 A representative program for a high-volume enclosure runs roughly as follows. Week one to two: DFM review and quote, with design changes agreed on the drawing. Week three to six: tool fabrication and tryout, including CMM validation of the cavity. Week seven: first-article inspection and approval. Week eight onward: ramp to steady production with SPC on critical dimensions and monthly lot traceability. The same shape applies to connectors, gears, and fluid parts — only the resin, cavitation, and inspection depth change. Knowing this timeline helps you plan your own launch and spot a supplier whose schedule lacks defined gates.
@@ -267,6 +266,5 @@ Explore the surrounding services that feed into a complete program: [Custom Plas
 For commercial terms, drawings, and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

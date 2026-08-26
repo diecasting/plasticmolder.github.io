@@ -156,7 +156,6 @@ Many buyers do not need a molding process described to them - they need a finish
 <p>Most rework in custom parts is designed in before the tool is cut. A DFM review that resolves wall uniformity, gate location, draft, and ejection prevents the expensive corrections that come after steel. Samples supplied with first-article data let you validate the interface - bond, seal, or fit - under field conditions rather than on a bench. Agreeing on finishing and assembly up front keeps the tool and the process aligned with the finished part, so the delivered unit is complete and the program does not circle back through revision.</p>
 
 
-
 <h2 id=design-for-manufacturability-checklist-for-custom-parts>Design for Manufacturability Checklist for Custom Parts</h2>
 <p>A short DFM checklist prevents most custom-part revisions. Confirm wall thickness is as uniform as the geometry allows, because thick sections cool slowly and sink while thin sections fill reluctantly. Check that draft angles let the part eject without drag marks, and that radii reduce stress concentrations that crack in service. Verify the gate location will not scar a visible or functional face, and that tolerance callouts follow function - tight only where fit, sealing, or assembly demand it. For overmolded or two-shot parts, confirm the resin compatibility strategy and the interface the sample must prove. Resolving these on the drawing is cheaper than correcting steel later, and it is the difference between a tool that runs and a tool that fights you.</p>
 
@@ -166,6 +165,5 @@ Many buyers do not need a molding process described to them - they need a finish
 <p>Commercial detail: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

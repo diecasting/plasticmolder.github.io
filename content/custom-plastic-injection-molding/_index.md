@@ -182,7 +182,6 @@ Custom tooling sets the schedule, and in-house fabrication with a clean DFM shor
 The questions that matter are about integration and accountability: does one team own design, tool, and molding, or do they hand off between separate shops? Can engineers show DFM recommendations, not just a quote? What quality records accompany each lot? For custom work specifically, the supplier's ability to iterate quickly when your design moves is often the difference between hitting a launch date and missing it.
 
 
-
 ## What a Typical Custom Program Looks Like
 
 A custom bracket program typically runs: week one to two, DFM review with revised drawings; week three to six, tool fabrication in the chosen steel; week seven, first-article approval; then production molding with the finish and assembly the part needs. Because the geometry is unique, the DFM step carries more weight than on a standard part — that is where yield is designed in. A supplier who returns specific, justified recommendations — not a generic sign-off — is the one protecting your launch.
@@ -201,7 +200,6 @@ Automotive custom parts need PPAP-level records and consistent dimensicing acros
 - **SPI finish** — U.S. mold surface finish classification from high-gloss to textured.
 
 
-
 ## Common Defects and How They Are Prevented
 
 Custom parts fail in predictable ways when design and process are not aligned. Warpage follows uneven wall sections and insufficient cooling; sink marks appear opposite thick ribs; gate scars land on visible faces when gating is an afterthought; and cosmetic finishes disappoint when polish class is unspecified. Each is prevented during DFM and validated on a tryout press: walls are balanced, gates placed with the surface in mind, and finish called out by SPI or VDI class so the result matches the intent rather than the hope.
@@ -213,7 +211,6 @@ A useful custom quote itemizes tooling separately from piece price, states the r
 ## Communication and Project Management
 
 Custom programs move through revisions, so communication discipline matters as much as machine capability. A single point of contact, defined change loops, and tryout and first-article reports shared on schedule keep everyone aligned. When tooling and molding share a floor, a design change is communicated by walking across the building rather than by an email that waits in another shop's queue — and that speed is often what protects a launch date.
-
 
 
 ## Getting Started With a Custom Program
@@ -261,6 +258,5 @@ Custom work rarely stands alone. Pair it with [Injection Mold Manufacturing](/en
 For drawings, commercial terms, and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

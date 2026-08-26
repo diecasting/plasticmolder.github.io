@@ -174,7 +174,6 @@ Prototype tooling and parts are typically delivered within 7 to 15 days, with th
 The decisive question is whether the supplier can carry you from prototype to production without a restart. A partner who molds in production resin, measures first articles, and builds the production tool from the same data compresses your development timeline and protects the investment behind the hardened mold. A shop that only samples leaves you to re-solve the problem downstream.
 
 
-
 ## What a Typical Prototype Program Looks Like
 
 A typical prototype runs: quote and DFM within a day of receiving the model; aluminum or soft-steel tool fabrication in 7 to 15 days; molding in the production resin on the 50T–800T fleet; first-article inspection and sample delivery with a report. If the part passes, the same data seeds the hardened production tool, so validation is not discarded. This compressed path is what lets a team move from CAD to a confident production decision in under three weeks.
@@ -193,7 +192,6 @@ Automotive prototypes prove clips, brackets, and enclosures before tooling commi
 - **Tryout** — validating a new tool on a press before release.
 
 
-
 ## Common Defects and How They Are Prevented
 
 The most common prototype failure is not a molding defect but a representation defect: the wrong resin, an unrepresentative process, or a finish that hides a real issue. Sink, warp, and gate vestige still occur, but on a prototype they are signals to act on, not scrap to discard. Molding in production resin and validating on a tryout press means the sample reflects the final part, so the defects you see are the defects worth fixing before steel is committed.
@@ -205,7 +203,6 @@ A prototype quote should state the tool material, the resin, the quantity of sam
 ## Communication and Data Handoff
 
 Prototype programs run on speed, so communication and data handoff decide their value. First-article dimensions, DFM notes, and the production-intent file should pass directly to the production tool designer without rework. A supplier who molds, measures, and builds the next tool from the same data compresses your timeline; one who only samples leaves you to re-solve the problem downstream.
-
 
 
 ## Getting Started With a Prototype
@@ -257,6 +254,5 @@ Prototyping leads naturally into [Low Volume Injection Molding](/en/low-volume-i
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

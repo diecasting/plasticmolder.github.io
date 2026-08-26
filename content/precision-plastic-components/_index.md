@@ -154,7 +154,6 @@ Precision is not a tolerance number on a drawing - it is a process capability th
 <p>Precision is held, not achieved once. The tool is maintained by shot count so wear is scheduled and never surprises a shipment, and the process window is documented and monitored so drift is seen before it becomes scrap. First-article measurement baselines every cavity, and SPC tracks critical dimensions lot by lot across the tool's life. This is why a precision program can ship the millionth part to the same drawing as the first: the control is continuous, and the record proves it.</p>
 
 
-
 <h2 id=tolerance-stack-up-and-functional-gaging>Tolerance Stack-Up and Functional Gaging</h2>
 <p>Precision parts live in assemblies, so the tolerance that matters is the one at the interface, not the one on any single feature. Tolerance stack-up - how individual feature tolerances combine along the assembly - is reviewed in DFM so the part fits the system, not just its own drawing. Functional gaging confirms the behavior (does it mate, seal, or signal?) rather than only the dimension, which is why a go/no-go gauge at the line can matter more than a CMM number for a high-volume interface. The supplier that thinks in stack-up and function, not just in microns, is the one that delivers parts that assemble without sorting.</p>
 
@@ -170,6 +169,5 @@ Precision is not a tolerance number on a drawing - it is a process capability th
 <p>Commercial detail: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

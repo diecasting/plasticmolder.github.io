@@ -162,7 +162,6 @@ Tooling lead time runs 15 to 35 days depending on complexity, and in-house fabri
 Ask whether tooling is built in-house, whether cavity quality is CMM-verified before production, and whether the same team also runs the molding so the tool is tuned to its actual press. A mold maker who also molds understands which design choices survive at volume — and that understanding is what protects your part long after the tool is paid for.
 
 
-
 ## What a Typical Tooling Program Looks Like
 
 A representative multi-cavity tool follows: design review and fill simulation in week one; steel procurement and machining in weeks two to five; tryout and CMM cavity validation in week six; pilot run and approval in week seven; then release to production molding. Complexity — sliders, lifters, hot runners — extends the schedule within the 15 to 35 day window. The discipline that matters is verifying the cavity before production, because a tool that passes CMM and tryout is a tool that will hold its tolerance for its rated life.
@@ -181,7 +180,6 @@ Automotive tools are built for life and PPAP evidence. Medical tools favor S136 
 - **Tryout** — validating a new mold on a press before production release.
 
 
-
 ## Common Defects and How They Are Prevented
 
 Tool-related defects are designed out before steel is cut. Flash follows worn parting lines or insufficient clamp; sink marks trace to poor cooling layout; short shots come from unbalanced fill; drag marks result from insufficient draft. Simulating fill and cooling during design predicts these, and CMM verification of the cavity before production confirms the tool is correct. Scheduled shot-count maintenance then keeps the tool in tolerance rather than waiting for it to fail.
@@ -193,7 +191,6 @@ A tooling quote should state the steel, cavitation, runner system, and qualifica
 ## Communication and Project Management
 
 Mold making is iterative, and clear communication prevents costly waits. Tryout reports, cavity inspection data, and steel certifications should be shared on a defined schedule, and change requests turned around quickly because the same team owns tool and molding. That integration is what lets a tool be corrected in days rather than weeks when a design inevitably moves.
-
 
 
 ## Getting Started With a Tooling Program
@@ -245,6 +242,5 @@ A mold exists to feed a program. Connect it to [Plastic Injection Molding](/en/p
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

@@ -162,7 +162,6 @@ Tooling dominates lead time, and a right-sized tool with in-house fabrication st
 Ask whether the supplier can scale you into production without a redesign, because a well-planned short run is the first step of a scaling path, not a detour. The DFM, resin qualification, and process settings from the short run should carry directly into the hardened-tool program. A supplier who runs both protects you from paying twice for the same engineering.
 
 
-
 ## What a Typical Short-Run Program Looks Like
 
 A short-run program for spares or pre-launch inventory typically runs: DFM and quote in week one; soft or pre-hardened steel tool in weeks two to four; first-article approval; then the focused production run, often timed to a launch or a known demand window. Because the tool is right-sized, start is faster than a full production mold, and if demand grows the design transfers cleanly to hardened steel. The program is planned so the early run is a step toward production, not a separate effort.
@@ -181,7 +180,6 @@ Medical short runs supply low-volume device components and spares with the same 
 - **Tolerance** — permissible deviation from a nominal dimension, assigned by function.
 
 
-
 ## Common Defects and How They Are Prevented
 
 Short-run parts fail by the same mechanisms as production: sink from thick sections, flash from worn parting lines, short shots from unbalanced fill. The difference is that soft tooling wears earlier, so maintenance by shot count matters even more at low volume. Designing for uniform walls, adequate draft, and balanced gating during DFM prevents most issues, and CMM verification confirms the part regardless of order size.
@@ -193,7 +191,6 @@ A short-run quote should separate tooling from piece price and state the tool st
 ## Communication and the Scaling Path
 
 Short runs often lead to production, so communication should treat the early tool as the foundation of the next. Sharing DFM, resin qualification, and process settings with the production planner means scaling is a tooling upgrade, not a redesign. A supplier who runs both keeps that handoff internal and fast, protecting you from paying twice for the same engineering.
-
 
 
 ## Getting Started With a Short Run
@@ -245,6 +242,5 @@ Short runs connect to [Prototype Injection Molding](/en/prototype-injection-mold
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

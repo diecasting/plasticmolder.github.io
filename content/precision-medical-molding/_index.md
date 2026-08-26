@@ -153,7 +153,6 @@ Medical devices leave no room for a part that is almost right. Precision medical
 <p>Risk in medical molding is managed by control, not by inspection after the fact. Contamination, process drift, and undocumented change are prevented by cleaning schedules, SPC with cavity-pressure monitoring, and a gated engineering and quality system. The lot record - material cert, process parameters, inspection results - makes every shipped unit reconstructable, which is what protects patients and what an auditor requires. A supplier that runs these as routine discipline is the one a device team can trust from pilot through commercial production.</p>
 
 
-
 <h2 id=environment-and-equipment-for-medical-molding>Environment and Equipment for Medical Molding</h2>
 <p>Medical molding depends on the environment as much as the machine. Resin is stored and handled in conditions that protect it from moisture and contamination; tooling and fixtures are cleaned on a schedule; and the molding cell is controlled so the part leaves it clean and documented. Equipment is qualified (IQ) and the process is confirmed (OQ/PQ) on the actual resin and tool, so the validated state is reproducible, not occasional. The point is a controlled chain from resin cert to finished, packaged part - every link recorded - which is what a medical program requires and an audit expects.</p>
 
@@ -169,6 +168,5 @@ Medical devices leave no room for a part that is almost right. Precision medical
 <p>Commercial detail: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>

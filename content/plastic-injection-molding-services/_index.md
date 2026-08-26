@@ -161,7 +161,6 @@ Buyers rarely want one isolated operation; they want a manufacturing partner who
 <p>The failures in a services program are scope creep, hand-off gaps, and unclear ownership, and all three are prevented by structure. Scope is fixed by a clear statement of which services are in and out; hand-offs are removed by keeping operations under one roof; ownership is fixed by naming a single program contact with authority across stages. A supplier that structures for these controls delivers a finished part and a single record, not a set of partial operations you must assemble and reconcile yourself.</p>
 
 
-
 <h2 id=how-to-compare-services-quotes>How to Compare Services Quotes</h2>
 <p>Comparing services quotes is comparing programs, not prices. Beyond the piece price, score the tooling strategy and amortization, the cavitation and steel grade for your volume, the resin and finishing scope included, the inspection and documentation level, and the lead-time commitment with its gates. A lower quote that excludes finishing or shifts documentation to you is not cheaper once your team absorbs the gap; a higher quote that delivers a finished, documented part under one quality system often costs less over the program. Ask each supplier to itemize the same scope so the comparison is real, and weigh total cost of ownership, not the headline number.</p>
 
@@ -177,6 +176,5 @@ Buyers rarely want one isolated operation; they want a manufacturing partner who
 <p>Commercial detail: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>. Commercial terms and drawings: <a href="https://plasticmolder.com/">plasticmolder.com</a> or the <a href="https://plasticmolder.com/contact/">contact page</a>.</p>
 <section id="rfq" class="section section-rfq"><div class="container">
 
-{{< rfq_form >}}
 
 </div></section>
