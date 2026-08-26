@@ -164,3 +164,4 @@ Warpage, sink marks, short shots, and flash are symptoms of process ignorance, n
 - [OEM Plastic Parts Manufacturer & Supplier in China](/en/oem-plastic-parts-manufacturer/)
 - [Plastic Injection Molding Manufacturer in China](/en/plastic-injection-molding/)
 - [EV & Battery Plastic Components Molding](/en/ev-battery-components-molding/)
+- [Plastic Injection Molding Services in China](/en/plastic-injection-molding-services/)

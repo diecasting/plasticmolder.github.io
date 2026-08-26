@@ -166,3 +166,4 @@ Electronics molding is one option in a broader toolkit. Pair it with [Precision 
 
 - [Plastic Injection Mold Tooling in China — Design and Manufacturing](/en/plastic-injection-mold-tooling/)
 - [Custom Injection Molding Company in Dongguan](/en/custom-plastic-injection-molding/)
+- [Plastic Injection Molding Services in China](/en/plastic-injection-molding-services/)

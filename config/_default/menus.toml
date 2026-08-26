@@ -81,6 +81,12 @@
   parent = "services"
   weight = 9
 
+[[main]]
+  name = "Custom Plastic Injection Molding"
+  url = "/en/custom-plastic-injection-molding/"
+  parent = "services"
+  weight = 10
+
 # --------------------------------------------------------------------------
 # Industries
 # --------------------------------------------------------------------------

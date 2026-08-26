@@ -160,4 +160,4 @@ Flash, short shots, sink, and uneven cavities are symptoms of poor tool design o
 
 ## Related Capabilities
 
-Tooling supports every molded part. Pair it with [Plastic Injection Molding](/en/plastic-injection-molding/) for production, [Prototype Injection Molding](/en/prototype-injection-molding/) for bridge tools, or [Precision Injection Molding](/en/precision-injection-molding/) for tight-tolerance cavities. See the [homepage](/en/) for the full capability overview.
+Tooling supports every molded part. Pair it with [Plastic Injection Molding](/en/plastic-injection-molding/) for production, [Prototype Injection Molding](/en/prototype-injection-molding/) for bridge tools, or [Precision Injection Molding](/en/precision-injection-molding/) for tight-tolerance cavities, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for production programs. See the [homepage](/en/) for the full capability overview.

@@ -158,4 +158,4 @@ Delamination, bubbles, short shots, flash, and weak bonds are symptoms of poor m
 
 ## Related Capabilities
 
-Overmolding is one option in a broader molding toolkit. Pair it with [Insert Molding](/en/insert-molding/) for metal-and-plastic assemblies, [Two-shot Injection Molding](/en/two-shot-injection-molding/) for molded-in-color multi-material parts, or [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for substrate-only programs. See the [homepage](/en/) for the full capability overview.
+Overmolding is one option in a broader molding toolkit. Pair it with [Insert Molding](/en/insert-molding/) for metal-and-plastic assemblies, [Two-shot Injection Molding](/en/two-shot-injection-molding/) for molded-in-color multi-material parts, or [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for substrate-only programs, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full capability overview.

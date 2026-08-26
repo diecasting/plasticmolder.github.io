@@ -255,7 +255,7 @@ Engaging a custom molding partner starts with a conversation about function, not
 
 ## Related Capabilities
 
-Custom work rarely stands alone. Pair it with [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the tooling, [Prototype Injection Molding](/en/prototype-injection-molding/) for validation before commit, and [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early production. See the [homepage](/en/) for the full capability overview.
+Custom work rarely stands alone. Pair it with [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the tooling, [Prototype Injection Molding](/en/prototype-injection-molding/) for validation before commit, [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early production, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full capability overview.
 
 For drawings, commercial terms, and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">

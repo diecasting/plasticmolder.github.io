@@ -2,7 +2,7 @@
 {{- $lang := .Page.Language.Lang -}}
 {{- $svc := hugo.Data.schema.services -}}
 {{- $svcLocalized := index $svc $lang -}}
-{{- $featured := slice "plastic-injection-molding" "plastic-injection-mold-manufacturing" "prototype-injection-molding" "custom-plastic-parts-manufacturer" "oem-plastic-parts-manufacturer" "precision-plastic-components" "automotive-injection-molding" "medical-plastic-injection-molding" "overmolding" "insert-molding" "two-shot-injection-molding" "precision-injection-molding" "plastic-injection-mold-tooling" "industrial-plastic-injection-molding" "consumer-electronics-injection-molding" -}}
+{{- $featured := slice "plastic-injection-molding" "plastic-injection-mold-manufacturing" "prototype-injection-molding" "custom-plastic-parts-manufacturer" "oem-plastic-parts-manufacturer" "precision-plastic-components" "automotive-injection-molding" "medical-plastic-injection-molding" "overmolding" "insert-molding" "two-shot-injection-molding" "precision-injection-molding" "plastic-injection-mold-tooling" "industrial-plastic-injection-molding" "consumer-electronics-injection-molding" "custom-plastic-injection-molding" "plastic-injection-molding-services" "precision-medical-molding" -}}
 {{- $imgs := dict
   "plastic-injection-molding" "images/plastic-injection-molding-factory.webp"
   "plastic-injection-mold-manufacturing" "images/custom-plastic-parts-manufacturing.webp"
@@ -19,6 +19,9 @@
   "plastic-injection-mold-tooling" "images/custom-plastic-parts-manufacturing.webp"
   "industrial-plastic-injection-molding" "images/plastic-injection-molding-factory.webp"
   "consumer-electronics-injection-molding" "images/plastic-injection-molding-factory.webp"
+  "custom-plastic-injection-molding" "images/custom-plastic-parts-manufacturing.webp"
+  "plastic-injection-molding-services" "images/plastic-injection-molding-factory.webp"
+  "precision-medical-molding" "images/medical-grade-plastic-parts.webp"
 -}}
 {{- $alts := dict
   "plastic-injection-molding" "Custom plastic injection molding factory producing OEM plastic parts in Dongguan, China"
@@ -36,6 +39,9 @@
   "plastic-injection-mold-tooling" "Injection mold tooling designed and built for prototype to production"
   "industrial-plastic-injection-molding" "Industrial injection molded housings and brackets for harsh environments"
   "consumer-electronics-injection-molding" "Consumer electronics enclosures and connectors molded to tight tolerances"
+  "custom-plastic-injection-molding" "Custom plastic injection molded components produced to your drawing in Dongguan, China"
+  "plastic-injection-molding-services" "End-to-end plastic injection molding services from tooling to finished, inspected parts"
+  "precision-medical-molding" "Medical-grade precision plastic components molded under cleanroom-compatible processes"
 -}}
 <section class="section section-services" id="services">
   <div class="container">

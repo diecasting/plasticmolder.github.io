@@ -159,4 +159,4 @@ Flash at the interface, cold-weld, delamination, and short shots are symptoms of
 
 ## Related Capabilities
 
-Two-shot molding is one option in a broader molding toolkit. Pair it with [Overmolding](/en/overmolding/) for two-step soft-touch parts, [Insert Molding](/en/insert-molding/) for metal-plastic assemblies, or [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/) for enclosures and keys. See the [homepage](/en/) for the full capability overview.
+Two-shot molding is one option in a broader molding toolkit. Pair it with [Overmolding](/en/overmolding/) for two-step soft-touch parts, [Insert Molding](/en/insert-molding/) for metal-plastic assemblies, or [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/) for enclosures and keys, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full capability overview.

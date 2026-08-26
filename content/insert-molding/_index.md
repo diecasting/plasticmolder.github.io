@@ -159,4 +159,4 @@ Insert shift, sink around the insert, cracking, and short shots are symptoms of 
 
 ## Related Capabilities
 
-Insert molding is one option in a broader molding toolkit. Pair it with [Overmolding](/en/overmolding/) for soft-touch multi-material parts, [Two-shot Injection Molding](/en/two-shot-injection-molding/) for molded-in-color assemblies, or [Automotive Injection Molding](/en/automotive-injection-molding/) for high-volume automotive programs. See the [homepage](/en/) for the full capability overview.
+Insert molding is one option in a broader molding toolkit. Pair it with [Overmolding](/en/overmolding/) for soft-touch multi-material parts, [Two-shot Injection Molding](/en/two-shot-injection-molding/) for molded-in-color assemblies, or [Automotive Injection Molding](/en/automotive-injection-molding/) for high-volume automotive programs, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full capability overview.

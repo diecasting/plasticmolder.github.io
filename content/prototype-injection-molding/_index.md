@@ -251,7 +251,7 @@ The bridge from prototype to production should be continuous. The DFM notes, res
 
 ## Related Capabilities
 
-Prototyping leads naturally into [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early supply, [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the production tool, and [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for bespoke geometry. See the [homepage](/en/) for the full overview.
+Prototyping leads naturally into [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early supply, [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the production tool, and [Custom Plastic Injection Molding](/en/custom-plastic-injection-molding/) for bespoke geometry, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full overview.
 
 For commercial terms and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">

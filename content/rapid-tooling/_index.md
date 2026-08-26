@@ -105,3 +105,4 @@ Tool material is matched to volume and life; aluminum suits bridge runs, pre-har
 
 - [Consumer Electronics Injection Molding Manufacturer in China](/en/consumer-electronics-injection-molding/)
 - [Custom Injection Molding Company in Dongguan](/en/custom-plastic-injection-molding/)
+- [Plastic Injection Molding Services in China](/en/plastic-injection-molding-services/)
