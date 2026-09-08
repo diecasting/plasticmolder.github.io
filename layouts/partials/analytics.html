@@ -1,0 +1,33 @@
+{{- /* analytics.html — GA4 form-conversion listener (no Formspree changes) */ -}}
+<script>
+(function () {
+  function attachRfqTracking() {
+    var forms = document.querySelectorAll('form.rfq-form');
+    for (var i = 0; i < forms.length; i++) {
+      (function (form) {
+        if (form.__pmRfqBound) return;
+        form.__pmRfqBound = true;
+        form.addEventListener('submit', function () {
+          var serviceInput = form.querySelector('input[name="service"]');
+          var service = (serviceInput && serviceInput.value && serviceInput.value.trim())
+            ? serviceInput.value.trim()
+            : (document.title || '');
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              form_type: 'rfq',
+              source: 'website',
+              page_location: window.location.href,
+              service: service
+            });
+          }
+        });
+      })(forms[i]);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachRfqTracking);
+  } else {
+    attachRfqTracking();
+  }
+})();
+</script>
