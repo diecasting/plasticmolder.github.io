@@ -7,6 +7,7 @@
 [identity]
 legal_name = "东莞鑫沛模具有限公司"
 url = "https://plasticmolder.com/"
+logo = "https://plasticmolder.com/favicon.svg"
 images = [
   "images/plastic-injection-molding-factory.webp"
 ]
