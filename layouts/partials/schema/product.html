@@ -25,6 +25,17 @@
   "name": "{{ $prodText.name | safeJS }}",
   {{ with $prodText.description }}"description": "{{ . | safeJS }}",{{ end }}
   "url": "{{ .Permalink | safeJS }}",
+  {{ with .Params.image -}}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ . | absURL | safeJS }}"
+  },
+  {{- else -}}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ "images/plastic-injection-molding-factory.webp" | absURL | safeJS }}"
+  },
+  {{- end -}}
   "category": "{{ $productEntry.category | safeJS }}",
   {{ with $prodText.key_properties -}}
   "additionalProperty": {
