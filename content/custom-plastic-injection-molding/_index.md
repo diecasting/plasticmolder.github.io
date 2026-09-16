@@ -1,13 +1,13 @@
 ---
-title: "Custom Injection Molding Company in Dongguan"
-description: "Custom injection molding company in Dongguan engineering parts to your design, with DFM analysis, material selection, tooling and production managed under one roof."
+title: "Custom Plastic Injection Molding Services"
+description: "PlasticMolder provides custom plastic injection molding services, engineering your parts to drawing with DFM analysis, material selection, in-house tooling, and production molding under one roof."
 keywords:
     - "custom plastic injection molding"
     - "custom molded plastics"
-    - "custom injection molding company Dongguan"
-    - "plastic injection molding manufacturer China"
+    - "custom injection molding"
     - "bespoke plastic parts"
-    - "plastic molding China"
+    - "custom plastic parts"
+    - "plastic injection molding manufacturer"
 translationKey: "custom-plastic-injection-molding"
 layout: "landing"
 sections:
@@ -255,7 +255,7 @@ Engaging a custom molding partner starts with a conversation about function, not
 
 ## Related Capabilities
 
-Custom work rarely stands alone. Pair it with [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the tooling, [Prototype Injection Molding](/en/prototype-injection-molding/) for validation before commit, [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early production, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. See the [homepage](/en/) for the full capability overview.
+Custom work rarely stands alone. Pair it with [Injection Mold Manufacturing](/en/plastic-injection-mold-manufacturing/) for the tooling, [Prototype Injection Molding](/en/prototype-injection-molding/) for validation before commit, [Low Volume Injection Molding](/en/low-volume-injection-molding/) for early production, and [Plastic Injection Molding Services](/en/plastic-injection-molding-services/) for the complete program. For the full capability range, see our [Plastic Injection Molding](/en/plastic-injection-molding/) service or the [homepage](/en/) for the complete overview.
 
 For drawings, commercial terms, and contract manufacturing, visit [plasticmolder.com](https://plasticmolder.com/), the [contact page](https://plasticmolder.com/contact/), or the dedicated [plastic injection molding](https://plasticmolder.com/plastic-injection-molding/) and [custom plastic injection molding](https://plasticmolder.com/custom-plastic-injection-molding/) pages.
 <section id="rfq" class="section section-rfq"><div class="container">

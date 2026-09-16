@@ -1,13 +1,13 @@
 ---
-title: "Precision Injection Molding Manufacturer in China"
-description: "PlasticMolder is a precision injection molding manufacturer in China, holding ±0.01 mm tolerances on connectors, optical, and micro-feature components with CMM verification and SPC on 50T-400T presses."
+title: "Precision Injection Molding & Tight-Tolerance Plastic Parts"
+description: "PlasticMolder delivers precision injection molding for tight-tolerance plastic components, including connectors, optical, and micro-feature parts held to ±0.01 mm with CMM verification and SPC on 50T-400T presses."
 keywords:
     - "precision injection molding"
-    - "high precision plastic molding"
     - "tight tolerance injection molding"
-    - "micro injection molding"
     - "precision molded components"
-    - "CMM inspected plastic parts"
+    - "precision plastic components"
+    - "high precision plastic molding"
+    - "precision molding"
 translationKey: "precision-injection-molding"
 layout: "landing"
 sections:
@@ -69,7 +69,7 @@ categories:
 
 ## Precision Injection Molding at Production Scale
 
-Precision molding is where the drawing tolerance is the product. For engineering and sourcing teams, the question is whether a molder can hold a critical dimension on the millionth part as well as the first article — and prove it with measurement, not assurance. That is the gap between a shop that can make a good part once and a partner who can make a million identical ones.
+Precision injection molding is where the drawing tolerance is the product. For engineering and sourcing teams, the question is whether a molder can hold a critical dimension on the millionth plastic component as well as the first article — and prove it with measurement and quality control, not assurance. That is the gap between a shop that can make a good part once and a partner who can make a million identical ones.
 
 A precision molding program is a closed loop of tool steel quality, press stability, resin consistency, and verified measurement. When those elements are managed together, the part is in tolerance shipment after shipment. When any one drifts — steel wear, barrel variation, moisture in resin — the dimension walks and scrap climbs before anyone notices.
 
@@ -159,4 +159,4 @@ Warp, sink, short shots, flash, and dimensional drift are symptoms of process ig
 
 ## Related Capabilities
 
-Precision molding is one option in a broader molding toolkit. Pair it with [Medical Plastic Injection Molding](/en/medical-plastic-injection-molding/) for regulated micro components, [Insert Molding](/en/insert-molding/) for precision metal-plastic assemblies, or [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/) for tight-tolerance enclosures. See the [homepage](/en/) for the full capability overview.
+Precision molding is one option in a broader molding toolkit. Pair it with [Medical Plastic Injection Molding](/en/medical-plastic-injection-molding/) for regulated micro components, [Insert Molding](/en/insert-molding/) for precision metal-plastic assemblies, or [Consumer Electronics Injection Molding](/en/consumer-electronics-injection-molding/) for tight-tolerance enclosures. For the full range of capabilities, see our [Plastic Injection Molding](/en/plastic-injection-molding/) service or the [homepage](/en/) for the complete overview.
